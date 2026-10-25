@@ -161,13 +161,22 @@ async function bandcampDirect(cfg, r) {
 }
 
 let lastApple = 0;
-async function apple(cfg, r) {
+async function itunes(cfg, term, entity) {
   const wait = 3200 - (Date.now() - lastApple); if (wait > 0) await sleep(wait); // iTunes allows ~20 calls/min
   lastApple = Date.now();
-  const term = encodeURIComponent(`${r.artists[0] || ""} ${r.title}`.trim());
-  const data = await json(`https://itunes.apple.com/search?term=${term}&entity=album&limit=25&country=${cfg.appleCountry || "US"}`);
-  const hit = (data.results || []).find(x => matches(r, x.collectionName, x.artistName));
-  return hit?.collectionViewUrl?.replace(/\?.*$/, "");
+  const d = await json(`https://itunes.apple.com/search?term=${encodeURIComponent(term)}&entity=${entity}&limit=50&country=${cfg.appleCountry || "US"}`);
+  return d.results || [];
+}
+async function apple(cfg, r) {
+  // Try each artist with the title, as an album first and then as a song
+  for (const artist of r.artists.length ? r.artists : [""]) {
+    const albums = await itunes(cfg, `${artist} ${r.title}`.trim(), "album");
+    const a = albums.find(x => matches(r, x.collectionName, x.artistName));
+    if (a) return a.collectionViewUrl.replace(/\?.*$/, "");
+    const songs = await itunes(cfg, `${artist} ${r.title}`.trim(), "song");
+    const s = songs.find(x => matches(r, x.collectionName, x.artistName) || matches(r, x.trackName, x.artistName));
+    if (s) return s.collectionViewUrl.replace(/\?.*$/, "");
+  }
 }
 
 let spotifyToken;
