@@ -126,15 +126,21 @@ async function soundcloudCatalog(cfg) {
 
 async function youtubeCatalog(cfg) {
   const out = [];
-  for (const id of cfg.youtubeChannelIds || []) {
+  for (const ch of cfg.youtubeChannels || []) {
     try {
+      let id = (ch.match(/UC[\w-]{22}/) || [])[0];
+      if (!id) {
+        const page = await text(ch.replace(/\/$/, "") + "/videos");
+        id = (page.match(/"(?:channelId|externalId)":"(UC[\w-]{22})"/) || page.match(/channel\/(UC[\w-]{22})/) || [])[1];
+        if (!id) throw new Error("could not find the channel ID on " + ch);
+      }
       const xml = await text(`https://www.youtube.com/feeds/videos.xml?channel_id=${id}`);
       for (const e of xml.split("<entry>").slice(1)) {
         const title = decodeEntities((e.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || "");
         const url = (e.match(/<link rel="alternate" href="([^"]+)"/) || [])[1];
         if (url) out.push({ title, url });
       }
-    } catch (e) { say("  ! YouTube", id, e.message); }
+    } catch (e) { say("  ! YouTube", ch, e.message); }
   }
   return out;
 }
@@ -157,6 +163,17 @@ async function bandcampDirect(cfg, r) {
   for (const kind of ["album", "track"]) {
     const url = `${base}/${kind}/${slugify(r.title)}`;
     try { const res = await http(url, { redirect: "manual" }, 1); if (res.status === 200) return url; } catch {}
+  }
+}
+
+async function soundcloudDirect(cfg, r) {
+  for (const prof of cfg.soundcloudProfiles || []) {
+    const base = prof.replace(/\/$/, "");
+    for (const slug of [...new Set(slugCandidates(r))]) {
+      for (const url of [`${base}/${slug}`, `${base}/sets/${slug}`]) {
+        try { const res = await http(url, { redirect: "manual" }, 1); if (res.status === 200) return url; } catch {}
+      }
+    }
   }
 }
 
@@ -247,7 +264,7 @@ async function main() {
     beatport: !!cfg.beatportLabel, bandcamp: !!cfg.bandcamp, apple: true,
     spotify: !!(env.SPOTIFY_CLIENT_ID || env.ODESLI_API_KEY),
     soundcloud: !!((cfg.soundcloudProfiles || []).length || env.ODESLI_API_KEY),
-    youtube: !!((cfg.youtubeChannelIds || []).length || env.ODESLI_API_KEY),
+    youtube: !!((cfg.youtubeChannels || []).length || env.ODESLI_API_KEY),
   })[k];
   const missing = r => KEYS.filter(k => enabled(k) && !r.links[k] && !(overrides[r.slug] && k in overrides[r.slug]));
   const queue = [
@@ -270,7 +287,7 @@ async function main() {
     const tryIt = async (k, fn) => { if (!need.includes(k) || r.links[k]) return; try { const u = await fn(); if (u) { r.links[k] = u; found[k] = u; } } catch (e) { say(`  ! ${k} for ${r.title}: ${e.message}`); } };
     await tryIt("beatport", async () => fromCatalog(cats.beatport, r));
     await tryIt("bandcamp", async () => fromCatalog(cats.bandcamp, r) || bandcampDirect(cfg, r));
-    await tryIt("soundcloud", async () => fromCatalog(cats.soundcloud, r));
+    await tryIt("soundcloud", async () => fromCatalog(cats.soundcloud, r) || soundcloudDirect(cfg, r));
     await tryIt("youtube", async () => cats.youtube.find(v => videoMatches(r, v.title))?.url);
     await tryIt("apple", () => apple(cfg, r));
     await tryIt("spotify", () => spotify(r));

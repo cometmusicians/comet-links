@@ -2,9 +2,13 @@
   "ampsuiteStore": "https://cometcollective.ampsuite.com/store",
   "beatportLabel": "https://www.beatport.com/label/comet-musicians/101053/releases",
   "bandcamp": "https://comet-collective.bandcamp.com",
-  "soundcloudProfiles": [],
-  "youtubeChannelIds": [],
+  "soundcloudProfiles": [
+    "https://soundcloud.com/comet-collective"
+  ],
   "appleCountry": "US",
   "instagram": "",
-  "logo": ""
+  "logo": "",
+  "youtubeChannels": [
+    "https://www.youtube.com/@cometcollective"
+  ]
 }
