@@ -22,7 +22,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 export async function http(url, opts = {}, tries = 3) {
   for (let i = 1; i <= tries; i++) {
     try {
-      const res = await fetch(url, { ...opts, headers: { "user-agent": UA, "accept-language": "en", ...(opts.headers || {}) }, signal: AbortSignal.timeout(25000) });
+      const res = await fetch(url, { ...opts, headers: { "user-agent": UA, "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "accept-language": "en-US,en;q=0.9", "sec-fetch-dest": "document", "sec-fetch-mode": "navigate", "sec-fetch-site": "none", "upgrade-insecure-requests": "1", ...(opts.headers || {}) }, signal: AbortSignal.timeout(25000) });
       if (res.status === 429 || res.status >= 500) throw new Error("HTTP " + res.status);
       return res;
     } catch (e) {
