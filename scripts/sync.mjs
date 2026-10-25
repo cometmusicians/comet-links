@@ -92,6 +92,7 @@ async function beatportCatalog(cfg) {
   for (let p = 1; p <= 4; p++) {
     let html;
     try { html = await text(`${cfg.beatportLabel}?page=${p}&per_page=50`); } catch (e) { if (p === 1) throw e; break; }
+    if (p === 1) say(`  beatport page 1: ${html.length} bytes, ${(html.match(/\/release\//g) || []).length} release links`);
     const items = [...html.matchAll(/\/release\/([a-z0-9-]+)\/(\d+)/g)].map(m => ({ slug: m[1], url: `https://www.beatport.com/release/${m[1]}/${m[2]}` }));
     const fresh = items.filter(i => !out.some(o => o.url === i.url));
     if (!fresh.length) break;
@@ -282,6 +283,7 @@ async function main() {
   if (changed) { await writeFile(DATA, JSON.stringify(db, null, 2) + "\n"); say("Saved changes."); }
   else say("No changes.");
 
+  await writeFile(new URL("data/last-sync.log", ROOT), `Sync ${new Date().toISOString()}\n` + log.join("\n") + "\n");
   if (env.GITHUB_STEP_SUMMARY) await writeFile(env.GITHUB_STEP_SUMMARY, "## Comet Links sync\n\n```\n" + log.join("\n") + "\n```\n", { flag: "a" });
 }
 
