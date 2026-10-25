@@ -1,0 +1,45 @@
+name: Sync releases
+
+on:
+  schedule:
+    # Release night: every hour from 23:10 Thursday to 12:10 Friday, Israel time
+    # (cron runs in UTC; these hours cover both winter UTC+2 and summer UTC+3).
+    - cron: "10 20-23 * * 4"
+    - cron: "10 0-10 * * 5"
+    # Every other day at 09:10 Israel time: catches off-schedule releases
+    # and fills in links that a platform publishes late.
+    - cron: "10 6 * * 0-3,6"
+  workflow_dispatch: {}   # "Run workflow" button for a manual sync
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Sync from the store and platforms
+        run: node scripts/sync.mjs
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          ODESLI_API_KEY: ${{ secrets.ODESLI_API_KEY }}
+      - name: Check the site still builds
+        run: node scripts/build.mjs
+      - name: Save changes
+        run: |
+          git config user.name "comet-links-bot"
+          git config user.email "comet-links-bot@users.noreply.github.com"
+          git add data public
+          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          git commit -m "Sync releases $(date -u +%Y-%m-%d)"
+          git push

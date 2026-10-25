@@ -1,0 +1,3 @@
+{
+  "_how_to": "Add a release slug with the links you want to force, e.g. \"huka\": {\"spotify\": \"https://open.spotify.com/album/...\"}. Use \"\" to hide a button, or \"hidden\": true to hide a whole release."
+}

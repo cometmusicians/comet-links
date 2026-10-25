@@ -1,0 +1,616 @@
+{
+  "releases": [
+    {
+      "id": 167,
+      "slug": "huka",
+      "title": "Huka",
+      "artists": [
+        "Bigitam",
+        "Elastic"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=167"
+      },
+      "blurb": "Bigitam & Elastic are back with 'Huka', the next chapter of a story that began somewhere on the dancefloor at ZNA Festival. What started with 'Zambu' has slowly turned into an ongoing musical adventure, filled with memories, unexpected moments, and a few inside jokes shared between the two. This time, the story takes a slightly different turn, inspired by a rather unusual pair of shoes that somehow became impossible to forget. With oversized steps, playful energy, and a groove of its own, 'Huka' picks up right where 'Zambu' left off, proving that some festival stories are simply too good to end.",
+      "art": "art/huka.jpg"
+    },
+    {
+      "id": 165,
+      "slug": "circus-circus",
+      "title": "Circus Circus",
+      "artists": [
+        "OneShot"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=165"
+      }
+    },
+    {
+      "id": 163,
+      "slug": "night-destination",
+      "title": "Night Destination",
+      "artists": [
+        "Kanok"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=163",
+        "beatport": "https://www.beatport.com/release/night-destination/7502303"
+      }
+    },
+    {
+      "id": 162,
+      "slug": "test-your-mind",
+      "title": "Test Your Mind",
+      "artists": [
+        "Jahrin"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=162",
+        "beatport": "https://www.beatport.com/release/test-your-mind/7482491"
+      }
+    },
+    {
+      "id": 161,
+      "slug": "imagine-leex-widox-remix",
+      "title": "Imagine (Leex & Widox Remix)",
+      "artists": [
+        "Elastic",
+        "Jahrin"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=161",
+        "beatport": "https://www.beatport.com/release/imagine-leex-widox-remix/7415997"
+      }
+    },
+    {
+      "id": 160,
+      "slug": "bootstrap-paradox",
+      "title": "Bootstrap Paradox",
+      "artists": [
+        "Slix"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=160",
+        "beatport": "https://www.beatport.com/release/bootstrap-paradox/7339791"
+      }
+    },
+    {
+      "id": 159,
+      "slug": "mantis",
+      "title": "Mantis",
+      "artists": [
+        "Elastic",
+        "Tektro"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=159",
+        "beatport": "https://www.beatport.com/release/mantis/7196877"
+      }
+    },
+    {
+      "id": 158,
+      "slug": "blue-lion",
+      "title": "Blue Lion",
+      "artists": [
+        "Azul",
+        "LIBAAX"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=158",
+        "beatport": "https://www.beatport.com/release/blue-lion/7176707"
+      }
+    },
+    {
+      "id": 157,
+      "slug": "spectrum-of-existence",
+      "title": "Spectrum of Existence",
+      "artists": [
+        "Groovity",
+        "Reidak"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=157",
+        "beatport": "https://www.beatport.com/release/spectrum-of-existence/6883334"
+      }
+    },
+    {
+      "id": 156,
+      "slug": "flick",
+      "title": "Flick",
+      "artists": [
+        "Jahrin"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=156",
+        "beatport": "https://www.beatport.com/release/flick/6899428"
+      }
+    },
+    {
+      "id": 155,
+      "slug": "ground-advantage",
+      "title": "Ground Advantage",
+      "artists": [
+        "Leex"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=155",
+        "beatport": "https://www.beatport.com/release/ground-advantage/6913559"
+      }
+    },
+    {
+      "id": 154,
+      "slug": "ccc-vol-2-compiled-by-jahrin",
+      "title": "C.c.c, Vol. 2 Compiled by Jahrin",
+      "artists": [
+        "Various Artists"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=154",
+        "beatport": "https://www.beatport.com/release/ccc-vol-2-compiled-by-jahrin/6971636"
+      }
+    },
+    {
+      "id": 153,
+      "slug": "align",
+      "title": "Align",
+      "artists": [
+        "oneMountain"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=153",
+        "beatport": "https://www.beatport.com/release/align/6931162"
+      }
+    },
+    {
+      "id": 152,
+      "slug": "do-not-disturb",
+      "title": "Do Not Disturb",
+      "artists": [
+        "Planet X"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=152",
+        "beatport": "https://www.beatport.com/release/do-not-disturb/6931166"
+      }
+    },
+    {
+      "id": 151,
+      "slug": "psyclone",
+      "title": "Psyclone",
+      "artists": [
+        "Jaiga (IL)"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=151",
+        "beatport": "https://www.beatport.com/release/psyclone/6931175"
+      }
+    },
+    {
+      "id": 150,
+      "slug": "isabella",
+      "title": "Isabella",
+      "artists": [
+        "Mi-Ze"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=150",
+        "beatport": "https://www.beatport.com/release/isabella/6931146"
+      }
+    },
+    {
+      "id": 149,
+      "slug": "trick",
+      "title": "Trick",
+      "artists": [
+        "Hazui"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=149",
+        "beatport": "https://www.beatport.com/release/trick/6931150"
+      }
+    },
+    {
+      "id": 148,
+      "slug": "the-middle-way",
+      "title": "The Middle Way",
+      "artists": [
+        "Groovity"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=148",
+        "beatport": "https://www.beatport.com/release/the-middle-way/6931139"
+      }
+    },
+    {
+      "id": 147,
+      "slug": "control-the-machine",
+      "title": "Control the Machine",
+      "artists": [
+        "Xstava"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=147",
+        "beatport": "https://www.beatport.com/release/control-the-machine/6931133"
+      }
+    },
+    {
+      "id": 146,
+      "slug": "helix",
+      "title": "Helix",
+      "artists": [
+        "Unima"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=146",
+        "beatport": "https://www.beatport.com/release/helix/6931132"
+      }
+    },
+    {
+      "id": 145,
+      "slug": "the-future",
+      "title": "The Future",
+      "artists": [
+        "Exyoma"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=145",
+        "beatport": "https://www.beatport.com/release/the-future/6931131"
+      }
+    },
+    {
+      "id": 144,
+      "slug": "discovery-channel",
+      "title": "Discovery Channel",
+      "artists": [
+        "Kanok"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=144",
+        "beatport": "https://www.beatport.com/release/discovery-channel/6921685"
+      }
+    },
+    {
+      "id": 143,
+      "slug": "noize",
+      "title": "Noize",
+      "artists": [
+        "Reidak"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=143",
+        "beatport": "https://www.beatport.com/release/noize/6921686"
+      }
+    },
+    {
+      "id": 141,
+      "slug": "bushido",
+      "title": "Bushido",
+      "artists": [
+        "Azul"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=141"
+      }
+    },
+    {
+      "id": 140,
+      "slug": "technical-mood",
+      "title": "Technical Mood",
+      "artists": [
+        "Hazui"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=140"
+      }
+    },
+    {
+      "id": 139,
+      "slug": "imperfections",
+      "title": "Imperfections",
+      "artists": [
+        "Kanok"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=139"
+      }
+    },
+    {
+      "id": 138,
+      "slug": "hyperion",
+      "title": "Hyperion",
+      "artists": [
+        "LIBAAX"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=138"
+      }
+    },
+    {
+      "id": 137,
+      "slug": "aor",
+      "title": "A.O.R",
+      "artists": [
+        "AinSof"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=137"
+      }
+    },
+    {
+      "id": 136,
+      "slug": "rocky-tears-robots-detune-remix",
+      "title": "Rocky Tears - Robots (Detune Remix)",
+      "artists": [
+        "Bigitam"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=136"
+      }
+    },
+    {
+      "id": 135,
+      "slug": "life-is-only-a-dream",
+      "title": "Life Is Only a Dream",
+      "artists": [
+        "Unima"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=135"
+      }
+    },
+    {
+      "id": 134,
+      "slug": "one",
+      "title": "One",
+      "artists": [
+        "Biolight",
+        "Mementomor"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=134"
+      }
+    },
+    {
+      "id": 133,
+      "slug": "everything-will-bloom",
+      "title": "Everything Will Bloom",
+      "artists": [
+        "Hujaboy",
+        "Nomolos"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=133"
+      }
+    },
+    {
+      "id": 132,
+      "slug": "knocking-on-the-door",
+      "title": "Knocking on the Door",
+      "artists": [
+        "Aasha",
+        "Elastic"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=132"
+      }
+    },
+    {
+      "id": 131,
+      "slug": "searching-for-galaxies",
+      "title": "Searching for Galaxies",
+      "artists": [
+        "Tektro"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=131"
+      }
+    },
+    {
+      "id": 130,
+      "slug": "the-falling-tree",
+      "title": "The Falling Tree",
+      "artists": [
+        "Hazui"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=130"
+      }
+    },
+    {
+      "id": 129,
+      "slug": "rain-of-comets",
+      "title": "Rain of Comets",
+      "artists": [
+        "Various Artists"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=129"
+      }
+    },
+    {
+      "id": 128,
+      "slug": "lucid-trip",
+      "title": "Lucid Trip",
+      "artists": [
+        "Somatic Cell"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=128"
+      }
+    },
+    {
+      "id": 127,
+      "slug": "biryani",
+      "title": "Biryani",
+      "artists": [
+        "Jahrin"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=127"
+      }
+    },
+    {
+      "id": 126,
+      "slug": "mysterious-illusions",
+      "title": "Mysterious Illusions",
+      "artists": [
+        "Elastic",
+        "Exyoma"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=126"
+      }
+    },
+    {
+      "id": 125,
+      "slug": "cyber-attack",
+      "title": "Cyber Attack",
+      "artists": [
+        "Undercraft"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=125"
+      }
+    },
+    {
+      "id": 124,
+      "slug": "feedback",
+      "title": "Feedback",
+      "artists": [
+        "Azul"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=124"
+      }
+    },
+    {
+      "id": 123,
+      "slug": "night-growl",
+      "title": "Night Growl",
+      "artists": [
+        "Leex",
+        "Reidak"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=123"
+      }
+    },
+    {
+      "id": 122,
+      "slug": "twilighting",
+      "title": "Twilighting",
+      "artists": [
+        "Jahrin",
+        "Reidak"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=122"
+      }
+    },
+    {
+      "id": 121,
+      "slug": "its-not-tomorrow-yet",
+      "title": "It's Not Tomorrow Yet",
+      "artists": [
+        "Hazui"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=121"
+      }
+    },
+    {
+      "id": 120,
+      "slug": "disorder",
+      "title": "Disorder",
+      "artists": [
+        "Invasion",
+        "Jahrin"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=120"
+      }
+    },
+    {
+      "id": 119,
+      "slug": "beyond-the-edge",
+      "title": "Beyond the Edge",
+      "artists": [
+        "Elastic"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=119"
+      }
+    },
+    {
+      "id": 118,
+      "slug": "embodied",
+      "title": "Embodied",
+      "artists": [
+        "Bigitam",
+        "Tektro"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=118"
+      }
+    },
+    {
+      "id": 115,
+      "slug": "physical-structure",
+      "title": "Physical Structure",
+      "artists": [
+        "Exyoma"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=115"
+      }
+    }
+  ]
+}
