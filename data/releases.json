@@ -799,15 +799,16 @@
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=129",
         "bandcamp": "https://comet-collective.bandcamp.com/album/rain-of-comets",
-        "apple": "https://music.apple.com/us/album/rain-of-comets/1867009341"
+        "apple": "https://music.apple.com/us/album/rain-of-comets/1867009341",
+        "soundcloud": "https://soundcloud.com/comet-collective/sets/rain-of-comets"
       },
       "label": "Comet Collective",
       "blurb": "Comet Collective for me is the sound that I",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_203407222_8742.jpg",
       "addedAt": "2026-10-25",
       "art": "art/rain-of-comets.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 128,
@@ -820,14 +821,15 @@
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=128",
         "bandcamp": "https://comet-collective.bandcamp.com/album/lucid-trip",
-        "apple": "https://music.apple.com/us/album/lucid-trip-single/1861788965"
+        "apple": "https://music.apple.com/us/album/lucid-trip-single/1861788965",
+        "soundcloud": "https://soundcloud.com/comet-collective/lucid-trip"
       },
       "label": "Comet Collective",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_333232377_8584.jpg",
       "addedAt": "2026-10-25",
       "art": "art/lucid-trip.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 127,
@@ -840,15 +842,16 @@
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=127",
         "bandcamp": "https://comet-collective.bandcamp.com/album/biryani",
-        "apple": "https://music.apple.com/us/album/biryani-single/1860257583"
+        "apple": "https://music.apple.com/us/album/biryani-single/1860257583",
+        "soundcloud": "https://soundcloud.com/comet-collective/biryani"
       },
       "label": "Comet Collective",
       "blurb": "Biryani rises as the closing spark in an ascending-tempo journey, carrying the warmth of long-kept traditions and the fire of new beginnings. Crafted by",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_597591085_8547.jpeg",
       "addedAt": "2026-10-25",
       "art": "art/biryani.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 126,
@@ -862,14 +865,15 @@
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=126",
         "bandcamp": "https://comet-collective.bandcamp.com/album/mysterious-illusions",
-        "apple": "https://music.apple.com/us/album/mysterious-illusions-single/1853936814"
+        "apple": "https://music.apple.com/us/album/mysterious-illusions-single/1853936814",
+        "soundcloud": "https://soundcloud.com/comet-collective/mysterious-illusions"
       },
       "label": "Comet Collective",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_476331446_8219.jpg",
       "addedAt": "2026-10-25",
       "art": "art/mysterious-illusions.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 125,
@@ -882,15 +886,16 @@
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=125",
         "bandcamp": "https://comet-collective.bandcamp.com/album/cyber-attack",
-        "apple": "https://music.apple.com/us/album/cyber-attack-single/1851865882"
+        "apple": "https://music.apple.com/us/album/cyber-attack-single/1851865882",
+        "soundcloud": "https://soundcloud.com/comet-collective/cyber-attack"
       },
       "label": "Comet Collective",
       "blurb": "This track came out of pure noise. Glitches, loops, and distortion crashing into each other until they start to breathe. It feels like a system breaking down but somehow still alive, messy, raw, and full of energy that doesn",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_597514269_7940.jpg",
       "addedAt": "2026-10-25",
       "art": "art/cyber-attack.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 124,
@@ -903,14 +908,15 @@
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=124",
         "bandcamp": "https://comet-collective.bandcamp.com/album/feedback",
-        "apple": "https://music.apple.com/us/album/feedback-single/1849891237"
+        "apple": "https://music.apple.com/us/album/feedback-single/1849891237",
+        "soundcloud": "https://soundcloud.com/comet-collective/feedback"
       },
       "label": "Comet Collective",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_964959954_7866.jpg",
       "addedAt": "2026-10-25",
       "art": "art/feedback.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 123,
@@ -924,15 +930,16 @@
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=123",
         "bandcamp": "https://comet-collective.bandcamp.com/track/night-growl",
-        "apple": "https://music.apple.com/us/album/night-growl-single/1845075689"
+        "apple": "https://music.apple.com/us/album/night-growl-single/1845075689",
+        "soundcloud": "https://soundcloud.com/comet-collective/night-growl"
       },
       "label": "Comet Collective",
       "blurb": "This track by Leex and Reidak blends psychedelic and groovy nighttime energy, creating a dark and immersive atmosphere. The collaboration between Leex and Reidak brings a unique depth and intensity, pulling listeners into a hypnotic groove. The idea of the",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_464259167_7846.jpg",
       "addedAt": "2026-10-25",
       "art": "art/night-growl.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 122,
@@ -945,15 +952,17 @@
       "genre": "Psy Trance",
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=122",
-        "bandcamp": "https://comet-collective.bandcamp.com/track/twilighting"
+        "bandcamp": "https://comet-collective.bandcamp.com/track/twilighting",
+        "soundcloud": "https://soundcloud.com/comet-collective/twilighting",
+        "apple": "https://music.apple.com/us/album/twilighting/1753349634"
       },
       "label": "Comet Collective",
       "blurb": "When I first heard Jahrin & Reidak play",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_405923258_7808.jpg",
       "addedAt": "2026-10-25",
       "art": "art/twilighting.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 121,
@@ -966,15 +975,16 @@
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=121",
         "bandcamp": "https://comet-collective.bandcamp.com/album/its-not-tomorrow-yet",
-        "apple": "https://music.apple.com/us/album/its-not-tomorrow-yet-single/1842087582"
+        "apple": "https://music.apple.com/us/album/its-not-tomorrow-yet-single/1842087582",
+        "soundcloud": "https://soundcloud.com/comet-collective/its-not-tomorrow-yet"
       },
       "label": "Comet Collective",
       "blurb": "It",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_228297311_7773.jpg",
       "addedAt": "2026-10-25",
       "art": "art/its-not-tomorrow-yet.jpg",
-      "checks": 1,
-      "lastChecked": "2026-10-25"
+      "checks": 2,
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 120,
@@ -988,14 +998,15 @@
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=120",
         "bandcamp": "https://comet-collective.bandcamp.com/track/disorder",
-        "apple": "https://music.apple.com/us/album/disorder-single/1838154702"
+        "apple": "https://music.apple.com/us/album/disorder-single/1838154702",
+        "soundcloud": "https://soundcloud.com/comet-collective/disorder"
       },
       "label": "Comet Collective",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_174112803_7651.jpg",
       "addedAt": "2026-10-25",
       "art": "art/disorder.jpg",
-      "checks": 1,
-      "lastChecked": "2026-10-25"
+      "checks": 2,
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 119,
@@ -1008,15 +1019,16 @@
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=119",
         "bandcamp": "https://comet-collective.bandcamp.com/track/beyond-the-edge",
-        "apple": "https://music.apple.com/us/album/beyond-the-edge-single/1826060793"
+        "apple": "https://music.apple.com/us/album/beyond-the-edge-single/1826060793",
+        "soundcloud": "https://soundcloud.com/comet-collective/beyond-the-edge"
       },
       "label": "Comet Collective",
       "blurb": "BEYOND THE EDGE is a high-energy track that dives headfirst into the thrill of pushing limits. It",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_202785798_7548.jpg",
       "addedAt": "2026-10-25",
       "art": "art/beyond-the-edge.jpg",
-      "checks": 1,
-      "lastChecked": "2026-10-25"
+      "checks": 2,
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 118,
@@ -1030,15 +1042,16 @@
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=118",
         "bandcamp": "https://comet-collective.bandcamp.com/album/embodied",
-        "apple": "https://music.apple.com/us/album/embodied-ep/1826061888"
+        "apple": "https://music.apple.com/us/album/embodied-ep/1826061888",
+        "soundcloud": "https://soundcloud.com/comet-collective/embodied"
       },
       "label": "Comet Collective",
       "blurb": "Embodied is a four-track journey that dives deep into the physical, emotional, and sonic experience of being human. Following the April release of",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_499322170_7551.jpg",
       "addedAt": "2026-10-25",
       "art": "art/embodied.jpg",
-      "checks": 1,
-      "lastChecked": "2026-10-25"
+      "checks": 2,
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 115,
@@ -1051,23 +1064,25 @@
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=115",
         "bandcamp": "https://comet-collective.bandcamp.com/track/physical-structure",
-        "apple": "https://music.apple.com/us/album/physical-structure-single/1823974172"
+        "apple": "https://music.apple.com/us/album/physical-structure-single/1823974172",
+        "soundcloud": "https://soundcloud.com/comet-collective/physical-structure"
       },
       "label": "Comet Collective",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_183787460_7454.jpg",
       "addedAt": "2026-10-25",
       "art": "art/physical-structure.jpg",
-      "checks": 1,
-      "lastChecked": "2026-10-25"
+      "checks": 2,
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 114,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=114",
         "bandcamp": "https://comet-collective.bandcamp.com/track/ominous-presence",
-        "apple": "https://music.apple.com/us/album/ominous-presence-single/1821663533"
+        "apple": "https://music.apple.com/us/album/ominous-presence-single/1821663533",
+        "soundcloud": "https://soundcloud.com/comet-collective/ominous-presence"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Ominous Presence",
       "artists": [
         "ARTYSHOCK"
@@ -1080,16 +1095,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/ominous-presence.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 113,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=113",
         "bandcamp": "https://comet-collective.bandcamp.com/track/overloop",
-        "apple": "https://music.apple.com/us/album/overloop-single/1819992646"
+        "apple": "https://music.apple.com/us/album/overloop-single/1819992646",
+        "soundcloud": "https://soundcloud.com/comet-collective/overloop"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Overloop",
       "artists": [
         "Leex"
@@ -1102,16 +1118,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/overloop.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 112,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=112",
         "bandcamp": "https://comet-collective.bandcamp.com/album/the-groovy-the-nonsense",
-        "apple": "https://music.apple.com/us/album/the-groovy-the-nonsense-single/1818776863"
+        "apple": "https://music.apple.com/us/album/the-groovy-the-nonsense-single/1818776863",
+        "soundcloud": "https://soundcloud.com/comet-collective/the-groovy-the-nonsense"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "The Groovy & the Nonsense",
       "artists": [
         "Groovy Nonsense"
@@ -1124,16 +1141,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/the-groovy-the-nonsense.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 111,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=111",
         "bandcamp": "https://comet-collective.bandcamp.com/album/lost-in-the-rhythm",
-        "apple": "https://music.apple.com/us/album/lost-in-the-rhythm-single/1816173747"
+        "apple": "https://music.apple.com/us/album/lost-in-the-rhythm-single/1816173747",
+        "soundcloud": "https://soundcloud.com/comet-collective/lost-in-the-rhythm"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Lost in the Rhythm",
       "artists": [
         "Azul"
@@ -1145,16 +1163,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/lost-in-the-rhythm.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 110,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=110",
         "bandcamp": "https://comet-collective.bandcamp.com/track/on-it",
-        "apple": "https://music.apple.com/us/album/on-it-single/1812229465"
+        "apple": "https://music.apple.com/us/album/on-it-single/1812229465",
+        "soundcloud": "https://soundcloud.com/comet-collective/on-it"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "On It",
       "artists": [
         "Zapta"
@@ -1166,16 +1185,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/on-it.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 109,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=109",
         "bandcamp": "https://comet-collective.bandcamp.com/track/higher-mind",
-        "apple": "https://music.apple.com/us/album/higher-mind-single/1810542083"
+        "apple": "https://music.apple.com/us/album/higher-mind-single/1810542083",
+        "soundcloud": "https://soundcloud.com/comet-collective/higher-mind"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Higher Mind",
       "artists": [
         "Exyoma"
@@ -1188,16 +1208,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/higher-mind.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 108,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=108",
         "bandcamp": "https://comet-collective.bandcamp.com/album/memories-of-earth",
-        "apple": "https://music.apple.com/us/album/memories-of-earth/1810542300"
+        "apple": "https://music.apple.com/us/album/memories-of-earth/1810542300",
+        "soundcloud": "https://soundcloud.com/comet-collective/memories-of-earth"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Memories of Earth",
       "artists": [
         "Forever Heaven"
@@ -1209,16 +1230,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/memories-of-earth.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 107,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=107",
         "bandcamp": "https://comet-collective.bandcamp.com/track/travelers",
-        "apple": "https://music.apple.com/us/album/travelers-single/1808025352"
+        "apple": "https://music.apple.com/us/album/travelers-single/1808025352",
+        "soundcloud": "https://soundcloud.com/comet-collective/travelers"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Travelers",
       "artists": [
         "Elastic"
@@ -1231,16 +1253,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/travelers.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 106,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=106",
         "bandcamp": "https://comet-collective.bandcamp.com/track/there-is-a-space",
-        "apple": "https://music.apple.com/us/album/there-is-a-space-single/1806969224"
+        "apple": "https://music.apple.com/us/album/there-is-a-space-single/1806969224",
+        "soundcloud": "https://soundcloud.com/comet-collective/there-is-a-space"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "There Is a Space",
       "artists": [
         "Hazui",
@@ -1254,16 +1277,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/there-is-a-space.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 105,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=105",
         "bandcamp": "https://comet-collective.bandcamp.com/track/time-is-now",
-        "apple": "https://music.apple.com/us/album/time-is-now-single/1806969222"
+        "apple": "https://music.apple.com/us/album/time-is-now-single/1806969222",
+        "soundcloud": "https://soundcloud.com/comet-collective/time-is-now"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Time Is Now",
       "artists": [
         "Groovity"
@@ -1276,16 +1300,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/time-is-now.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 104,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=104",
         "bandcamp": "https://comet-collective.bandcamp.com/album/broken-reality",
-        "apple": "https://music.apple.com/us/album/broken-reality-single/1805250340"
+        "apple": "https://music.apple.com/us/album/broken-reality-single/1805250340",
+        "soundcloud": "https://soundcloud.com/comet-collective/broken-reality"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Broken Reality",
       "artists": [
         "Reidak"
@@ -1298,16 +1323,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/broken-reality.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 103,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=103",
         "bandcamp": "https://comet-collective.bandcamp.com/track/human-check",
-        "apple": "https://music.apple.com/us/album/human-check-single/1803635054"
+        "apple": "https://music.apple.com/us/album/human-check-single/1803635054",
+        "soundcloud": "https://soundcloud.com/comet-collective/human-check"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Human Check",
       "artists": [
         "Bigitam",
@@ -1320,7 +1346,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/human-check.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-27"
     },
     {
       "id": 102,
@@ -3165,5 +3191,5 @@
       "lastChecked": "2026-10-25"
     }
   ],
-  "updated": "2026-10-26T06:45:43.885Z"
+  "updated": "2026-10-27T06:42:39.229Z"
 }
