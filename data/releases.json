@@ -2479,9 +2479,10 @@
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=43",
         "bandcamp": "https://comet-collective.bandcamp.com/track/mountains",
-        "apple": "https://music.apple.com/us/album/mountains-single/1681257869"
+        "apple": "https://music.apple.com/us/album/mountains-single/1681257869",
+        "soundcloud": "https://soundcloud.com/comet-collective/mountains"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Mountains",
       "artists": [
         "Elastic"
@@ -2493,16 +2494,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/mountains.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 41,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=41",
         "bandcamp": "https://comet-collective.bandcamp.com/track/sutlach",
-        "apple": "https://music.apple.com/us/album/sutlach-single/1666832987"
+        "apple": "https://music.apple.com/us/album/sutlach-single/1666832987",
+        "soundcloud": "https://soundcloud.com/comet-collective/sutlach"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Sutlach",
       "artists": [
         "Jahrin",
@@ -2516,16 +2518,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/sutlach.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 40,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=40",
         "bandcamp": "https://comet-collective.bandcamp.com/album/valhalla",
-        "apple": "https://music.apple.com/us/album/valhalla-single/1670710938"
+        "apple": "https://music.apple.com/us/album/valhalla-single/1670710938",
+        "soundcloud": "https://soundcloud.com/comet-collective/valhalla"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Valhalla",
       "artists": [
         "Reidak"
@@ -2538,16 +2541,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/valhalla.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 38,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=38",
         "bandcamp": "https://comet-collective.bandcamp.com/album/connected",
-        "apple": "https://music.apple.com/us/album/connected-single/1672422696"
+        "apple": "https://music.apple.com/us/album/connected-single/1672422696",
+        "soundcloud": "https://soundcloud.com/comet-collective/connected"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Connected",
       "artists": [
         "OneShot"
@@ -2559,15 +2563,16 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/connected.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 37,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=37",
-        "bandcamp": "https://comet-collective.bandcamp.com/track/frequencies"
+        "bandcamp": "https://comet-collective.bandcamp.com/track/frequencies",
+        "soundcloud": "https://soundcloud.com/comet-collective/frequencies"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Frequencies",
       "artists": [
         "Kudo (IL)"
@@ -2580,16 +2585,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/frequencies.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 36,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=36",
         "bandcamp": "https://comet-collective.bandcamp.com/track/message-from",
-        "apple": "https://music.apple.com/us/album/message-from-single/1691897783"
+        "apple": "https://music.apple.com/us/album/message-from-single/1691897783",
+        "soundcloud": "https://soundcloud.com/comet-collective/message-from"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Message From",
       "artists": [
         "Jahrin"
@@ -2602,16 +2608,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/message-from.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 35,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=35",
         "bandcamp": "https://comet-collective.bandcamp.com/album/falling-stars",
-        "apple": "https://music.apple.com/us/album/falling-stars-single/1675513720"
+        "apple": "https://music.apple.com/us/album/falling-stars-single/1675513720",
+        "soundcloud": "https://soundcloud.com/comet-collective/falling-stars"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Falling Stars",
       "artists": [
         "Groovity"
@@ -2624,16 +2631,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/falling-stars.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 34,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=34",
         "bandcamp": "https://comet-collective.bandcamp.com/track/east-myst",
-        "apple": "https://music.apple.com/us/album/east-myst-single/1662223815"
+        "apple": "https://music.apple.com/us/album/east-myst-single/1662223815",
+        "soundcloud": "https://soundcloud.com/comet-collective/east-myst"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "East Myst",
       "artists": [
         "Bigitam"
@@ -2646,16 +2654,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/east-myst.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 33,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=33",
         "bandcamp": "https://comet-collective.bandcamp.com/album/city",
-        "apple": "https://music.apple.com/us/album/city-single/1668422088"
+        "apple": "https://music.apple.com/us/album/city-single/1668422088",
+        "soundcloud": "https://soundcloud.com/comet-collective/city"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "City",
       "artists": [
         "Elastic"
@@ -2668,16 +2677,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/city.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 32,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=32",
         "bandcamp": "https://comet-collective.bandcamp.com/track/agdibate",
-        "apple": "https://music.apple.com/us/album/agdibate-single/1661410452"
+        "apple": "https://music.apple.com/us/album/agdibate-single/1661410452",
+        "soundcloud": "https://soundcloud.com/comet-collective/agdibate"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Agdibate",
       "artists": [
         "Detune"
@@ -2690,16 +2700,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/agdibate.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 31,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=31",
         "bandcamp": "https://comet-collective.bandcamp.com/track/more-than-a-free-man",
-        "apple": "https://music.apple.com/us/album/more-than-a-free-man-single/1729799662"
+        "apple": "https://music.apple.com/us/album/more-than-a-free-man-single/1729799662",
+        "soundcloud": "https://soundcloud.com/comet-collective/more-than-a-free-man"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "More Than a Free Man",
       "artists": [
         "Shaprut"
@@ -2711,16 +2722,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/more-than-a-free-man.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 29,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=29",
         "bandcamp": "https://comet-collective.bandcamp.com/track/spirals",
-        "apple": "https://music.apple.com/us/album/spirals-single/1729799713"
+        "apple": "https://music.apple.com/us/album/spirals-single/1729799713",
+        "soundcloud": "https://soundcloud.com/comet-collective/spirals"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Spirals",
       "artists": [
         "ARTYSHOCK"
@@ -2733,16 +2745,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/spirals.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 28,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=28",
         "bandcamp": "https://comet-collective.bandcamp.com/track/phone-home",
-        "apple": "https://music.apple.com/us/album/phone-home-single/1729799233"
+        "apple": "https://music.apple.com/us/album/phone-home-single/1729799233",
+        "soundcloud": "https://soundcloud.com/comet-collective/phone-home"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Phone Home",
       "artists": [
         "Jahrin"
@@ -2755,16 +2768,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/phone-home.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 25,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=25",
         "bandcamp": "https://comet-collective.bandcamp.com/track/future-of-mankind",
-        "apple": "https://music.apple.com/us/album/future-of-mankind-single/1729798775"
+        "apple": "https://music.apple.com/us/album/future-of-mankind-single/1729798775",
+        "soundcloud": "https://soundcloud.com/comet-collective/future-of-mankind"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Future of Mankind",
       "artists": [
         "OneShot"
@@ -2776,16 +2790,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/future-of-mankind.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 24,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=24",
         "bandcamp": "https://comet-collective.bandcamp.com/track/mercury",
-        "apple": "https://music.apple.com/us/album/mercury-single/1729798973"
+        "apple": "https://music.apple.com/us/album/mercury-single/1729798973",
+        "soundcloud": "https://soundcloud.com/comet-collective/mercury"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Mercury",
       "artists": [
         "Reidak"
@@ -2798,16 +2813,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/mercury.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 23,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=23",
         "bandcamp": "https://comet-collective.bandcamp.com/album/yaffo-tel-aviv",
-        "apple": "https://music.apple.com/us/album/yaffo-tel-aviv-single/1729798933"
+        "apple": "https://music.apple.com/us/album/yaffo-tel-aviv-single/1729798933",
+        "soundcloud": "https://soundcloud.com/comet-collective/yaffo-tel-aviv"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Yaffo Tel Aviv",
       "artists": [
         "Maori"
@@ -2820,16 +2836,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/yaffo-tel-aviv.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 22,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=22",
         "bandcamp": "https://comet-collective.bandcamp.com/album/vat-of-acid",
-        "apple": "https://music.apple.com/us/album/vat-of-acid-single/1729798590"
+        "apple": "https://music.apple.com/us/album/vat-of-acid-single/1729798590",
+        "soundcloud": "https://soundcloud.com/comet-collective/vat-of-acid"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Vat of Acid",
       "artists": [
         "Bigitam"
@@ -2842,16 +2859,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/vat-of-acid.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 21,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=21",
         "bandcamp": "https://comet-collective.bandcamp.com/track/she-and-the-moon",
-        "apple": "https://music.apple.com/us/album/she-and-the-moon-single/1729798320"
+        "apple": "https://music.apple.com/us/album/she-and-the-moon-single/1729798320",
+        "soundcloud": "https://soundcloud.com/comet-collective/she-and-the-moon"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "She and the Moon",
       "artists": [
         "oneMountain"
@@ -2864,16 +2882,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/she-and-the-moon.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 20,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=20",
         "bandcamp": "https://comet-collective.bandcamp.com/album/clear-vision",
-        "apple": "https://music.apple.com/us/album/clear-vision-single/1729798577"
+        "apple": "https://music.apple.com/us/album/clear-vision-single/1729798577",
+        "soundcloud": "https://soundcloud.com/comet-collective/clear-vision"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Clear Vision",
       "artists": [
         "Mementomor"
@@ -2886,16 +2905,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/clear-vision.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 19,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=19",
         "bandcamp": "https://comet-collective.bandcamp.com/track/noisy-silence",
-        "apple": "https://music.apple.com/us/album/noisy-silence-single/1729798251"
+        "apple": "https://music.apple.com/us/album/noisy-silence-single/1729798251",
+        "soundcloud": "https://soundcloud.com/comet-collective/noisy-silence"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Noisy Silence",
       "artists": [
         "Elastic"
@@ -2908,16 +2928,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/noisy-silence.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 18,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=18",
         "bandcamp": "https://comet-collective.bandcamp.com/track/balada",
-        "apple": "https://music.apple.com/us/album/balada-single/1729798343"
+        "apple": "https://music.apple.com/us/album/balada-single/1729798343",
+        "soundcloud": "https://soundcloud.com/comet-collective/balada"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Balada",
       "artists": [
         "Jahrin"
@@ -2930,16 +2951,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/balada.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 17,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=17",
         "bandcamp": "https://comet-collective.bandcamp.com/track/psy-fi",
-        "apple": "https://music.apple.com/us/album/psy-fi-single/1729797616"
+        "apple": "https://music.apple.com/us/album/psy-fi-single/1729797616",
+        "soundcloud": "https://soundcloud.com/comet-collective/psy-fi"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Psy-Fi",
       "artists": [
         "GUYCHO"
@@ -2952,16 +2974,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/psy-fi.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 16,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=16",
         "bandcamp": "https://comet-collective.bandcamp.com/track/patterns",
-        "apple": "https://music.apple.com/us/album/patterns-single/1729798006"
+        "apple": "https://music.apple.com/us/album/patterns-single/1729798006",
+        "soundcloud": "https://soundcloud.com/comet-collective/patterns"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Patterns",
       "artists": [
         "oneMountain"
@@ -2974,16 +2997,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/patterns.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 15,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=15",
         "bandcamp": "https://comet-collective.bandcamp.com/album/euphoria",
-        "apple": "https://music.apple.com/us/album/euphoria-single/1729797785"
+        "apple": "https://music.apple.com/us/album/euphoria-single/1729797785",
+        "soundcloud": "https://soundcloud.com/comet-collective/euphoria"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Euphoria",
       "artists": [
         "CHUKA"
@@ -2996,16 +3020,17 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/euphoria.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 14,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=14",
         "bandcamp": "https://comet-collective.bandcamp.com/track/endless",
-        "apple": "https://music.apple.com/us/album/endless-single/1729797732"
+        "apple": "https://music.apple.com/us/album/endless-single/1729797732",
+        "soundcloud": "https://soundcloud.com/comet-collective/endless"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Endless",
       "artists": [
         "ARTYSHOCK"
@@ -3018,7 +3043,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/endless.jpg",
-      "lastChecked": "2026-10-25"
+      "lastChecked": "2026-10-29"
     },
     {
       "id": 13,
@@ -3241,5 +3266,5 @@
       "lastChecked": "2026-10-25"
     }
   ],
-  "updated": "2026-10-29T20:44:33.432Z"
+  "updated": "2026-10-29T21:43:17.379Z"
 }
