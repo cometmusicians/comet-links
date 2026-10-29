@@ -1,34 +1,35 @@
-Sync 2026-10-29T21:43:17.382Z
+Sync 2026-10-29T22:44:19.674Z
 Checking the Comet store…
   149 releases in the store
 Looking up platform links for 25 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
-  youtube catalog: 15 items
-  Mountains: found soundcloud · still missing beatport, youtube
-  Sutlach: found soundcloud · still missing beatport, youtube
-  Valhalla: found soundcloud · still missing beatport, youtube
-  Connected: found soundcloud · still missing beatport, youtube
-  Frequencies: found soundcloud · still missing beatport, apple, youtube
-  Message From: found soundcloud · still missing beatport, youtube
-  Falling Stars: found soundcloud · still missing beatport, youtube
-  East Myst: found soundcloud · still missing beatport, youtube
-  City: found soundcloud · still missing beatport, youtube
-  Agdibate: found soundcloud · still missing beatport, youtube
-  More Than a Free Man: found soundcloud · still missing beatport, youtube
-  Spirals: found soundcloud · still missing beatport, youtube
-  Phone Home: found soundcloud · still missing beatport, youtube
-  Future of Mankind: found soundcloud · still missing beatport, youtube
-  Mercury: found soundcloud · still missing beatport, youtube
-  Yaffo Tel Aviv: found soundcloud · still missing beatport, youtube
-  Vat of Acid: found soundcloud · still missing beatport, youtube
-  She and the Moon: found soundcloud · still missing beatport, youtube
-  Clear Vision: found soundcloud · still missing beatport, youtube
-  Noisy Silence: found soundcloud · still missing beatport, youtube
-  Balada: found soundcloud · still missing beatport, youtube
-  Psy-Fi: found soundcloud · still missing beatport, youtube
-  Patterns: found soundcloud · still missing beatport, youtube
-  Euphoria: found soundcloud · still missing beatport, youtube
-  Endless: found soundcloud · still missing beatport, youtube
+  ! YouTube https://www.youtube.com/@cometcollective HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC9MxzIbAiKrUioJT2LP_gBw
+  youtube catalog: 0 items
+  Eternal Present: found soundcloud · still missing beatport, youtube
+  Talk with Me: found soundcloud · still missing beatport, youtube
+  Moon: found soundcloud · still missing beatport, youtube
+  Shoby Groovy: found soundcloud · still missing beatport, youtube
+  Kambo Spirit: found soundcloud · still missing beatport, youtube
+  Swamp Thoughts: found soundcloud · still missing beatport, youtube
+  Book of Jonah: found soundcloud, apple · still missing beatport, youtube
+  Salam: found soundcloud · still missing beatport, apple, youtube
+  Aurora: found soundcloud · still missing beatport, youtube
+  Believe in the Planet: found soundcloud · still missing beatport, youtube
+  Circus Circus: nothing new · still missing apple, youtube
+  Bootstrap Paradox: nothing new · still missing youtube
+  Spectrum of Existence: nothing new · still missing youtube
+  Flick: nothing new · still missing youtube
+  Ground Advantage: nothing new · still missing youtube
+  C.c.c, Vol. 2 Compiled by Jahrin: nothing new · still missing bandcamp, youtube
+  Align: nothing new · still missing youtube
+  Do Not Disturb: nothing new · still missing youtube
+  Psyclone: nothing new · still missing apple, youtube
+  Isabella: nothing new · still missing apple, youtube
+  Trick: nothing new · still missing youtube
+  The Future: nothing new · still missing youtube
+  Discovery Channel: nothing new · still missing youtube
+  Bushido: nothing new · still missing beatport, youtube
+  Technical Mood: nothing new · still missing beatport, youtube
 Saved changes.
