@@ -1,4 +1,4 @@
-Sync 2026-10-30T09:00:36.101Z
+Sync 2026-10-30T09:55:15.927Z
 Checking the Comet store…
   150 releases in the store
 Looking up platform links for 25 releases…
@@ -6,29 +6,54 @@ Looking up platform links for 25 releases…
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
   youtube catalog: 15 items
-  The Illusion of Time: nothing new · still missing beatport, bandcamp, apple
-  Circus Circus: nothing new · still missing apple, youtube
-  Bootstrap Paradox: nothing new · still missing youtube
-  Spectrum of Existence: nothing new · still missing youtube
-  Flick: nothing new · still missing youtube
-  Ground Advantage: nothing new · still missing youtube
-  C.c.c, Vol. 2 Compiled by Jahrin: nothing new · still missing bandcamp, youtube
-  Align: nothing new · still missing youtube
-  Do Not Disturb: nothing new · still missing youtube
-  Psyclone: nothing new · still missing apple, youtube
-  Isabella: nothing new · still missing apple, youtube
-  Trick: nothing new · still missing youtube
-  The Future: nothing new · still missing youtube
-  Discovery Channel: nothing new · still missing youtube
-  Bushido: nothing new · still missing beatport, youtube
-  Technical Mood: nothing new · still missing beatport, youtube
-  Imperfections: nothing new · still missing beatport, youtube
-  Hyperion: nothing new · still missing beatport, youtube
-  A.O.R: nothing new · still missing beatport, bandcamp, apple, youtube
-  Rocky Tears - Robots (Detune Remix): nothing new · still missing beatport, youtube
-  Life Is Only a Dream: nothing new · still missing beatport, youtube
-  One: nothing new · still missing beatport, youtube
-  Everything Will Bloom: nothing new · still missing beatport, youtube
-  Knocking on the Door: nothing new · still missing beatport, youtube
-  Searching for Galaxies: nothing new · still missing beatport, youtube
+  ! spotify for Night Destination: HTTP 400 for https://api.spotify.com/v1/search?q=album%3ANight%20Destination%20artist%3AKanok&type=album&limit=20
+  Night Destination: nothing new · still missing spotify
+  ! spotify for Test Your Mind: HTTP 400 for https://api.spotify.com/v1/search?q=album%3ATest%20Your%20Mind%20artist%3AJahrin&type=album&limit=20
+  Test Your Mind: nothing new · still missing spotify
+  ! spotify for Imagine (Leex & Widox Remix): HTTP 400 for https://api.spotify.com/v1/search?q=album%3AImagine%20(Leex%20%26%20Widox%20Remix)%20artist%3AElastic&type=album&limit=20
+  Imagine (Leex & Widox Remix): nothing new · still missing spotify
+  ! spotify for Mantis: HTTP 400 for https://api.spotify.com/v1/search?q=album%3AMantis%20artist%3AElastic&type=album&limit=20
+  Mantis: nothing new · still missing spotify
+  ! spotify for Blue Lion: HTTP 400 for https://api.spotify.com/v1/search?q=album%3ABlue%20Lion%20artist%3AAzul&type=album&limit=20
+  Blue Lion: nothing new · still missing spotify
+  ! spotify for The Middle Way: HTTP 400 for https://api.spotify.com/v1/search?q=album%3AThe%20Middle%20Way%20artist%3AGroovity&type=album&limit=20
+  The Middle Way: nothing new · still missing spotify
+  ! spotify for Control the Machine: HTTP 400 for https://api.spotify.com/v1/search?q=album%3AControl%20the%20Machine%20artist%3AXstava&type=album&limit=20
+  Control the Machine: nothing new · still missing spotify
+  ! spotify for Helix: HTTP 400 for https://api.spotify.com/v1/search?q=album%3AHelix%20artist%3AUnima&type=album&limit=20
+  Helix: nothing new · still missing spotify
+  ! spotify for Noize: HTTP 400 for https://api.spotify.com/v1/search?q=album%3ANoize%20artist%3AReidak&type=album&limit=20
+  Noize: nothing new · still missing spotify
+  ! spotify for The Illusion of Time: HTTP 400 for https://api.spotify.com/v1/search?q=album%3AThe%20Illusion%20of%20Time%20artist%3AUnima&type=album&limit=20
+  The Illusion of Time: nothing new · still missing beatport, bandcamp, spotify, apple
+  ! spotify for Circus Circus: HTTP 400 for https://api.spotify.com/v1/search?q=album%3ACircus%20Circus%20artist%3AOneShot&type=album&limit=20
+  Circus Circus: found apple · still missing spotify, youtube
+  ! spotify for Bootstrap Paradox: HTTP 400 for https://api.spotify.com/v1/search?q=album%3ABootstrap%20Paradox%20artist%3ASlix&type=album&limit=20
+  Bootstrap Paradox: nothing new · still missing spotify, youtube
+  ! spotify for Spectrum of Existence: HTTP 400 for https://api.spotify.com/v1/search?q=album%3ASpectrum%20of%20Existence%20artist%3AGroovity&type=album&limit=20
+  Spectrum of Existence: nothing new · still missing spotify, youtube
+  ! spotify for Flick: HTTP 400 for https://api.spotify.com/v1/search?q=album%3AFlick%20artist%3AJahrin&type=album&limit=20
+  Flick: nothing new · still missing spotify, youtube
+  ! spotify for Ground Advantage: HTTP 400 for https://api.spotify.com/v1/search?q=album%3AGround%20Advantage%20artist%3ALeex&type=album&limit=20
+  Ground Advantage: nothing new · still missing spotify, youtube
+  ! spotify for C.c.c, Vol. 2 Compiled by Jahrin: HTTP 400 for https://api.spotify.com/v1/search?q=album%3AC.c.c%2C%20Vol.%202%20Compiled%20by%20Jahrin%20artist%3AVarious%20Artists&type=album&limit=20
+  C.c.c, Vol. 2 Compiled by Jahrin: nothing new · still missing bandcamp, spotify, youtube
+  ! spotify for Align: HTTP 400 for https://api.spotify.com/v1/search?q=album%3AAlign%20artist%3AoneMountain&type=album&limit=20
+  Align: nothing new · still missing spotify, youtube
+  ! spotify for Do Not Disturb: HTTP 400 for https://api.spotify.com/v1/search?q=album%3ADo%20Not%20Disturb%20artist%3APlanet%20X&type=album&limit=20
+  Do Not Disturb: nothing new · still missing spotify, youtube
+  ! spotify for Psyclone: HTTP 400 for https://api.spotify.com/v1/search?q=album%3APsyclone%20artist%3AJaiga%20(IL)&type=album&limit=20
+  Psyclone: nothing new · still missing spotify, apple, youtube
+  ! spotify for Isabella: HTTP 400 for https://api.spotify.com/v1/search?q=album%3AIsabella%20artist%3AMi-Ze&type=album&limit=20
+  Isabella: nothing new · still missing spotify, apple, youtube
+  ! spotify for Trick: HTTP 400 for https://api.spotify.com/v1/search?q=album%3ATrick%20artist%3AHazui&type=album&limit=20
+  Trick: nothing new · still missing spotify, youtube
+  ! spotify for The Future: HTTP 400 for https://api.spotify.com/v1/search?q=album%3AThe%20Future%20artist%3AExyoma&type=album&limit=20
+  The Future: nothing new · still missing spotify, youtube
+  ! spotify for Discovery Channel: HTTP 400 for https://api.spotify.com/v1/search?q=album%3ADiscovery%20Channel%20artist%3AKanok&type=album&limit=20
+  Discovery Channel: nothing new · still missing spotify, youtube
+  ! spotify for Bushido: HTTP 400 for https://api.spotify.com/v1/search?q=album%3ABushido%20artist%3AAzul&type=album&limit=20
+  Bushido: nothing new · still missing beatport, spotify, youtube
+  ! spotify for Technical Mood: HTTP 400 for https://api.spotify.com/v1/search?q=album%3ATechnical%20Mood%20artist%3AHazui&type=album&limit=20
+  Technical Mood: nothing new · still missing beatport, spotify, youtube
 Saved changes.

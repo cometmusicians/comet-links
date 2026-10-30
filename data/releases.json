@@ -33,7 +33,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/the-illusion-of-time",
         "youtube": "https://www.youtube.com/watch?v=XCuwBwZllww"
       },
-      "checks": 5,
+      "checks": 6,
       "title": "The Illusion of Time",
       "artists": [
         "Unima"
@@ -59,14 +59,15 @@
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=165",
         "bandcamp": "https://comet-collective.bandcamp.com/album/circus-circus",
         "beatport": "https://www.beatport.com/release/circus-circus/7608092",
-        "soundcloud": "https://soundcloud.com/comet-collective/circus-circus"
+        "soundcloud": "https://soundcloud.com/comet-collective/circus-circus",
+        "apple": "https://music.apple.com/us/album/circus-circus-single/6822867741"
       },
       "label": "Comet Collective",
       "blurb": "OneShot drops Circus Circus EP - two dynamic 140 BPM cuts combining playful circus vibes with serious dancefloor weight. Leading with the bouncy, oddball bounce of",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_460162764_10854.jpg",
       "addedAt": "2026-10-25",
       "art": "art/circus-circus.jpg",
-      "checks": 11,
+      "checks": 12,
       "lastChecked": "2026-10-30"
     },
     {
@@ -90,8 +91,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_353512284_10604.jpg",
       "addedAt": "2026-10-25",
       "art": "art/night-destination.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 162,
@@ -113,8 +114,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_46699809_10498.jpg",
       "addedAt": "2026-10-25",
       "art": "art/test-your-mind.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 161,
@@ -138,8 +139,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_561763102_10457.jpg",
       "addedAt": "2026-10-25",
       "art": "art/imagine-leex-widox-remix.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 160,
@@ -161,7 +162,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_783844787_10361.jpg",
       "addedAt": "2026-10-25",
       "art": "art/bootstrap-paradox.jpg",
-      "checks": 9,
+      "checks": 10,
       "lastChecked": "2026-10-30"
     },
     {
@@ -186,8 +187,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_563938012_10305.jpg",
       "addedAt": "2026-10-25",
       "art": "art/mantis.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 158,
@@ -211,8 +212,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_655823382_10260.jpg",
       "addedAt": "2026-10-25",
       "art": "art/blue-lion.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 157,
@@ -235,7 +236,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_601207985_9477.jpg",
       "addedAt": "2026-10-25",
       "art": "art/spectrum-of-existence.jpg",
-      "checks": 9,
+      "checks": 10,
       "lastChecked": "2026-10-30"
     },
     {
@@ -257,7 +258,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_388568954_9461.jpg",
       "addedAt": "2026-10-25",
       "art": "art/flick.jpg",
-      "checks": 9,
+      "checks": 10,
       "lastChecked": "2026-10-30"
     },
     {
@@ -280,7 +281,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_177359958_9633.jpg",
       "addedAt": "2026-10-25",
       "art": "art/ground-advantage.jpg",
-      "checks": 9,
+      "checks": 10,
       "lastChecked": "2026-10-30"
     },
     {
@@ -302,7 +303,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_815517044_9476.jpg",
       "addedAt": "2026-10-25",
       "art": "art/ccc-vol-2-compiled-by-jahrin.jpg",
-      "checks": 10,
+      "checks": 11,
       "lastChecked": "2026-10-30"
     },
     {
@@ -324,7 +325,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_271816976_9475.jpg",
       "addedAt": "2026-10-25",
       "art": "art/align.jpg",
-      "checks": 9,
+      "checks": 10,
       "lastChecked": "2026-10-30"
     },
     {
@@ -346,7 +347,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_687464736_9474.jpg",
       "addedAt": "2026-10-25",
       "art": "art/do-not-disturb.jpg",
-      "checks": 9,
+      "checks": 10,
       "lastChecked": "2026-10-30"
     },
     {
@@ -367,7 +368,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_386229037_9473.jpg",
       "addedAt": "2026-10-25",
       "art": "art/psyclone.jpg",
-      "checks": 10,
+      "checks": 11,
       "lastChecked": "2026-10-30"
     },
     {
@@ -388,7 +389,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_133899835_9472.jpg",
       "addedAt": "2026-10-25",
       "art": "art/isabella.jpg",
-      "checks": 10,
+      "checks": 11,
       "lastChecked": "2026-10-30"
     },
     {
@@ -410,7 +411,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_579714635_9471.jpg",
       "addedAt": "2026-10-25",
       "art": "art/trick.jpg",
-      "checks": 9,
+      "checks": 10,
       "lastChecked": "2026-10-30"
     },
     {
@@ -433,8 +434,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_965837210_9470.jpg",
       "addedAt": "2026-10-25",
       "art": "art/the-middle-way.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 147,
@@ -456,8 +457,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_317688114_9469.jpg",
       "addedAt": "2026-10-25",
       "art": "art/control-the-machine.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 146,
@@ -479,8 +480,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_9731964_9468.jpg",
       "addedAt": "2026-10-25",
       "art": "art/helix.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 145,
@@ -501,7 +502,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_796781889_9467.jpg",
       "addedAt": "2026-10-25",
       "art": "art/the-future.jpg",
-      "checks": 9,
+      "checks": 10,
       "lastChecked": "2026-10-30"
     },
     {
@@ -523,7 +524,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_85803436_9466.jpg",
       "addedAt": "2026-10-25",
       "art": "art/discovery-channel.jpg",
-      "checks": 9,
+      "checks": 10,
       "lastChecked": "2026-10-30"
     },
     {
@@ -546,8 +547,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_162463134_9465.jpg",
       "addedAt": "2026-10-25",
       "art": "art/noize.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-25"
+      "checks": 3,
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 141,
@@ -568,7 +569,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_866008444_9402.jpg",
       "addedAt": "2026-10-25",
       "art": "art/bushido.jpg",
-      "checks": 10,
+      "checks": 11,
       "lastChecked": "2026-10-30"
     },
     {
@@ -590,7 +591,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_279309062_9314.jpg",
       "addedAt": "2026-10-25",
       "art": "art/technical-mood.jpg",
-      "checks": 9,
+      "checks": 10,
       "lastChecked": "2026-10-30"
     },
     {
@@ -3298,5 +3299,5 @@
       "lastChecked": "2026-10-30"
     }
   ],
-  "updated": "2026-10-30T09:00:36.098Z"
+  "updated": "2026-10-30T09:55:15.925Z"
 }
