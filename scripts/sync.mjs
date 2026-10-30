@@ -36,10 +36,12 @@ const json = async (url, opts) => { const r = await http(url, opts); if (!r.ok) 
 const readJSON = async (u, d) => { try { return JSON.parse(await readFile(u, "utf8")); } catch { return d; } };
 const exists = async u => { try { await access(u); return true; } catch { return false; } };
 const meta = (html, prop) => {
-  const re1 = new RegExp(`<meta[^>]+(?:property|name)=["']${prop}["'][^>]*content=["']([^"']*)["']`, "i");
-  const re2 = new RegExp(`<meta[^>]+content=["']([^"']*)["'][^>]*(?:property|name)=["']${prop}["']`, "i");
+  // content="..." may contain apostrophes (and content='...' quotes), so match each quote style separately
+  const val = `content=(?:"([^"]*)"|'([^']*)')`;
+  const re1 = new RegExp(`<meta[^>]+(?:property|name)=["']${prop}["'][^>]*${val}`, "i");
+  const re2 = new RegExp(`<meta[^>]+${val}[^>]*(?:property|name)=["']${prop}["']`, "i");
   const m = html.match(re1) || html.match(re2);
-  return m ? decodeEntities(m[1]).trim() : "";
+  return m ? decodeEntities(m[1] ?? m[2] ?? "").trim() : "";
 };
 
 // ---------- AMPsuite store ----------
@@ -247,11 +249,12 @@ async function main() {
   const added = [];
   for (const id of ids) {
     const existing = byId.get(id);
-    if (existing && existing.title && existing.artSource) continue;
+    if (existing && existing.title && existing.artSource && !existing.blurbCut) continue;
     try {
       const info = await storeRelease(id);
       const r = existing || { id, links: {}, checks: 0 };
       for (const [k, v] of Object.entries(info)) if (v && (!Array.isArray(v) || v.length)) r[k] = v;
+      delete r.blurbCut;
       if (!r.slug) {
         let slug = slugify(info.title) || "release-" + id;
         if (db.releases.some(o => o !== r && o.slug === slug)) slug += "-" + id;

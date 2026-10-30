@@ -18,7 +18,7 @@
         "youtube": "https://www.youtube.com/watch?v=1HNWsP3_ArM",
         "soundcloud": "https://soundcloud.com/comet-collective/huka"
       },
-      "blurb": "Bigitam & Elastic are back with",
+      "blurb": "Bigitam & Elastic are back with 'Huka', the next chapter of a story that began somewhere on the dancefloor at ZNA Festival. What started with 'Zambu' has slowly turned into an ongoing musical adventure, filled with memories, unexpected moments, and a few inside jokes shared between the two. This time, the story takes a slightly different turn, inspired by a rather unusual pair of shoes that somehow became impossible to forget. With oversized steps, playful energy, and a groove of its own, 'Huka' picks up right where 'Zambu' left off, proving that some festival stories are simply too good to end.",
       "art": "art/huka.jpg",
       "label": "Comet Collective",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_521102966_10967.jpg",
@@ -147,7 +147,8 @@
       "addedAt": "2026-10-25",
       "art": "art/imagine-leex-widox-remix.jpg",
       "checks": 1,
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-30",
+      "blurbCut": true
     },
     {
       "id": 160,
@@ -197,7 +198,8 @@
       "addedAt": "2026-10-25",
       "art": "art/mantis.jpg",
       "checks": 1,
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-30",
+      "blurbCut": true
     },
     {
       "id": 158,
@@ -295,7 +297,8 @@
       "addedAt": "2026-10-25",
       "art": "art/ground-advantage.jpg",
       "checks": 1,
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-30",
+      "blurbCut": true
     },
     {
       "id": 154,
@@ -634,7 +637,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_664240030_9223.jpg",
       "addedAt": "2026-10-25",
       "art": "art/imperfections.jpg",
-      "checks": 0
+      "checks": 0,
+      "blurbCut": true
     },
     {
       "id": 138,
@@ -654,7 +658,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_986890713_9272.jpg",
       "addedAt": "2026-10-25",
       "art": "art/hyperion.jpg",
-      "checks": 0
+      "checks": 0,
+      "blurbCut": true
     },
     {
       "id": 137,
@@ -692,7 +697,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_442536001_9090.jpg",
       "addedAt": "2026-10-25",
       "art": "art/rocky-tears-robots-detune-remix.jpg",
-      "checks": 0
+      "checks": 0,
+      "blurbCut": true
     },
     {
       "id": 135,
@@ -810,7 +816,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_213852788_8694.jpeg",
       "addedAt": "2026-10-25",
       "art": "art/the-falling-tree.jpg",
-      "checks": 0
+      "checks": 0,
+      "blurbCut": true
     },
     {
       "id": 129,
@@ -830,7 +837,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_203407222_8742.jpg",
       "addedAt": "2026-10-25",
       "art": "art/rain-of-comets.jpg",
-      "checks": 0
+      "checks": 0,
+      "blurbCut": true
     },
     {
       "id": 128,
@@ -970,7 +978,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_405923258_7808.jpg",
       "addedAt": "2026-10-25",
       "art": "art/twilighting.jpg",
-      "checks": 0
+      "checks": 0,
+      "blurbCut": true
     },
     {
       "id": 121,
@@ -990,7 +999,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_228297311_7773.jpg",
       "addedAt": "2026-10-25",
       "art": "art/its-not-tomorrow-yet.jpg",
-      "checks": 0
+      "checks": 0,
+      "blurbCut": true
     },
     {
       "id": 120,
@@ -1030,7 +1040,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_202785798_7548.jpg",
       "addedAt": "2026-10-25",
       "art": "art/beyond-the-edge.jpg",
-      "checks": 0
+      "checks": 0,
+      "blurbCut": true
     },
     {
       "id": 118,
@@ -1091,7 +1102,8 @@
       "slug": "ominous-presence",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/ominous-presence.jpg"
+      "art": "art/ominous-presence.jpg",
+      "blurbCut": true
     },
     {
       "id": 113,
@@ -1112,7 +1124,8 @@
       "slug": "overloop",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/overloop.jpg"
+      "art": "art/overloop.jpg",
+      "blurbCut": true
     },
     {
       "id": 112,
@@ -1299,7 +1312,8 @@
       "slug": "broken-reality",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/broken-reality.jpg"
+      "art": "art/broken-reality.jpg",
+      "blurbCut": true
     },
     {
       "id": 103,
@@ -1483,7 +1497,8 @@
       "slug": "ccc",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/ccc.jpg"
+      "art": "art/ccc.jpg",
+      "blurbCut": true
     },
     {
       "id": 93,
@@ -1602,7 +1617,8 @@
       "slug": "jimmys-dream",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/jimmys-dream.jpg"
+      "art": "art/jimmys-dream.jpg",
+      "blurbCut": true
     },
     {
       "id": 87,
@@ -1729,7 +1745,8 @@
       "slug": "twilight-whispering",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/twilight-whispering.jpg"
+      "art": "art/twilight-whispering.jpg",
+      "blurbCut": true
     },
     {
       "id": 81,
@@ -1750,7 +1767,8 @@
       "slug": "apolline",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/apolline.jpg"
+      "art": "art/apolline.jpg",
+      "blurbCut": true
     },
     {
       "id": 79,
@@ -1771,7 +1789,8 @@
       "slug": "purple-passion",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/purple-passion.jpg"
+      "art": "art/purple-passion.jpg",
+      "blurbCut": true
     },
     {
       "id": 78,
@@ -1853,7 +1872,8 @@
       "slug": "conflict",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/conflict.jpg"
+      "art": "art/conflict.jpg",
+      "blurbCut": true
     },
     {
       "id": 73,
@@ -1874,7 +1894,8 @@
       "slug": "echoes-of-eternity",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/echoes-of-eternity.jpg"
+      "art": "art/echoes-of-eternity.jpg",
+      "blurbCut": true
     },
     {
       "id": 72,
@@ -1978,7 +1999,8 @@
       "slug": "lying-sun",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/lying-sun.jpg"
+      "art": "art/lying-sun.jpg",
+      "blurbCut": true
     },
     {
       "id": 67,
@@ -2019,7 +2041,8 @@
       "slug": "1000-lifetimes",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/1000-lifetimes.jpg"
+      "art": "art/1000-lifetimes.jpg",
+      "blurbCut": true
     },
     {
       "id": 63,
@@ -2041,7 +2064,8 @@
       "slug": "nights",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/nights.jpg"
+      "art": "art/nights.jpg",
+      "blurbCut": true
     },
     {
       "id": 62,
@@ -2142,7 +2166,8 @@
       "slug": "vcss",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/vcss.jpg"
+      "art": "art/vcss.jpg",
+      "blurbCut": true
     },
     {
       "id": 57,
@@ -2163,7 +2188,8 @@
       "slug": "alien-rights",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/alien-rights.jpg"
+      "art": "art/alien-rights.jpg",
+      "blurbCut": true
     },
     {
       "id": 56,
@@ -2184,7 +2210,8 @@
       "slug": "extraterrestrial",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/extraterrestrial.jpg"
+      "art": "art/extraterrestrial.jpg",
+      "blurbCut": true
     },
     {
       "id": 55,
@@ -2205,7 +2232,8 @@
       "slug": "shift-ctrl",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/shift-ctrl.jpg"
+      "art": "art/shift-ctrl.jpg",
+      "blurbCut": true
     },
     {
       "id": 54,
@@ -2388,7 +2416,8 @@
       "slug": "sutlach",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/sutlach.jpg"
+      "art": "art/sutlach.jpg",
+      "blurbCut": true
     },
     {
       "id": 40,
@@ -2409,7 +2438,8 @@
       "slug": "valhalla",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/valhalla.jpg"
+      "art": "art/valhalla.jpg",
+      "blurbCut": true
     },
     {
       "id": 38,
@@ -2470,7 +2500,8 @@
       "slug": "message-from",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/message-from.jpg"
+      "art": "art/message-from.jpg",
+      "blurbCut": true
     },
     {
       "id": 35,
@@ -2491,7 +2522,8 @@
       "slug": "falling-stars",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/falling-stars.jpg"
+      "art": "art/falling-stars.jpg",
+      "blurbCut": true
     },
     {
       "id": 34,
@@ -2512,7 +2544,8 @@
       "slug": "east-myst",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/east-myst.jpg"
+      "art": "art/east-myst.jpg",
+      "blurbCut": true
     },
     {
       "id": 33,
@@ -2533,7 +2566,8 @@
       "slug": "city",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/city.jpg"
+      "art": "art/city.jpg",
+      "blurbCut": true
     },
     {
       "id": 32,
@@ -2554,7 +2588,8 @@
       "slug": "agdibate",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/agdibate.jpg"
+      "art": "art/agdibate.jpg",
+      "blurbCut": true
     },
     {
       "id": 31,
@@ -2616,7 +2651,8 @@
       "slug": "phone-home",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/phone-home.jpg"
+      "art": "art/phone-home.jpg",
+      "blurbCut": true
     },
     {
       "id": 25,
@@ -2678,7 +2714,8 @@
       "slug": "yaffo-tel-aviv",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/yaffo-tel-aviv.jpg"
+      "art": "art/yaffo-tel-aviv.jpg",
+      "blurbCut": true
     },
     {
       "id": 22,
@@ -2699,7 +2736,8 @@
       "slug": "vat-of-acid",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/vat-of-acid.jpg"
+      "art": "art/vat-of-acid.jpg",
+      "blurbCut": true
     },
     {
       "id": 21,
@@ -2741,7 +2779,8 @@
       "slug": "clear-vision",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/clear-vision.jpg"
+      "art": "art/clear-vision.jpg",
+      "blurbCut": true
     },
     {
       "id": 19,
@@ -2762,7 +2801,8 @@
       "slug": "noisy-silence",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/noisy-silence.jpg"
+      "art": "art/noisy-silence.jpg",
+      "blurbCut": true
     },
     {
       "id": 18,
@@ -2825,7 +2865,8 @@
       "slug": "patterns",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/patterns.jpg"
+      "art": "art/patterns.jpg",
+      "blurbCut": true
     },
     {
       "id": 15,
@@ -2931,7 +2972,8 @@
       "slug": "moon",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/moon.jpg"
+      "art": "art/moon.jpg",
+      "blurbCut": true
     },
     {
       "id": 9,
@@ -2952,7 +2994,8 @@
       "slug": "shoby-groovy",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/shoby-groovy.jpg"
+      "art": "art/shoby-groovy.jpg",
+      "blurbCut": true
     },
     {
       "id": 8,
@@ -3016,7 +3059,8 @@
       "slug": "book-of-jonah",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/book-of-jonah.jpg"
+      "art": "art/book-of-jonah.jpg",
+      "blurbCut": true
     },
     {
       "id": 5,
@@ -3036,7 +3080,8 @@
       "slug": "salam",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/salam.jpg"
+      "art": "art/salam.jpg",
+      "blurbCut": true
     },
     {
       "id": 4,
@@ -3057,7 +3102,8 @@
       "slug": "aurora",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/aurora.jpg"
+      "art": "art/aurora.jpg",
+      "blurbCut": true
     },
     {
       "id": 3,
@@ -3078,7 +3124,8 @@
       "slug": "believe-in-the-planet",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/believe-in-the-planet.jpg"
+      "art": "art/believe-in-the-planet.jpg",
+      "blurbCut": true
     }
   ],
   "updated": "2026-10-30T09:56:46.694Z"
