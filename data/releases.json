@@ -27,6 +27,26 @@
       "lastChecked": "2026-10-25"
     },
     {
+      "id": 166,
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=166",
+        "soundcloud": "https://soundcloud.com/comet-collective/the-illusion-of-time"
+      },
+      "checks": 1,
+      "title": "The Illusion of Time",
+      "artists": [
+        "Unima"
+      ],
+      "label": "Comet Collective",
+      "genre": "Psy Trance",
+      "blurb": "Rooted in deep Zenon dynamics and Dark Progressive weight, The Illusion of Time by Unima is a two-track journey exploring the profound link between frequency, consciousness, and the earth. Through the hypnotic, time-bending trance of the title track",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_380917297_10974.jpg",
+      "slug": "the-illusion-of-time",
+      "addedAt": "2026-10-30",
+      "art": "art/the-illusion-of-time.jpg",
+      "lastChecked": "2026-10-30"
+    },
+    {
       "id": 165,
       "slug": "circus-circus",
       "title": "Circus Circus",
@@ -1128,7 +1148,7 @@
         "apple": "https://music.apple.com/us/album/the-groovy-the-nonsense-single/1818776863",
         "soundcloud": "https://soundcloud.com/comet-collective/the-groovy-the-nonsense"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "The Groovy & the Nonsense",
       "artists": [
         "Groovy Nonsense"
@@ -1141,7 +1161,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/the-groovy-the-nonsense.jpg",
-      "lastChecked": "2026-10-27"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 111,
@@ -1151,7 +1171,7 @@
         "apple": "https://music.apple.com/us/album/lost-in-the-rhythm-single/1816173747",
         "soundcloud": "https://soundcloud.com/comet-collective/lost-in-the-rhythm"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Lost in the Rhythm",
       "artists": [
         "Azul"
@@ -1163,7 +1183,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/lost-in-the-rhythm.jpg",
-      "lastChecked": "2026-10-27"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 110,
@@ -1173,7 +1193,7 @@
         "apple": "https://music.apple.com/us/album/on-it-single/1812229465",
         "soundcloud": "https://soundcloud.com/comet-collective/on-it"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "On It",
       "artists": [
         "Zapta"
@@ -1185,7 +1205,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/on-it.jpg",
-      "lastChecked": "2026-10-27"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 109,
@@ -1195,7 +1215,7 @@
         "apple": "https://music.apple.com/us/album/higher-mind-single/1810542083",
         "soundcloud": "https://soundcloud.com/comet-collective/higher-mind"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Higher Mind",
       "artists": [
         "Exyoma"
@@ -1208,7 +1228,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/higher-mind.jpg",
-      "lastChecked": "2026-10-27"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 108,
@@ -1218,7 +1238,7 @@
         "apple": "https://music.apple.com/us/album/memories-of-earth/1810542300",
         "soundcloud": "https://soundcloud.com/comet-collective/memories-of-earth"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Memories of Earth",
       "artists": [
         "Forever Heaven"
@@ -1230,7 +1250,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/memories-of-earth.jpg",
-      "lastChecked": "2026-10-27"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 107,
@@ -1240,7 +1260,7 @@
         "apple": "https://music.apple.com/us/album/travelers-single/1808025352",
         "soundcloud": "https://soundcloud.com/comet-collective/travelers"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Travelers",
       "artists": [
         "Elastic"
@@ -1253,7 +1273,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/travelers.jpg",
-      "lastChecked": "2026-10-27"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 106,
@@ -1263,7 +1283,7 @@
         "apple": "https://music.apple.com/us/album/there-is-a-space-single/1806969224",
         "soundcloud": "https://soundcloud.com/comet-collective/there-is-a-space"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "There Is a Space",
       "artists": [
         "Hazui",
@@ -1277,7 +1297,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/there-is-a-space.jpg",
-      "lastChecked": "2026-10-27"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 105,
@@ -1287,7 +1307,7 @@
         "apple": "https://music.apple.com/us/album/time-is-now-single/1806969222",
         "soundcloud": "https://soundcloud.com/comet-collective/time-is-now"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Time Is Now",
       "artists": [
         "Groovity"
@@ -1300,7 +1320,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/time-is-now.jpg",
-      "lastChecked": "2026-10-27"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 104,
@@ -1310,7 +1330,7 @@
         "apple": "https://music.apple.com/us/album/broken-reality-single/1805250340",
         "soundcloud": "https://soundcloud.com/comet-collective/broken-reality"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Broken Reality",
       "artists": [
         "Reidak"
@@ -1323,7 +1343,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/broken-reality.jpg",
-      "lastChecked": "2026-10-27"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 103,
@@ -1333,7 +1353,7 @@
         "apple": "https://music.apple.com/us/album/human-check-single/1803635054",
         "soundcloud": "https://soundcloud.com/comet-collective/human-check"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Human Check",
       "artists": [
         "Bigitam",
@@ -1346,7 +1366,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/human-check.jpg",
-      "lastChecked": "2026-10-27"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 102,
@@ -1356,7 +1376,7 @@
         "apple": "https://music.apple.com/us/album/fear-of-the-arp-single/1802211333",
         "soundcloud": "https://soundcloud.com/comet-collective/fear-of-the-arp"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Fear of the Arp",
       "artists": [
         "Mystic"
@@ -1368,7 +1388,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/fear-of-the-arp.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 101,
@@ -1378,7 +1398,7 @@
         "apple": "https://music.apple.com/us/album/dot-flow-single/1799299200",
         "soundcloud": "https://soundcloud.com/comet-collective/dot-flow"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Dot & Flow",
       "artists": [
         "OneShot"
@@ -1390,7 +1410,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/dot-flow.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 99,
@@ -1400,7 +1420,7 @@
         "apple": "https://music.apple.com/us/album/trip-the-light-fantastic-single/1800825634",
         "soundcloud": "https://soundcloud.com/comet-collective/trip-the-light-fantastic"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Trip the Light Fantastic",
       "artists": [
         "Jahrin",
@@ -1413,7 +1433,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/trip-the-light-fantastic.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 98,
@@ -1423,7 +1443,7 @@
         "apple": "https://music.apple.com/us/album/grounded-single/1795432561",
         "soundcloud": "https://soundcloud.com/comet-collective/grounded"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Grounded",
       "artists": [
         "Mementomor",
@@ -1436,7 +1456,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/grounded.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 97,
@@ -1446,7 +1466,7 @@
         "apple": "https://music.apple.com/us/album/marshes-single/1793806486",
         "soundcloud": "https://soundcloud.com/comet-collective/marshes"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Marshes",
       "artists": [
         "Tektro"
@@ -1458,7 +1478,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/marshes.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 96,
@@ -1468,7 +1488,7 @@
         "apple": "https://music.apple.com/us/album/the-walsh-single/1793805809",
         "soundcloud": "https://soundcloud.com/comet-collective/the-walsh"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "The Walsh",
       "artists": [
         "Cosmic Flow",
@@ -1481,7 +1501,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/the-walsh.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 95,
@@ -1491,7 +1511,7 @@
         "apple": "https://music.apple.com/us/album/mamasota-single/1792461133",
         "soundcloud": "https://soundcloud.com/comet-collective/mamasota"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Mamasota",
       "artists": [
         "Jahrin",
@@ -1504,7 +1524,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/mamasota.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 94,
@@ -1512,7 +1532,7 @@
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=94",
         "soundcloud": "https://soundcloud.com/comet-collective/ccc"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "C.C.C",
       "artists": [
         "Various Artists"
@@ -1525,7 +1545,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/ccc.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 93,
@@ -1535,7 +1555,7 @@
         "apple": "https://music.apple.com/us/album/momentum-single/1779976654",
         "soundcloud": "https://soundcloud.com/comet-collective/momentum"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Momentum",
       "artists": [
         "Hazui"
@@ -1547,7 +1567,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/momentum.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 92,
@@ -1555,7 +1575,7 @@
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=92",
         "soundcloud": "https://soundcloud.com/comet-collective/mosquitoes-attack"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Mosquitoes Attack",
       "artists": [
         "Reidak"
@@ -1567,7 +1587,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/mosquitoes-attack.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 91,
@@ -1577,7 +1597,7 @@
         "apple": "https://music.apple.com/us/album/midnight-sprout-single/1778755213",
         "soundcloud": "https://soundcloud.com/comet-collective/midnight-sprout"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Midnight Sprout",
       "artists": [
         "ARTYSHOCK"
@@ -1589,7 +1609,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/midnight-sprout.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 90,
@@ -1599,7 +1619,7 @@
         "apple": "https://music.apple.com/us/album/scala-single/1778752180",
         "soundcloud": "https://soundcloud.com/comet-collective/scala"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Scala",
       "artists": [
         "Jahrin"
@@ -1611,7 +1631,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/scala.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 89,
@@ -1621,7 +1641,7 @@
         "apple": "https://music.apple.com/us/album/north/1772319280",
         "soundcloud": "https://soundcloud.com/comet-collective/north"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "North",
       "artists": [
         "Elastic"
@@ -1633,7 +1653,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/north.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 88,
@@ -1643,7 +1663,7 @@
         "apple": "https://music.apple.com/us/album/jimmys-dream-single/1772224443",
         "soundcloud": "https://soundcloud.com/comet-collective/jimmys-dream"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Jimmy's Dream",
       "artists": [
         "Zapta"
@@ -1656,7 +1676,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/jimmys-dream.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 87,
@@ -1666,7 +1686,7 @@
         "apple": "https://music.apple.com/us/album/voices-single/1769649184",
         "soundcloud": "https://soundcloud.com/comet-collective/voices"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Voices",
       "artists": [
         "Bigitam",
@@ -1681,7 +1701,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/voices.jpg",
-      "lastChecked": "2026-10-28"
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 86,
@@ -3277,5 +3297,5 @@
       "lastChecked": "2026-10-29"
     }
   ],
-  "updated": "2026-10-29T23:38:45.465Z"
+  "updated": "2026-10-30T01:02:49.592Z"
 }
