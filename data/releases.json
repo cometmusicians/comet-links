@@ -1,6 +1,29 @@
 {
   "releases": [
     {
+      "id": 166,
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=166",
+        "youtube": "https://www.youtube.com/watch?v=XCuwBwZllww",
+        "spotify": "https://open.spotify.com/album/03ZjcPLuFkTpAz5HI5jOog",
+        "soundcloud": "https://soundcloud.com/comet-collective/sets/the-illusion-of-time"
+      },
+      "checks": 1,
+      "title": "The Illusion of Time",
+      "artists": [
+        "Unima"
+      ],
+      "label": "Comet Collective",
+      "genre": "Psy Trance",
+      "blurb": "Rooted in deep Zenon dynamics and Dark Progressive weight, The Illusion of Time by Unima is a two-track journey exploring the profound link between frequency, consciousness, and the earth. Through the hypnotic, time-bending trance of the title track",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_380917297_10974.jpg",
+      "slug": "the-illusion-of-time",
+      "addedAt": "2026-10-30",
+      "art": "art/the-illusion-of-time.jpg",
+      "lastChecked": "2026-10-30",
+      "releaseDate": "2026-10-30"
+    },
+    {
       "id": 167,
       "slug": "huka",
       "title": "Huka",
@@ -28,27 +51,574 @@
       "releaseDate": "2026-10-23"
     },
     {
-      "id": 166,
+      "id": 140,
+      "slug": "technical-mood",
+      "title": "Technical Mood",
+      "artists": [
+        "Hazui"
+      ],
+      "genre": "Psy Trance",
       "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=166",
-        "youtube": "https://www.youtube.com/watch?v=XCuwBwZllww",
-        "spotify": "https://open.spotify.com/album/03ZjcPLuFkTpAz5HI5jOog",
-        "soundcloud": "https://soundcloud.com/comet-collective/sets/the-illusion-of-time"
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=140",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/technical-mood",
+        "apple": "https://music.apple.com/us/album/technical-mood-single/1891077082",
+        "soundcloud": "https://soundcloud.com/comet-collective/sets/technical-mood",
+        "spotify": "https://open.spotify.com/album/5dr44o3byGNmttiX8bcmqH"
       },
+      "label": "Comet Collective",
+      "blurb": "Technical Mood came out of exploring Bass music and its techniques. An EP of broken yet flowing rhythms, designed to keep the dancefloor curious.",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_279309062_9314.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/technical-mood.jpg",
       "checks": 1,
-      "title": "The Illusion of Time",
+      "releaseDate": "2026-04-10",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 138,
+      "slug": "hyperion",
+      "title": "Hyperion",
+      "artists": [
+        "LIBAAX"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=138",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/hyperion",
+        "apple": "https://music.apple.com/us/album/hyperion-single/1887275621",
+        "soundcloud": "https://soundcloud.com/comet-collective/sets/hyperion",
+        "spotify": "https://open.spotify.com/album/6R01DX5NJMvebTOv48QZaA"
+      },
+      "label": "Comet Collective",
+      "blurb": "The EP Hyperion was built around one idea: energy itself.\r\nThe highs, the lows, and everything in between.\r\n\r\nIt's made up of three tracks: Hyperion, Light, and Storm.\r\nEach one is part of the same story, told without words, but meant to be fully felt.\r\n\r\nHyperion opens the journey with a burst of energy that suddenly drops into something much deeper. From that depth, Light emerges, a long, evolving track that starts low and gradually rises to something far more elevated.\r\n\r\nAnd then comes Storm. Faster, heavier, and wrapped in a rainy atmosphere, it brings everything together, closing the story the same way it began: with pure energy.",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_986890713_9272.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/hyperion.jpg",
+      "checks": 1,
+      "releaseDate": "2026-04-03",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 139,
+      "slug": "imperfections",
+      "title": "Imperfections",
+      "artists": [
+        "Kanok"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=139",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/imperfections",
+        "apple": "https://music.apple.com/us/album/imperfections-single/1886956055",
+        "soundcloud": "https://soundcloud.com/comet-collective/imperfections",
+        "spotify": "https://open.spotify.com/album/7oTbjQ4MXv7MTLrpiQoknO"
+      },
+      "label": "Comet Collective",
+      "blurb": "In art, there's always another point of view.\r\n\r\nWhat makes things interesting isn't perfection,\r\nbut the differences, the small imperfections.\r\n\r\nThey're what make us human,\r\nwhat makes us stop for a moment and feel something real.\r\n\r\nMaybe that's what we're actually drawn to\r\nnot what's perfect, but what's true.",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_664240030_9223.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/imperfections.jpg",
+      "checks": 1,
+      "releaseDate": "2026-03-27",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 137,
+      "slug": "aor",
+      "title": "A.O.R",
+      "artists": [
+        "AinSof"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=137",
+        "spotify": "https://open.spotify.com/album/2LZYHn33SLzhwEHLdaIAHF"
+      },
+      "label": "Comet Collective",
+      "blurb": "Enter through Portal, follow the light of Lumen, and ride the cosmic Kav, the line that connects space energy and mind into one psychedelic journey.",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_866877601_9180.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/aor.jpg",
+      "checks": 1,
+      "releaseDate": "2026-03-20",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 136,
+      "slug": "rocky-tears-robots-detune-remix",
+      "title": "Rocky Tears - Robots (Detune Remix)",
+      "artists": [
+        "Bigitam"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=136",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/rocky-tears-robots-detune-remix",
+        "apple": "https://music.apple.com/us/album/rocky-tears-robots-detune-remix-single/1883806260",
+        "spotify": "https://open.spotify.com/album/4PwOpkZJB8PpTBFAsBJBmj"
+      },
+      "label": "Comet Collective",
+      "blurb": "About a year ago, I decided to make a remix for Bigitam's track,",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_442536001_9090.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/rocky-tears-robots-detune-remix.jpg",
+      "checks": 1,
+      "releaseDate": "2026-03-13",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 134,
+      "slug": "one",
+      "title": "One",
+      "artists": [
+        "Biolight",
+        "Mementomor"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=134",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/one",
+        "apple": "https://music.apple.com/us/album/one-single/1881117825",
+        "soundcloud": "https://soundcloud.com/comet-collective/one",
+        "spotify": "https://open.spotify.com/album/3skiR0XQejZL7g8hQ8irYm"
+      },
+      "label": "Comet Collective",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_106436223_8998.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/one.jpg",
+      "checks": 1,
+      "releaseDate": "2026-03-06",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 135,
+      "slug": "life-is-only-a-dream",
+      "title": "Life Is Only a Dream",
       "artists": [
         "Unima"
       ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=135",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/life-is-only-a-dream",
+        "apple": "https://music.apple.com/us/album/life-is-only-a-dream-single/1879261745",
+        "soundcloud": "https://soundcloud.com/comet-collective/sets/life-is-only-a-dream",
+        "spotify": "https://open.spotify.com/album/1zLf0Krs2jrx227EqgVNs4"
+      },
+      "label": "Comet Collective",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_343954080_8999.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/life-is-only-a-dream.jpg",
+      "checks": 1,
+      "releaseDate": "2026-02-27",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 133,
+      "slug": "everything-will-bloom",
+      "title": "Everything Will Bloom",
+      "artists": [
+        "Hujaboy",
+        "Nomolos"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=133",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/everything-will-bloom",
+        "apple": "https://music.apple.com/us/album/everything-will-bloom-single/1876661582",
+        "soundcloud": "https://soundcloud.com/comet-collective/everything-will-bloom",
+        "spotify": "https://open.spotify.com/album/6pXrbnZbFMNxlGZ2At38Mt"
+      },
+      "label": "Comet Collective",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_920844613_8957.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/everything-will-bloom.jpg",
+      "checks": 1,
+      "releaseDate": "2026-02-13",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 132,
+      "slug": "knocking-on-the-door",
+      "title": "Knocking on the Door",
+      "artists": [
+        "Aasha",
+        "Elastic"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=132",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/knocking-on-the-door",
+        "apple": "https://music.apple.com/us/album/knocking-on-the-door-single/1869619628",
+        "soundcloud": "https://soundcloud.com/comet-collective/knocking-on-the-door",
+        "spotify": "https://open.spotify.com/album/5qJHNrZyRnEm6pujOppuP3"
+      },
+      "label": "Comet Collective",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_529688452_8759.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/knocking-on-the-door.jpg",
+      "checks": 1,
+      "releaseDate": "2026-01-30",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 131,
+      "slug": "searching-for-galaxies",
+      "title": "Searching for Galaxies",
+      "artists": [
+        "Tektro"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=131",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/searching-for-galaxies",
+        "apple": "https://music.apple.com/us/album/searching-for-galaxies-single/1869022358",
+        "soundcloud": "https://soundcloud.com/comet-collective/sets/searching-for-galaxies",
+        "spotify": "https://open.spotify.com/album/4FtKrqT6dNMYnZLllRmH5Q"
+      },
+      "label": "Comet Collective",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_179200467_8740.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/searching-for-galaxies.jpg",
+      "checks": 1,
+      "releaseDate": "2026-01-23",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 129,
+      "slug": "rain-of-comets",
+      "title": "Rain of Comets",
+      "artists": [
+        "Various Artists"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=129",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/rain-of-comets",
+        "apple": "https://music.apple.com/us/album/rain-of-comets/1867009341",
+        "soundcloud": "https://soundcloud.com/comet-collective/sets/rain-of-comets",
+        "spotify": "https://open.spotify.com/album/1vSgXSDY9HTBgOUsXnXq3u"
+      },
+      "label": "Comet Collective",
+      "blurb": "Comet Collective for me is the sound that I've been looking for my whole life. Every track, every release feels like home and opens up my mind with fresh sounds igniting a little fire in the center of my heart. Let me take you on a journey through some of the tracks that were released last year so that you can feel the spark with me. \r\nThis selection includes producers that I deeply admire.\r\nGet ready to bring out your best dance skills, once you're in the Comet Groove, you can't sit still.\r\n\r\nEnjoy the trip,\r\nINÂ",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_203407222_8742.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/rain-of-comets.jpg",
+      "checks": 1,
+      "releaseDate": "2026-01-09",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 130,
+      "slug": "the-falling-tree",
+      "title": "The Falling Tree",
+      "artists": [
+        "Hazui"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=130",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/the-falling-tree",
+        "apple": "https://music.apple.com/us/album/the-falling-tree-single/1863049602",
+        "soundcloud": "https://soundcloud.com/comet-collective/the-falling-tree",
+        "spotify": "https://open.spotify.com/album/0n0qBwDwmVpWKwGlvhlE4I"
+      },
+      "label": "Comet Collective",
+      "blurb": "The Falling Tree is inspired by the philosophical question of sound and perception:",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_213852788_8694.jpeg",
+      "addedAt": "2026-10-25",
+      "art": "art/the-falling-tree.jpg",
+      "checks": 1,
+      "releaseDate": "2025-12-26",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 128,
+      "slug": "lucid-trip",
+      "title": "Lucid Trip",
+      "artists": [
+        "Somatic Cell"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=128",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/lucid-trip",
+        "apple": "https://music.apple.com/us/album/lucid-trip-single/1861788965",
+        "soundcloud": "https://soundcloud.com/comet-collective/lucid-trip",
+        "spotify": "https://open.spotify.com/album/1u6PeYfb9tY14X32yVoDUb"
+      },
+      "label": "Comet Collective",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_333232377_8584.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/lucid-trip.jpg",
+      "checks": 1,
+      "releaseDate": "2025-12-19",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 127,
+      "slug": "biryani",
+      "title": "Biryani",
+      "artists": [
+        "Jahrin"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=127",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/biryani",
+        "apple": "https://music.apple.com/us/album/biryani-single/1860257583",
+        "soundcloud": "https://soundcloud.com/comet-collective/biryani",
+        "spotify": "https://open.spotify.com/album/0y9hcqDAab1FNEcVpBVHQF"
+      },
+      "label": "Comet Collective",
+      "blurb": "Biryani rises as the closing spark in an ascending-tempo journey, carrying the warmth of long-kept traditions and the fire of new beginnings. Crafted by",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_597591085_8547.jpeg",
+      "addedAt": "2026-10-25",
+      "art": "art/biryani.jpg",
+      "checks": 1,
+      "releaseDate": "2025-12-12",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 126,
+      "slug": "mysterious-illusions",
+      "title": "Mysterious Illusions",
+      "artists": [
+        "Elastic",
+        "Exyoma"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=126",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/mysterious-illusions",
+        "apple": "https://music.apple.com/us/album/mysterious-illusions-single/1853936814",
+        "soundcloud": "https://soundcloud.com/comet-collective/mysterious-illusions",
+        "spotify": "https://open.spotify.com/album/1GHFRW7LHWjz3UC2h025XB"
+      },
+      "label": "Comet Collective",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_476331446_8219.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/mysterious-illusions.jpg",
+      "checks": 1,
+      "releaseDate": "2025-11-28",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 125,
+      "slug": "cyber-attack",
+      "title": "Cyber ​​Attack",
+      "artists": [
+        "Undercraft"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=125",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/cyber-attack",
+        "apple": "https://music.apple.com/us/album/cyber-attack-single/1851865882",
+        "soundcloud": "https://soundcloud.com/comet-collective/cyber-attack",
+        "spotify": "https://open.spotify.com/album/01rg0QbxflMtnlhlVNm9EB"
+      },
+      "label": "Comet Collective",
+      "blurb": "This track came out of pure noise. Glitches, loops, and distortion crashing into each other until they start to breathe. It feels like a system breaking down but somehow still alive, messy, raw, and full of energy that doesn",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_597514269_7940.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/cyber-attack.jpg",
+      "checks": 1,
+      "releaseDate": "2025-11-14",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 124,
+      "slug": "feedback",
+      "title": "Feedback",
+      "artists": [
+        "Azul"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=124",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/feedback",
+        "apple": "https://music.apple.com/us/album/feedback-single/1849891237",
+        "soundcloud": "https://soundcloud.com/comet-collective/feedback",
+        "spotify": "https://open.spotify.com/album/4NeiiAK2f3SZVCPlt5HMIR"
+      },
+      "label": "Comet Collective",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_964959954_7866.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/feedback.jpg",
+      "checks": 1,
+      "releaseDate": "2025-11-07",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 123,
+      "slug": "night-growl",
+      "title": "Night Growl",
+      "artists": [
+        "Leex",
+        "Reidak"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=123",
+        "bandcamp": "https://comet-collective.bandcamp.com/track/night-growl",
+        "apple": "https://music.apple.com/us/album/night-growl-single/1845075689",
+        "soundcloud": "https://soundcloud.com/comet-collective/night-growl",
+        "spotify": "https://open.spotify.com/album/3KQnmLcjpaCFVM5aQXatep"
+      },
+      "label": "Comet Collective",
+      "blurb": "This track by Leex and Reidak blends psychedelic and groovy nighttime energy, creating a dark and immersive atmosphere. The collaboration between Leex and Reidak brings a unique depth and intensity, pulling listeners into a hypnotic groove. The idea of the",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_464259167_7846.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/night-growl.jpg",
+      "checks": 1,
+      "releaseDate": "2025-10-24",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 122,
+      "slug": "twilighting",
+      "title": "Twilighting",
+      "artists": [
+        "Jahrin",
+        "Reidak"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=122",
+        "bandcamp": "https://comet-collective.bandcamp.com/track/twilighting",
+        "apple": "https://music.apple.com/us/album/twilighting/1753349634",
+        "soundcloud": "https://soundcloud.com/comet-collective/twilighting",
+        "spotify": "https://open.spotify.com/album/3XSvC4cvzDttuiVvKmfRUa"
+      },
+      "label": "Comet Collective",
+      "blurb": "When I first heard Jahrin & Reidak play",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_405923258_7808.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/twilighting.jpg",
+      "checks": 1,
+      "releaseDate": "2025-10-17",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 120,
+      "slug": "disorder",
+      "title": "Disorder",
+      "artists": [
+        "Invasion",
+        "Jahrin"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=120",
+        "bandcamp": "https://comet-collective.bandcamp.com/track/disorder",
+        "apple": "https://music.apple.com/us/album/disorder-single/1838154702",
+        "soundcloud": "https://soundcloud.com/comet-collective/invasion-jahrin-disorder",
+        "spotify": "https://open.spotify.com/album/1DKOM0P30dC8rLy0CUReGc"
+      },
+      "label": "Comet Collective",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_174112803_7651.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/disorder.jpg",
+      "checks": 1,
+      "releaseDate": "2025-09-19",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 119,
+      "slug": "beyond-the-edge",
+      "title": "Beyond the Edge",
+      "artists": [
+        "Elastic"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=119",
+        "bandcamp": "https://comet-collective.bandcamp.com/track/beyond-the-edge",
+        "apple": "https://music.apple.com/us/album/beyond-the-edge-single/1826060793",
+        "soundcloud": "https://soundcloud.com/comet-collective/elastic-beyond-the-edge",
+        "spotify": "https://open.spotify.com/album/6qBNsp9kHYSylOgJGUuW5B"
+      },
+      "label": "Comet Collective",
+      "blurb": "BEYOND THE EDGE is a high-energy track that dives headfirst into the thrill of pushing limits. It's about living life on the edge — taking risks, breaking boundaries, and going further than anyone dares to. With intense drops and driving rhythms, this track captures the raw emotion and adrenaline of stepping beyond fear, beyond doubt — beyond the edge.",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_202785798_7548.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/beyond-the-edge.jpg",
+      "checks": 1,
+      "releaseDate": "2025-08-01",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 118,
+      "slug": "embodied",
+      "title": "Embodied",
+      "artists": [
+        "Bigitam",
+        "Tektro"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=118",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/embodied",
+        "apple": "https://music.apple.com/us/album/embodied-ep/1826061888",
+        "soundcloud": "https://soundcloud.com/comet-collective/sets/embodied",
+        "spotify": "https://open.spotify.com/album/6BJaHuQ2huuS9ti2saWfr8"
+      },
+      "label": "Comet Collective",
+      "blurb": "Embodied is a four-track journey that dives deep into the physical, emotional, and sonic experience of being human. Following the April release of",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_499322170_7551.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/embodied.jpg",
+      "checks": 1,
+      "releaseDate": "2025-07-25",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 115,
+      "slug": "physical-structure",
+      "title": "Physical Structure",
+      "artists": [
+        "Exyoma"
+      ],
+      "genre": "Psy Trance",
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=115",
+        "bandcamp": "https://comet-collective.bandcamp.com/track/physical-structure",
+        "apple": "https://music.apple.com/us/album/physical-structure-single/1823974172",
+        "soundcloud": "https://soundcloud.com/comet-collective/exyoma-physical-structure",
+        "spotify": "https://open.spotify.com/album/6q7dABdlkAI0GtBKoZ6uQo"
+      },
+      "label": "Comet Collective",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_183787460_7454.jpg",
+      "addedAt": "2026-10-25",
+      "art": "art/physical-structure.jpg",
+      "checks": 1,
+      "releaseDate": "2025-07-04",
+      "lastChecked": "2026-10-30"
+    },
+    {
+      "id": 114,
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=114",
+        "bandcamp": "https://comet-collective.bandcamp.com/track/ominous-presence",
+        "apple": "https://music.apple.com/us/album/ominous-presence-single/1821663533",
+        "spotify": "https://open.spotify.com/album/7mIajyoaj1srQJphBn1hpf"
+      },
+      "checks": 1,
+      "title": "Ominous Presence",
+      "artists": [
+        "ARTYSHOCK"
+      ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "Rooted in deep Zenon dynamics and Dark Progressive weight, The Illusion of Time by Unima is a two-track journey exploring the profound link between frequency, consciousness, and the earth. Through the hypnotic, time-bending trance of the title track",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_380917297_10974.jpg",
-      "slug": "the-illusion-of-time",
-      "addedAt": "2026-10-30",
-      "art": "art/the-illusion-of-time.jpg",
-      "lastChecked": "2026-10-30",
-      "releaseDate": "2026-10-30"
+      "blurb": "Emerging from the damp underworld of consciousness,\r\n'Ominous Presence' unravels a chaotic ritual of gritty textures and spiky rhythms, pulsing in unsettling triplets.\r\nIt's a descent into something ancient and alert— half-soil, half signal—watching from the dark, unsettling lands where silence breathes.",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_359650409_7420.jpg",
+      "slug": "ominous-presence",
+      "addedAt": "2026-10-25",
+      "backfill": true,
+      "art": "art/ominous-presence.jpg",
+      "releaseDate": "2025-07-04",
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 165,
@@ -147,8 +717,7 @@
       "addedAt": "2026-10-25",
       "art": "art/imagine-leex-widox-remix.jpg",
       "checks": 1,
-      "lastChecked": "2026-10-30",
-      "blurbCut": true
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 160,
@@ -193,13 +762,12 @@
         "spotify": "https://open.spotify.com/album/2rWPk9heg8K6qX6nLak0Qi"
       },
       "label": "Comet Collective",
-      "blurb": "Elastic & Tektro",
+      "blurb": "Elastic & Tektro's collaboration was inspired by an unexpected visitor: a praying mantis that remained in the exact same spot in one of the artists' studio window for an unusually long time. Its strange, almost hypnotic presence sparked the idea for the track, leading to a vocal centered around the mantis itself.\r\n\r\nFrom there, the concept evolved into a playful sonic world inspired by insects, blending quirky textures, organic movement, and unconventional sound design into a unique electronic journey. The result is a track that transforms an everyday moment into an imaginative, bug-infused experience.",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_563938012_10305.jpg",
       "addedAt": "2026-10-25",
       "art": "art/mantis.jpg",
       "checks": 1,
-      "lastChecked": "2026-10-30",
-      "blurbCut": true
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 158,
@@ -292,13 +860,12 @@
         "spotify": "https://open.spotify.com/album/0Z0f9Q5NVBGD8skz5APq0r"
       },
       "label": "Comet Collective",
-      "blurb": "Leex",
+      "blurb": "Leex's new EP, Ground Advantage, delivers a wave of precise psychedelic energy, balancing depth with raw dancefloor power, emotion, and intensity. Each track was born from the dancefloor and crafted for it, shaped by real moments of connection, movement, and late-night journeys.\r\nThis EP captures the essence of being fully present, where sound, body, and mind align. It's a reflection of shared energy, of crowds moving as one, and of those unforgettable moments when the music takes over.",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_177359958_9633.jpg",
       "addedAt": "2026-10-25",
       "art": "art/ground-advantage.jpg",
       "checks": 1,
-      "lastChecked": "2026-10-30",
-      "blurbCut": true
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 154,
@@ -600,388 +1167,6 @@
       "lastChecked": "2026-10-30"
     },
     {
-      "id": 140,
-      "slug": "technical-mood",
-      "title": "Technical Mood",
-      "artists": [
-        "Hazui"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=140",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/technical-mood",
-        "apple": "https://music.apple.com/us/album/technical-mood-single/1891077082"
-      },
-      "label": "Comet Collective",
-      "blurb": "Technical Mood came out of exploring Bass music and its techniques. An EP of broken yet flowing rhythms, designed to keep the dancefloor curious.",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_279309062_9314.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/technical-mood.jpg",
-      "checks": 0
-    },
-    {
-      "id": 139,
-      "slug": "imperfections",
-      "title": "Imperfections",
-      "artists": [
-        "Kanok"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=139",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/imperfections",
-        "apple": "https://music.apple.com/us/album/imperfections-single/1886956055"
-      },
-      "label": "Comet Collective",
-      "blurb": "In art, there",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_664240030_9223.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/imperfections.jpg",
-      "checks": 0,
-      "blurbCut": true
-    },
-    {
-      "id": 138,
-      "slug": "hyperion",
-      "title": "Hyperion",
-      "artists": [
-        "LIBAAX"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=138",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/hyperion",
-        "apple": "https://music.apple.com/us/album/hyperion-single/1887275621"
-      },
-      "label": "Comet Collective",
-      "blurb": "The EP Hyperion was built around one idea: energy itself.\r\nThe highs, the lows, and everything in between.\r\n\r\nIt",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_986890713_9272.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/hyperion.jpg",
-      "checks": 0,
-      "blurbCut": true
-    },
-    {
-      "id": 137,
-      "slug": "aor",
-      "title": "A.O.R",
-      "artists": [
-        "AinSof"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=137"
-      },
-      "label": "Comet Collective",
-      "blurb": "Enter through Portal, follow the light of Lumen, and ride the cosmic Kav, the line that connects space energy and mind into one psychedelic journey.",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_866877601_9180.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/aor.jpg",
-      "checks": 0
-    },
-    {
-      "id": 136,
-      "slug": "rocky-tears-robots-detune-remix",
-      "title": "Rocky Tears - Robots (Detune Remix)",
-      "artists": [
-        "Bigitam"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=136",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/rocky-tears-robots-detune-remix",
-        "apple": "https://music.apple.com/us/album/rocky-tears-robots-detune-remix-single/1883806260"
-      },
-      "label": "Comet Collective",
-      "blurb": "About a year ago, I decided to make a remix for Bigitam",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_442536001_9090.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/rocky-tears-robots-detune-remix.jpg",
-      "checks": 0,
-      "blurbCut": true
-    },
-    {
-      "id": 135,
-      "slug": "life-is-only-a-dream",
-      "title": "Life Is Only a Dream",
-      "artists": [
-        "Unima"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=135",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/life-is-only-a-dream",
-        "apple": "https://music.apple.com/us/album/life-is-only-a-dream-single/1879261745"
-      },
-      "label": "Comet Collective",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_343954080_8999.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/life-is-only-a-dream.jpg",
-      "checks": 0
-    },
-    {
-      "id": 134,
-      "slug": "one",
-      "title": "One",
-      "artists": [
-        "Biolight",
-        "Mementomor"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=134",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/one",
-        "apple": "https://music.apple.com/us/album/one-single/1881117825"
-      },
-      "label": "Comet Collective",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_106436223_8998.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/one.jpg",
-      "checks": 0
-    },
-    {
-      "id": 133,
-      "slug": "everything-will-bloom",
-      "title": "Everything Will Bloom",
-      "artists": [
-        "Hujaboy",
-        "Nomolos"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=133",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/everything-will-bloom",
-        "apple": "https://music.apple.com/us/album/everything-will-bloom-single/1876661582"
-      },
-      "label": "Comet Collective",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_920844613_8957.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/everything-will-bloom.jpg",
-      "checks": 0
-    },
-    {
-      "id": 132,
-      "slug": "knocking-on-the-door",
-      "title": "Knocking on the Door",
-      "artists": [
-        "Aasha",
-        "Elastic"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=132",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/knocking-on-the-door",
-        "apple": "https://music.apple.com/us/album/knocking-on-the-door-single/1869619628"
-      },
-      "label": "Comet Collective",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_529688452_8759.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/knocking-on-the-door.jpg",
-      "checks": 0
-    },
-    {
-      "id": 131,
-      "slug": "searching-for-galaxies",
-      "title": "Searching for Galaxies",
-      "artists": [
-        "Tektro"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=131",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/searching-for-galaxies",
-        "apple": "https://music.apple.com/us/album/searching-for-galaxies-single/1869022358"
-      },
-      "label": "Comet Collective",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_179200467_8740.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/searching-for-galaxies.jpg",
-      "checks": 0
-    },
-    {
-      "id": 130,
-      "slug": "the-falling-tree",
-      "title": "The Falling Tree",
-      "artists": [
-        "Hazui"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=130",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/the-falling-tree",
-        "apple": "https://music.apple.com/us/album/the-falling-tree-single/1863049602"
-      },
-      "label": "Comet Collective",
-      "blurb": "The Falling Tree is inspired by the philosophical question of sound and perception:",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_213852788_8694.jpeg",
-      "addedAt": "2026-10-25",
-      "art": "art/the-falling-tree.jpg",
-      "checks": 0,
-      "blurbCut": true
-    },
-    {
-      "id": 129,
-      "slug": "rain-of-comets",
-      "title": "Rain of Comets",
-      "artists": [
-        "Various Artists"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=129",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/rain-of-comets",
-        "apple": "https://music.apple.com/us/album/rain-of-comets/1867009341"
-      },
-      "label": "Comet Collective",
-      "blurb": "Comet Collective for me is the sound that I",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_203407222_8742.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/rain-of-comets.jpg",
-      "checks": 0,
-      "blurbCut": true
-    },
-    {
-      "id": 128,
-      "slug": "lucid-trip",
-      "title": "Lucid Trip",
-      "artists": [
-        "Somatic Cell"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=128",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/lucid-trip",
-        "apple": "https://music.apple.com/us/album/lucid-trip-single/1861788965"
-      },
-      "label": "Comet Collective",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_333232377_8584.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/lucid-trip.jpg",
-      "checks": 0
-    },
-    {
-      "id": 127,
-      "slug": "biryani",
-      "title": "Biryani",
-      "artists": [
-        "Jahrin"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=127",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/biryani",
-        "apple": "https://music.apple.com/us/album/biryani-single/1860257583"
-      },
-      "label": "Comet Collective",
-      "blurb": "Biryani rises as the closing spark in an ascending-tempo journey, carrying the warmth of long-kept traditions and the fire of new beginnings. Crafted by",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_597591085_8547.jpeg",
-      "addedAt": "2026-10-25",
-      "art": "art/biryani.jpg",
-      "checks": 0
-    },
-    {
-      "id": 126,
-      "slug": "mysterious-illusions",
-      "title": "Mysterious Illusions",
-      "artists": [
-        "Elastic",
-        "Exyoma"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=126",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/mysterious-illusions",
-        "apple": "https://music.apple.com/us/album/mysterious-illusions-single/1853936814"
-      },
-      "label": "Comet Collective",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_476331446_8219.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/mysterious-illusions.jpg",
-      "checks": 0
-    },
-    {
-      "id": 125,
-      "slug": "cyber-attack",
-      "title": "Cyber ​​Attack",
-      "artists": [
-        "Undercraft"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=125",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/cyber-attack",
-        "apple": "https://music.apple.com/us/album/cyber-attack-single/1851865882"
-      },
-      "label": "Comet Collective",
-      "blurb": "This track came out of pure noise. Glitches, loops, and distortion crashing into each other until they start to breathe. It feels like a system breaking down but somehow still alive, messy, raw, and full of energy that doesn",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_597514269_7940.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/cyber-attack.jpg",
-      "checks": 0
-    },
-    {
-      "id": 124,
-      "slug": "feedback",
-      "title": "Feedback",
-      "artists": [
-        "Azul"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=124",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/feedback",
-        "apple": "https://music.apple.com/us/album/feedback-single/1849891237"
-      },
-      "label": "Comet Collective",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_964959954_7866.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/feedback.jpg",
-      "checks": 0
-    },
-    {
-      "id": 123,
-      "slug": "night-growl",
-      "title": "Night Growl",
-      "artists": [
-        "Leex",
-        "Reidak"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=123",
-        "bandcamp": "https://comet-collective.bandcamp.com/track/night-growl",
-        "apple": "https://music.apple.com/us/album/night-growl-single/1845075689"
-      },
-      "label": "Comet Collective",
-      "blurb": "This track by Leex and Reidak blends psychedelic and groovy nighttime energy, creating a dark and immersive atmosphere. The collaboration between Leex and Reidak brings a unique depth and intensity, pulling listeners into a hypnotic groove. The idea of the",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_464259167_7846.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/night-growl.jpg",
-      "checks": 0
-    },
-    {
-      "id": 122,
-      "slug": "twilighting",
-      "title": "Twilighting",
-      "artists": [
-        "Jahrin",
-        "Reidak"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=122",
-        "bandcamp": "https://comet-collective.bandcamp.com/track/twilighting",
-        "apple": "https://music.apple.com/us/album/twilighting/1753349634"
-      },
-      "label": "Comet Collective",
-      "blurb": "When I first heard Jahrin & Reidak play",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_405923258_7808.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/twilighting.jpg",
-      "checks": 0,
-      "blurbCut": true
-    },
-    {
       "id": 121,
       "slug": "its-not-tomorrow-yet",
       "title": "It's Not Tomorrow Yet",
@@ -992,118 +1177,16 @@
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=121",
         "bandcamp": "https://comet-collective.bandcamp.com/album/its-not-tomorrow-yet",
-        "apple": "https://music.apple.com/us/album/its-not-tomorrow-yet-single/1842087582"
+        "apple": "https://music.apple.com/us/album/its-not-tomorrow-yet-single/1842087582",
+        "soundcloud": "https://soundcloud.com/comet-collective/sets/its-not-tomorrow-yet"
       },
       "label": "Comet Collective",
-      "blurb": "It",
+      "blurb": "It's Not Tomorrow Yet",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_228297311_7773.jpg",
       "addedAt": "2026-10-25",
       "art": "art/its-not-tomorrow-yet.jpg",
-      "checks": 0,
-      "blurbCut": true
-    },
-    {
-      "id": 120,
-      "slug": "disorder",
-      "title": "Disorder",
-      "artists": [
-        "Invasion",
-        "Jahrin"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=120",
-        "bandcamp": "https://comet-collective.bandcamp.com/track/disorder",
-        "apple": "https://music.apple.com/us/album/disorder-single/1838154702"
-      },
-      "label": "Comet Collective",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_174112803_7651.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/disorder.jpg",
-      "checks": 0
-    },
-    {
-      "id": 119,
-      "slug": "beyond-the-edge",
-      "title": "Beyond the Edge",
-      "artists": [
-        "Elastic"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=119",
-        "bandcamp": "https://comet-collective.bandcamp.com/track/beyond-the-edge",
-        "apple": "https://music.apple.com/us/album/beyond-the-edge-single/1826060793"
-      },
-      "label": "Comet Collective",
-      "blurb": "BEYOND THE EDGE is a high-energy track that dives headfirst into the thrill of pushing limits. It",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_202785798_7548.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/beyond-the-edge.jpg",
-      "checks": 0,
-      "blurbCut": true
-    },
-    {
-      "id": 118,
-      "slug": "embodied",
-      "title": "Embodied",
-      "artists": [
-        "Bigitam",
-        "Tektro"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=118",
-        "bandcamp": "https://comet-collective.bandcamp.com/album/embodied",
-        "apple": "https://music.apple.com/us/album/embodied-ep/1826061888"
-      },
-      "label": "Comet Collective",
-      "blurb": "Embodied is a four-track journey that dives deep into the physical, emotional, and sonic experience of being human. Following the April release of",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_499322170_7551.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/embodied.jpg",
-      "checks": 0
-    },
-    {
-      "id": 115,
-      "slug": "physical-structure",
-      "title": "Physical Structure",
-      "artists": [
-        "Exyoma"
-      ],
-      "genre": "Psy Trance",
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=115",
-        "bandcamp": "https://comet-collective.bandcamp.com/track/physical-structure",
-        "apple": "https://music.apple.com/us/album/physical-structure-single/1823974172"
-      },
-      "label": "Comet Collective",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_183787460_7454.jpg",
-      "addedAt": "2026-10-25",
-      "art": "art/physical-structure.jpg",
-      "checks": 0
-    },
-    {
-      "id": 114,
-      "links": {
-        "store": "https://cometcollective.ampsuite.com/store/view_release?release=114",
-        "bandcamp": "https://comet-collective.bandcamp.com/track/ominous-presence",
-        "apple": "https://music.apple.com/us/album/ominous-presence-single/1821663533"
-      },
-      "checks": 0,
-      "title": "Ominous Presence",
-      "artists": [
-        "ARTYSHOCK"
-      ],
-      "label": "Comet Collective",
-      "genre": "Psy Trance",
-      "blurb": "Emerging from the damp underworld of consciousness,",
-      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_359650409_7420.jpg",
-      "slug": "ominous-presence",
-      "addedAt": "2026-10-25",
-      "backfill": true,
-      "art": "art/ominous-presence.jpg",
-      "blurbCut": true
+      "checks": 1,
+      "lastChecked": "2026-10-30"
     },
     {
       "id": 113,
@@ -1119,13 +1202,12 @@
       ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "Leex",
+      "blurb": "Leex's debut single, 'Overloop', draws inspiration from the Ouroboros, symbolizing an endless cycle. The track unfolds with mesmerizing acid synth leads, creating a deep, hypnotic atmosphere that never truly resolves—trapped in a continuous loop of sound and energy.",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_705885334_7287.jpg",
       "slug": "overloop",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/overloop.jpg",
-      "blurbCut": true
+      "art": "art/overloop.jpg"
     },
     {
       "id": 112,
@@ -1307,13 +1389,12 @@
       ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "Reidak",
+      "blurb": "Reidak's Broken Reality EP tells a story of a fractured world. The title track evolved over the years into a reflection of today's distorted reality. Remember, written days before an unexpected shift in life, carries a deep emotional weight that revealed itself only later. Together, the two tracks capture a sense of loss, memory, and the struggle to find meaning within chaos.",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_352097984_6763.jpg",
       "slug": "broken-reality",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/broken-reality.jpg",
-      "blurbCut": true
+      "art": "art/broken-reality.jpg"
     },
     {
       "id": 103,
@@ -1492,13 +1573,12 @@
       ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "Comet Collective",
+      "blurb": "Comet Collective's new compilation charts a course through the creative cosmos of ten artists, each track a celestial force in its own right. Together, they form a vivid soundscape of shimmering atmospheres, surging energy, and uncharted emotion—a journey that lingers like a comet's trail across the stars.",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_256162586_5651.jpg",
       "slug": "ccc",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/ccc.jpg",
-      "blurbCut": true
+      "art": "art/ccc.jpg"
     },
     {
       "id": 93,
@@ -1617,8 +1697,7 @@
       "slug": "jimmys-dream",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/jimmys-dream.jpg",
-      "blurbCut": true
+      "art": "art/jimmys-dream.jpg"
     },
     {
       "id": 87,
@@ -1740,13 +1819,12 @@
       ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "One evening at twilight, inspiration struck with the idea of the sky creating sound. Envisioning twilight",
+      "blurb": "One evening at twilight, inspiration struck with the idea of the sky creating sound. Envisioning twilight's whispers, two tracks were crafted, playing with names and main hooks. Synthesizers, designed with imagination, brought these ideas to life, capturing the magic of those twilight moments.",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_911527834_4276.jpg",
       "slug": "twilight-whispering",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/twilight-whispering.jpg",
-      "blurbCut": true
+      "art": "art/twilight-whispering.jpg"
     },
     {
       "id": 81,
@@ -1767,8 +1845,7 @@
       "slug": "apolline",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/apolline.jpg",
-      "blurbCut": true
+      "art": "art/apolline.jpg"
     },
     {
       "id": 79,
@@ -1789,8 +1866,7 @@
       "slug": "purple-passion",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/purple-passion.jpg",
-      "blurbCut": true
+      "art": "art/purple-passion.jpg"
     },
     {
       "id": 78,
@@ -1867,13 +1943,12 @@
       ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "Azul",
+      "blurb": "Azul's",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_681712919_4069.jpg",
       "slug": "conflict",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/conflict.jpg",
-      "blurbCut": true
+      "art": "art/conflict.jpg"
     },
     {
       "id": 73,
@@ -1894,8 +1969,7 @@
       "slug": "echoes-of-eternity",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/echoes-of-eternity.jpg",
-      "blurbCut": true
+      "art": "art/echoes-of-eternity.jpg"
     },
     {
       "id": 72,
@@ -1999,8 +2073,7 @@
       "slug": "lying-sun",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/lying-sun.jpg",
-      "blurbCut": true
+      "art": "art/lying-sun.jpg"
     },
     {
       "id": 67,
@@ -2041,8 +2114,7 @@
       "slug": "1000-lifetimes",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/1000-lifetimes.jpg",
-      "blurbCut": true
+      "art": "art/1000-lifetimes.jpg"
     },
     {
       "id": 63,
@@ -2064,8 +2136,7 @@
       "slug": "nights",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/nights.jpg",
-      "blurbCut": true
+      "art": "art/nights.jpg"
     },
     {
       "id": 62,
@@ -2161,13 +2232,12 @@
       ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "V.C.S.S is Bigitam",
+      "blurb": "V.C.S.S is Bigitam's debut album, offering a mesmerizing psychedelic journey through space on the remarkable",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_38835204_3022.jpg",
       "slug": "vcss",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/vcss.jpg",
-      "blurbCut": true
+      "art": "art/vcss.jpg"
     },
     {
       "id": 57,
@@ -2183,13 +2253,12 @@
       ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "Step into an era redefined by music. Introducing Lostbyte",
+      "blurb": "Step into an era redefined by music. Introducing Lostbyte's debut EP -",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_546789885_3162.jpg",
       "slug": "alien-rights",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/alien-rights.jpg",
-      "blurbCut": true
+      "art": "art/alien-rights.jpg"
     },
     {
       "id": 56,
@@ -2210,8 +2279,7 @@
       "slug": "extraterrestrial",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/extraterrestrial.jpg",
-      "blurbCut": true
+      "art": "art/extraterrestrial.jpg"
     },
     {
       "id": 55,
@@ -2232,8 +2300,7 @@
       "slug": "shift-ctrl",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/shift-ctrl.jpg",
-      "blurbCut": true
+      "art": "art/shift-ctrl.jpg"
     },
     {
       "id": 54,
@@ -2416,8 +2483,7 @@
       "slug": "sutlach",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/sutlach.jpg",
-      "blurbCut": true
+      "art": "art/sutlach.jpg"
     },
     {
       "id": 40,
@@ -2438,8 +2504,7 @@
       "slug": "valhalla",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/valhalla.jpg",
-      "blurbCut": true
+      "art": "art/valhalla.jpg"
     },
     {
       "id": 38,
@@ -2500,8 +2565,7 @@
       "slug": "message-from",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/message-from.jpg",
-      "blurbCut": true
+      "art": "art/message-from.jpg"
     },
     {
       "id": 35,
@@ -2522,8 +2586,7 @@
       "slug": "falling-stars",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/falling-stars.jpg",
-      "blurbCut": true
+      "art": "art/falling-stars.jpg"
     },
     {
       "id": 34,
@@ -2539,13 +2602,12 @@
       ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "New psychedelic trip to east side on Bigitam",
+      "blurb": "New psychedelic trip to east side on Bigitam's planet, buckle up",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_439778282_1794.jpg",
       "slug": "east-myst",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/east-myst.jpg",
-      "blurbCut": true
+      "art": "art/east-myst.jpg"
     },
     {
       "id": 33,
@@ -2566,8 +2628,7 @@
       "slug": "city",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/city.jpg",
-      "blurbCut": true
+      "art": "art/city.jpg"
     },
     {
       "id": 32,
@@ -2583,13 +2644,12 @@
       ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "Agdibate based on deeply psychedelic sounds wrapped with diversified melodies which describe",
+      "blurb": "Agdibate based on deeply psychedelic sounds wrapped with diversified melodies which describe 'Detune' unique style",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_208267388_1763.jpg",
       "slug": "agdibate",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/agdibate.jpg",
-      "blurbCut": true
+      "art": "art/agdibate.jpg"
     },
     {
       "id": 31,
@@ -2651,8 +2711,7 @@
       "slug": "phone-home",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/phone-home.jpg",
-      "blurbCut": true
+      "art": "art/phone-home.jpg"
     },
     {
       "id": 25,
@@ -2714,8 +2773,7 @@
       "slug": "yaffo-tel-aviv",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/yaffo-tel-aviv.jpg",
-      "blurbCut": true
+      "art": "art/yaffo-tel-aviv.jpg"
     },
     {
       "id": 22,
@@ -2736,8 +2794,7 @@
       "slug": "vat-of-acid",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/vat-of-acid.jpg",
-      "blurbCut": true
+      "art": "art/vat-of-acid.jpg"
     },
     {
       "id": 21,
@@ -2779,8 +2836,7 @@
       "slug": "clear-vision",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/clear-vision.jpg",
-      "blurbCut": true
+      "art": "art/clear-vision.jpg"
     },
     {
       "id": 19,
@@ -2796,13 +2852,12 @@
       ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "After a trip in the deep jungles of the amazon",
+      "blurb": "After a trip in the deep jungles of the amazon's Elastic heard a new sound, he found a noise in the silence there and that inspired him to share with his experience.",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_985934383_1161.jpeg",
       "slug": "noisy-silence",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/noisy-silence.jpg",
-      "blurbCut": true
+      "art": "art/noisy-silence.jpg"
     },
     {
       "id": 18,
@@ -2860,13 +2915,12 @@
       ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "This single was inspired by physical patterns we see all around us in nature but also in human behaviour. This idea took",
+      "blurb": "This single was inspired by physical patterns we see all around us in nature but also in human behaviour. This idea took 'oneMountain' to a deep journey into creating interesting repeating rhythms, inside a spacious atmosphere with progressive lead lines. Patterns are in us and around us, you just need to look carefully to see them.",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_283636477_846.jpg",
       "slug": "patterns",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/patterns.jpg",
-      "blurbCut": true
+      "art": "art/patterns.jpg"
     },
     {
       "id": 15,
@@ -2967,13 +3021,12 @@
       ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "The Moon - so close but so far away and still effects our planet in so many ways,\r\nflight with our",
+      "blurb": "The Moon - so close but so far away and still effects our planet in so many ways,\r\nflight with our 'Elastic' towards the moon and back.",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_916392612_549.jpg",
       "slug": "moon",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/moon.jpg",
-      "blurbCut": true
+      "art": "art/moon.jpg"
     },
     {
       "id": 9,
@@ -2989,13 +3042,12 @@
       ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "Maori shuffle new style from ethnic lands. somewhere between gypsy",
+      "blurb": "Maori shuffle new style from ethnic lands. somewhere between gypsy's theme for a psychedelich trip",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_629235298_439.jpg",
       "slug": "shoby-groovy",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/shoby-groovy.jpg",
-      "blurbCut": true
+      "art": "art/shoby-groovy.jpg"
     },
     {
       "id": 8,
@@ -3059,8 +3111,7 @@
       "slug": "book-of-jonah",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/book-of-jonah.jpg",
-      "blurbCut": true
+      "art": "art/book-of-jonah.jpg"
     },
     {
       "id": 5,
@@ -3075,13 +3126,12 @@
       ],
       "label": "Comet Collective",
       "genre": "Psy Trance",
-      "blurb": "Jahrin & Libi Panker brings you a new type of ethnic duet using Libi voice and Jahrin",
+      "blurb": "Jahrin & Libi Panker brings you a new type of ethnic duet using Libi voice and Jahrin's Bağlama on the psy side, taking you into a trip at the desert until you'll find you inner oasis.",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_449282965_82.jpg",
       "slug": "salam",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/salam.jpg",
-      "blurbCut": true
+      "art": "art/salam.jpg"
     },
     {
       "id": 4,
@@ -3102,8 +3152,7 @@
       "slug": "aurora",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/aurora.jpg",
-      "blurbCut": true
+      "art": "art/aurora.jpg"
     },
     {
       "id": 3,
@@ -3124,9 +3173,8 @@
       "slug": "believe-in-the-planet",
       "addedAt": "2026-10-25",
       "backfill": true,
-      "art": "art/believe-in-the-planet.jpg",
-      "blurbCut": true
+      "art": "art/believe-in-the-planet.jpg"
     }
   ],
-  "updated": "2026-10-30T09:56:46.694Z"
+  "updated": "2026-10-30T10:06:43.468Z"
 }
