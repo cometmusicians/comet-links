@@ -1,23 +1,12 @@
-Sync 2026-10-30T05:52:01.988Z
+Sync 2026-10-30T07:00:45.471Z
 Checking the Comet store…
   150 releases in the store
 Looking up platform links for 25 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
-  ! YouTube https://www.youtube.com/@cometcollective HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC9MxzIbAiKrUioJT2LP_gBw
-  youtube catalog: 0 items
-  Eternal Present: nothing new · still missing beatport, youtube
-  Talk with Me: nothing new · still missing beatport, youtube
-  Moon: nothing new · still missing beatport, youtube
-  Shoby Groovy: nothing new · still missing beatport, youtube
-  Kambo Spirit: nothing new · still missing beatport, youtube
-  Swamp Thoughts: nothing new · still missing beatport, youtube
-  Book of Jonah: nothing new · still missing beatport, youtube
-  Salam: nothing new · still missing beatport, apple, youtube
-  Aurora: nothing new · still missing beatport, youtube
-  Believe in the Planet: nothing new · still missing beatport, youtube
-  The Illusion of Time: nothing new · still missing beatport, bandcamp, apple, youtube
+  youtube catalog: 15 items
+  The Illusion of Time: found youtube · still missing beatport, bandcamp, apple
   Circus Circus: nothing new · still missing apple, youtube
   Bootstrap Paradox: nothing new · still missing youtube
   Spectrum of Existence: nothing new · still missing youtube
@@ -32,4 +21,14 @@ Looking up platform links for 25 releases…
   The Future: nothing new · still missing youtube
   Discovery Channel: nothing new · still missing youtube
   Bushido: nothing new · still missing beatport, youtube
+  Technical Mood: nothing new · still missing beatport, youtube
+  Imperfections: nothing new · still missing beatport, youtube
+  Hyperion: nothing new · still missing beatport, youtube
+  A.O.R: nothing new · still missing beatport, bandcamp, apple, youtube
+  Rocky Tears - Robots (Detune Remix): nothing new · still missing beatport, youtube
+  Life Is Only a Dream: nothing new · still missing beatport, youtube
+  One: nothing new · still missing beatport, youtube
+  Everything Will Bloom: nothing new · still missing beatport, youtube
+  Knocking on the Door: nothing new · still missing beatport, youtube
+  Searching for Galaxies: nothing new · still missing beatport, youtube
 Saved changes.
