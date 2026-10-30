@@ -10,9 +10,13 @@ on:
     # and fills in links that a platform publishes late.
     - cron: "10 6 * * 0-3,6"
   workflow_dispatch: {}   # "Run workflow" button for a manual sync
+  push:
+    branches: [main]      # publish right away when the code or settings change
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: sync
@@ -22,6 +26,8 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    environment:
+      name: github-pages
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -36,10 +42,23 @@ jobs:
       - name: Check the site still builds
         run: node scripts/build.mjs
       - name: Save changes
+        id: save
         run: |
           git config user.name "comet-links-bot"
           git config user.email "comet-links-bot@users.noreply.github.com"
           git add data public
-          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          if git diff --cached --quiet; then echo "Nothing new."; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
           git commit -m "Sync releases $(date -u +%Y-%m-%d)"
-          git push
+          git pull --rebase --quiet && git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      # Publish the site to GitHub Pages: on manual runs, code pushes, or when the data changed
+      - name: Build the site
+        if: steps.save.outputs.changed == 'true' || github.event_name != 'schedule'
+        run: node scripts/build.mjs
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.save.outputs.changed == 'true' || github.event_name != 'schedule'
+        with:
+          path: dist
+      - name: Publish to GitHub Pages
+        if: steps.save.outputs.changed == 'true' || github.event_name != 'schedule'
+        uses: actions/deploy-pages@v4

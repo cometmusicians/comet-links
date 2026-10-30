@@ -273,6 +273,8 @@ addEventListener("hashchange", go); if (location.hash) go();
     await mkdir(new URL(r.slug + "/", DIST), { recursive: true });
     await writeFile(new URL(r.slug + "/index.html", DIST), doc(page(r, false)));
   }
+  await writeFile(new URL("CNAME", DIST), new URL(SITE_URL).host + "\n");
+  await writeFile(new URL(".nojekyll", DIST), "");
   await writeFile(new URL("404.html", DIST), `<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=/"><title>Comet Collective</title><a href="/">Comet Collective</a>`);
   console.log(`Built ${releases.length} release pages + home into dist/`);
 }
