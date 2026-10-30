@@ -171,7 +171,14 @@ async function soundcloudDirect(cfg, r) {
     const base = prof.replace(/\/$/, "");
     for (const slug of [...new Set(slugCandidates(r))]) {
       for (const url of [`${base}/${slug}`, `${base}/sets/${slug}`]) {
-        try { const res = await http(url, { redirect: "manual" }, 1); if (res.status === 200) return url; } catch {}
+        try {
+          const res = await http(url, { redirect: "manual" }, 1);
+          if (res.status !== 200) continue;
+          // SoundCloud answers 200 even for missing pages, so confirm the page is this release
+          const html = await res.text();
+          const type = meta(html, "og:type"), title = meta(html, "og:title");
+          if (/music\.(song|playlist|album)|soundcloud:(sound|playlist)/.test(type) && videoMatches(r, title + " " + r.artists.join(" "))) return url;
+        } catch {}
       }
     }
   }
@@ -209,7 +216,7 @@ async function spotify(r) {
     spotifyToken = (await res.json()).access_token;
   }
   const q = encodeURIComponent(`album:${r.title} artist:${r.artists[0] || ""}`);
-  const data = await json(`https://api.spotify.com/v1/search?q=${q}&type=album&limit=20`, { headers: { authorization: "Bearer " + spotifyToken } });
+  const data = await json(`https://api.spotify.com/v1/search?q=${q}&type=album&limit=10`, { headers: { authorization: "Bearer " + spotifyToken } });
   const hit = (data.albums?.items || []).find(x => matches(r, x.name, x.artists.map(a => a.name).join(" ")));
   return hit?.external_urls?.spotify;
 }
