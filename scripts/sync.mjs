@@ -279,9 +279,13 @@ async function main() {
     youtube: !!((cfg.youtubeChannels || []).length || env.ODESLI_API_KEY),
   })[k];
   const missing = r => KEYS.filter(k => enabled(k) && !r.links[k] && !(overrides[r.slug] && k in overrides[r.slug]));
+  // New releases and anything added in the last 3 weeks are checked on every run, ahead of the back catalog
+  const recentCut = new Date(Date.now() - 21 * 864e5).toISOString().slice(0, 10);
+  const recent = db.releases.filter(r => !added.includes(r) && !r.backfill && (r.addedAt || "") >= recentCut && missing(r).length);
   const queue = [
     ...added,
-    ...db.releases.filter(r => !added.includes(r) && missing(r).length && (r.checks || 0) < MAX_CHECKS)
+    ...recent,
+    ...db.releases.filter(r => !added.includes(r) && !recent.includes(r) && missing(r).length && (r.checks || 0) < MAX_CHECKS)
       .sort((a, b) => (a.lastChecked || "").localeCompare(b.lastChecked || "") || b.id - a.id)
       .slice(0, PER_RUN),
   ];
