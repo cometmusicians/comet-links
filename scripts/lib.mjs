@@ -68,4 +68,7 @@ export function videoMatches(release, videoTitle) {
   return release.artists.some(a => v.includes(" " + norm(a) + " "));
 }
 
+// Newest first: the day a release first appeared in the store, then its release date, then store ID
+export const newest = (a, b) => (b.addedAt || "").localeCompare(a.addedAt || "") || (b.releaseDate || "").localeCompare(a.releaseDate || "") || b.id - a.id;
+
 export const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));

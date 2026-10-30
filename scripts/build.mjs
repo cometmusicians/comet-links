@@ -3,7 +3,7 @@
 //        node scripts/build.mjs --preview  -> preview.html (single file, artwork inlined)
 
 import { readFile, writeFile, mkdir, cp, rm, access } from "node:fs/promises";
-import { SITE_URL, STORE, PLATFORMS, esc } from "./lib.mjs";
+import { SITE_URL, STORE, PLATFORMS, esc, newest } from "./lib.mjs";
 
 const ROOT = new URL("..", import.meta.url);
 const PREVIEW = process.argv.includes("--preview");
@@ -120,7 +120,7 @@ async function main() {
   const db = await readJSON("data/releases.json", { releases: [] });
   const overrides = await readJSON("data/overrides.json", {});
   const cfg = await readJSON("data/config.json", {});
-  const releases = db.releases.filter(r => r.title && !(overrides[r.slug] && overrides[r.slug].hidden)).sort((a, b) => b.id - a.id);
+  const releases = db.releases.filter(r => r.title && !(overrides[r.slug] && overrides[r.slug].hidden)).sort(newest);
   if (!releases.length) throw new Error("No releases in data/releases.json");
 
   // Inline artwork for the single-file preview

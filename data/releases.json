@@ -24,14 +24,16 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_521102966_10967.jpg",
       "addedAt": "2026-10-25",
       "checks": 1,
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-30",
+      "releaseDate": "2026-10-23"
     },
     {
       "id": 166,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=166",
         "youtube": "https://www.youtube.com/watch?v=XCuwBwZllww",
-        "spotify": "https://open.spotify.com/album/03ZjcPLuFkTpAz5HI5jOog"
+        "spotify": "https://open.spotify.com/album/03ZjcPLuFkTpAz5HI5jOog",
+        "soundcloud": "https://soundcloud.com/comet-collective/sets/the-illusion-of-time"
       },
       "checks": 1,
       "title": "The Illusion of Time",
@@ -45,7 +47,8 @@
       "slug": "the-illusion-of-time",
       "addedAt": "2026-10-30",
       "art": "art/the-illusion-of-time.jpg",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-30",
+      "releaseDate": "2026-10-30"
     },
     {
       "id": 165,

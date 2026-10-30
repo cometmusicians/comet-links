@@ -3,7 +3,7 @@
 // Runs on GitHub Actions (see .github/workflows/sync.yml). No dependencies, Node 20+.
 
 import { readFile, writeFile, mkdir, access } from "node:fs/promises";
-import { STORE, slugify, norm, matches, videoMatches, decodeEntities } from "./lib.mjs";
+import { STORE, slugify, norm, matches, videoMatches, decodeEntities, newest } from "./lib.mjs";
 
 const ROOT = new URL("..", import.meta.url);
 const DATA = new URL("data/releases.json", ROOT);
@@ -170,9 +170,9 @@ async function soundcloudDirect(cfg, r) {
   for (const prof of cfg.soundcloudProfiles || []) {
     const base = prof.replace(/\/$/, "");
     for (const slug of [...new Set(slugCandidates(r))]) {
-      for (const url of [`${base}/${slug}`, `${base}/sets/${slug}`]) {
+      for (const url of [`${base}/sets/${slug}`, `${base}/${slug}`]) {
         try {
-          const res = await http(url, { redirect: "manual" }, 1);
+          const res = await http(url, { redirect: "manual" }, 2);
           if (res.status !== 200) continue;
           // SoundCloud answers 200 even for missing pages, so confirm the page is this release
           const html = await res.text();
@@ -196,6 +196,7 @@ async function apple(cfg, r) {
   for (const artist of r.artists.length ? r.artists : [""]) {
     const albums = await itunes(cfg, `${artist} ${r.title}`.trim(), "album");
     const a = albums.find(x => matches(r, x.collectionName, x.artistName));
+    if (a) { if (!r.releaseDate && a.releaseDate) r.releaseDate = a.releaseDate.slice(0, 10); }
     if (a) return a.collectionViewUrl.replace(/\?.*$/, "");
     const songs = await itunes(cfg, `${artist} ${r.title}`.trim(), "song");
     const s = songs.find(x => matches(r, x.collectionName, x.artistName) || matches(r, x.trackName, x.artistName));
@@ -218,6 +219,7 @@ async function spotify(r) {
   const q = encodeURIComponent(`album:${r.title} artist:${r.artists[0] || ""}`);
   const data = await json(`https://api.spotify.com/v1/search?q=${q}&type=album&limit=10`, { headers: { authorization: "Bearer " + spotifyToken } });
   const hit = (data.albums?.items || []).find(x => matches(r, x.name, x.artists.map(a => a.name).join(" ")));
+  if (hit?.release_date && !r.releaseDate) r.releaseDate = hit.release_date;
   return hit?.external_urls?.spotify;
 }
 
@@ -310,7 +312,7 @@ async function main() {
     say(`  ${r.title}: ${f.length ? "found " + f.join(", ") : "nothing new"}${missing(r).length ? " · still missing " + missing(r).join(", ") : ""}`);
   }
 
-  db.releases.sort((a, b) => b.id - a.id);
+  db.releases.sort(newest);
   const changed = before !== JSON.stringify(db);
   if (changed) db.updated = new Date().toISOString();
   if (changed) { await writeFile(DATA, JSON.stringify(db, null, 2) + "\n"); say("Saved changes."); }
