@@ -1,11 +1,12 @@
-Sync 2026-10-30T19:15:02.752Z
+Sync 2026-10-31T06:50:18.776Z
 Checking the Comet store…
   150 releases in the store
 Looking up platform links for 64 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
-  youtube catalog: 15 items
+  ! YouTube https://www.youtube.com/@cometcollective HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC9MxzIbAiKrUioJT2LP_gBw
+  youtube catalog: 0 items
   The Illusion of Time: nothing new · still missing beatport, bandcamp, apple
   Technical Mood: nothing new · still missing beatport, youtube
   Hyperion: nothing new · still missing beatport, youtube
@@ -45,29 +46,29 @@ Looking up platform links for 64 releases…
   Discovery Channel: nothing new · still missing youtube
   Bushido: nothing new · still missing beatport, youtube
   It's Not Tomorrow Yet: nothing new · still missing beatport, spotify, youtube
-  Mercury: found soundcloud, spotify · still missing beatport, youtube
-  Yaffo Tel Aviv: found soundcloud, spotify · still missing beatport, youtube
-  Vat of Acid: found soundcloud, spotify · still missing beatport, youtube
-  She and the Moon: found soundcloud, spotify · still missing beatport, youtube
-  Clear Vision: found soundcloud, spotify · still missing beatport, youtube
-  Noisy Silence: found soundcloud, spotify · still missing beatport, youtube
-  Balada: found soundcloud, spotify · still missing beatport, youtube
-  Psy-Fi: found soundcloud, spotify · still missing beatport, youtube
-  Patterns: found soundcloud, spotify · still missing beatport, youtube
-  Euphoria: found soundcloud, spotify · still missing beatport, youtube
-  Endless: found soundcloud, spotify · still missing beatport, youtube
-  Eternal Present: found spotify · still missing beatport, soundcloud, youtube
-  Talk with Me: found soundcloud, spotify · still missing beatport, youtube
-  Moon: found soundcloud, spotify · still missing beatport, youtube
-  Shoby Groovy: found soundcloud, spotify · still missing beatport, youtube
-  Kambo Spirit: found soundcloud, spotify · still missing beatport, youtube
-  Swamp Thoughts: found soundcloud, spotify · still missing beatport, youtube
-  Book of Jonah: found soundcloud, spotify · still missing beatport, youtube
-  Salam: found spotify · still missing beatport, apple, soundcloud, youtube
-  Aurora: found soundcloud, spotify · still missing beatport, youtube
-  Believe in the Planet: found soundcloud, spotify · still missing beatport, youtube
   Ominous Presence: nothing new · still missing beatport, soundcloud, youtube
   Overloop: nothing new · still missing beatport, youtube
   The Groovy & the Nonsense: nothing new · still missing beatport, youtube
   Lost in the Rhythm: nothing new · still missing beatport, youtube
+  On It: nothing new · still missing beatport, youtube
+  Higher Mind: nothing new · still missing beatport, youtube
+  Memories of Earth: nothing new · still missing beatport, youtube
+  Travelers: nothing new · still missing beatport, youtube
+  There Is a Space: nothing new · still missing beatport, youtube
+  Time Is Now: nothing new · still missing beatport, youtube
+  Broken Reality: nothing new · still missing beatport, youtube
+  Human Check: nothing new · still missing beatport, youtube
+  Fear of the Arp: nothing new · still missing beatport, youtube
+  Dot & Flow: nothing new · still missing beatport, youtube
+  Trip the Light Fantastic: nothing new · still missing beatport, soundcloud, youtube
+  Grounded: nothing new · still missing beatport, youtube
+  Marshes: nothing new · still missing beatport, youtube
+  The Walsh: nothing new · still missing beatport, youtube
+  Mamasota: nothing new · still missing beatport, youtube
+  C.C.C: nothing new · still missing beatport, bandcamp, spotify, apple, soundcloud, youtube
+  Momentum: nothing new · still missing beatport, youtube
+  Mosquitoes Attack: nothing new · still missing beatport, bandcamp, apple, soundcloud, youtube
+  Midnight Sprout: nothing new · still missing beatport, youtube
+  Scala: nothing new · still missing beatport, youtube
+  North: nothing new · still missing beatport, youtube
 Saved changes.

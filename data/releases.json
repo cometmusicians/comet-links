@@ -8,7 +8,7 @@
         "spotify": "https://open.spotify.com/album/03ZjcPLuFkTpAz5HI5jOog",
         "soundcloud": "https://soundcloud.com/comet-collective/sets/the-illusion-of-time"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "The Illusion of Time",
       "artists": [
         "Unima"
@@ -20,7 +20,7 @@
       "slug": "the-illusion-of-time",
       "addedAt": "2026-10-30",
       "art": "art/the-illusion-of-time.jpg",
-      "lastChecked": "2026-10-30",
+      "lastChecked": "2026-10-31",
       "releaseDate": "2026-10-30"
     },
     {
@@ -70,9 +70,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_279309062_9314.jpg",
       "addedAt": "2026-10-25",
       "art": "art/technical-mood.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2026-04-10",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 138,
@@ -94,9 +94,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_986890713_9272.jpg",
       "addedAt": "2026-10-25",
       "art": "art/hyperion.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2026-04-03",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 139,
@@ -118,9 +118,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_664240030_9223.jpg",
       "addedAt": "2026-10-25",
       "art": "art/imperfections.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2026-03-27",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 137,
@@ -139,9 +139,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_866877601_9180.jpg",
       "addedAt": "2026-10-25",
       "art": "art/aor.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2026-03-20",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 136,
@@ -162,9 +162,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_442536001_9090.jpg",
       "addedAt": "2026-10-25",
       "art": "art/rocky-tears-robots-detune-remix.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2026-03-13",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 134,
@@ -186,9 +186,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_106436223_8998.jpg",
       "addedAt": "2026-10-25",
       "art": "art/one.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2026-03-06",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 135,
@@ -209,9 +209,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_343954080_8999.jpg",
       "addedAt": "2026-10-25",
       "art": "art/life-is-only-a-dream.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2026-02-27",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 133,
@@ -233,9 +233,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_920844613_8957.jpg",
       "addedAt": "2026-10-25",
       "art": "art/everything-will-bloom.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2026-02-13",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 132,
@@ -257,9 +257,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_529688452_8759.jpg",
       "addedAt": "2026-10-25",
       "art": "art/knocking-on-the-door.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2026-01-30",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 131,
@@ -280,9 +280,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_179200467_8740.jpg",
       "addedAt": "2026-10-25",
       "art": "art/searching-for-galaxies.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2026-01-23",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 129,
@@ -304,9 +304,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_203407222_8742.jpg",
       "addedAt": "2026-10-25",
       "art": "art/rain-of-comets.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2026-01-09",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 130,
@@ -328,9 +328,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_213852788_8694.jpeg",
       "addedAt": "2026-10-25",
       "art": "art/the-falling-tree.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2025-12-26",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 128,
@@ -351,9 +351,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_333232377_8584.jpg",
       "addedAt": "2026-10-25",
       "art": "art/lucid-trip.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2025-12-19",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 127,
@@ -375,9 +375,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_597591085_8547.jpeg",
       "addedAt": "2026-10-25",
       "art": "art/biryani.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2025-12-12",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 126,
@@ -399,9 +399,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_476331446_8219.jpg",
       "addedAt": "2026-10-25",
       "art": "art/mysterious-illusions.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2025-11-28",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 125,
@@ -423,9 +423,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_597514269_7940.jpg",
       "addedAt": "2026-10-25",
       "art": "art/cyber-attack.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2025-11-14",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 124,
@@ -446,9 +446,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_964959954_7866.jpg",
       "addedAt": "2026-10-25",
       "art": "art/feedback.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2025-11-07",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 123,
@@ -471,9 +471,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_464259167_7846.jpg",
       "addedAt": "2026-10-25",
       "art": "art/night-growl.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2025-10-24",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 122,
@@ -496,9 +496,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_405923258_7808.jpg",
       "addedAt": "2026-10-25",
       "art": "art/twilighting.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2025-10-17",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 120,
@@ -520,9 +520,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_174112803_7651.jpg",
       "addedAt": "2026-10-25",
       "art": "art/disorder.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2025-09-19",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 119,
@@ -544,9 +544,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_202785798_7548.jpg",
       "addedAt": "2026-10-25",
       "art": "art/beyond-the-edge.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2025-08-01",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 118,
@@ -569,9 +569,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_499322170_7551.jpg",
       "addedAt": "2026-10-25",
       "art": "art/embodied.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2025-07-25",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 115,
@@ -592,9 +592,9 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_183787460_7454.jpg",
       "addedAt": "2026-10-25",
       "art": "art/physical-structure.jpg",
-      "checks": 2,
+      "checks": 3,
       "releaseDate": "2025-07-04",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 114,
@@ -604,7 +604,7 @@
         "apple": "https://music.apple.com/us/album/ominous-presence-single/1821663533",
         "spotify": "https://open.spotify.com/album/7mIajyoaj1srQJphBn1hpf"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Ominous Presence",
       "artists": [
         "ARTYSHOCK"
@@ -618,7 +618,7 @@
       "backfill": true,
       "art": "art/ominous-presence.jpg",
       "releaseDate": "2025-07-04",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 113,
@@ -629,7 +629,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/leex-overloop",
         "spotify": "https://open.spotify.com/album/0R3516a5wMtWqdmoihFNQo"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Overloop",
       "artists": [
         "Leex"
@@ -643,7 +643,7 @@
       "backfill": true,
       "art": "art/overloop.jpg",
       "releaseDate": "2025-06-27",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 112,
@@ -654,7 +654,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/the-groovy-the-nonsense",
         "spotify": "https://open.spotify.com/album/28jT5Szq4eiGmGKMKTzWvC"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "The Groovy & the Nonsense",
       "artists": [
         "Groovy Nonsense"
@@ -668,7 +668,7 @@
       "backfill": true,
       "art": "art/the-groovy-the-nonsense.jpg",
       "releaseDate": "2025-06-13",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 111,
@@ -679,7 +679,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/lost-in-the-rhythm",
         "spotify": "https://open.spotify.com/album/1kGrT8ReOVP1WBTFLChOTs"
       },
-      "checks": 2,
+      "checks": 3,
       "title": "Lost in the Rhythm",
       "artists": [
         "Azul"
@@ -692,7 +692,7 @@
       "backfill": true,
       "art": "art/lost-in-the-rhythm.jpg",
       "releaseDate": "2025-06-06",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 110,
@@ -703,7 +703,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/on-it",
         "spotify": "https://open.spotify.com/album/6BXB0AZKuDtLrStDNW9E92"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "On It",
       "artists": [
         "Zapta"
@@ -716,7 +716,7 @@
       "backfill": true,
       "art": "art/on-it.jpg",
       "releaseDate": "2025-05-23",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 109,
@@ -727,7 +727,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/exyoma-higher-mind",
         "spotify": "https://open.spotify.com/album/1FUJvLmF0oWrJKEKsz5nZr"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Higher Mind",
       "artists": [
         "Exyoma"
@@ -741,7 +741,7 @@
       "backfill": true,
       "art": "art/higher-mind.jpg",
       "releaseDate": "2025-05-16",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 108,
@@ -752,7 +752,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/memories-of-earth",
         "spotify": "https://open.spotify.com/album/5tDdyj1wBpOaccLAWXPiya"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Memories of Earth",
       "artists": [
         "Forever Heaven"
@@ -765,7 +765,7 @@
       "backfill": true,
       "art": "art/memories-of-earth.jpg",
       "releaseDate": "2025-05-09",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 107,
@@ -776,7 +776,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/elastic-travelers",
         "spotify": "https://open.spotify.com/album/6TRmIEBaVM18EYw52vhk0a"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Travelers",
       "artists": [
         "Elastic"
@@ -790,7 +790,7 @@
       "backfill": true,
       "art": "art/travelers.jpg",
       "releaseDate": "2025-05-02",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 106,
@@ -801,7 +801,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/hazui-kosta-there-is-a-space",
         "spotify": "https://open.spotify.com/album/4aqZIIEwoO7SQa7WadyfCP"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "There Is a Space",
       "artists": [
         "Hazui",
@@ -816,7 +816,7 @@
       "backfill": true,
       "art": "art/there-is-a-space.jpg",
       "releaseDate": "2025-04-25",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 105,
@@ -827,7 +827,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/groovity-time-is-now",
         "spotify": "https://open.spotify.com/album/7sfka1RJhpswEqAOM9kqgt"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Time Is Now",
       "artists": [
         "Groovity"
@@ -841,7 +841,7 @@
       "backfill": true,
       "art": "art/time-is-now.jpg",
       "releaseDate": "2025-04-18",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 104,
@@ -852,7 +852,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/broken-reality",
         "spotify": "https://open.spotify.com/album/2tTRrPfWJVKmrpcj7U35fu"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Broken Reality",
       "artists": [
         "Reidak"
@@ -866,7 +866,7 @@
       "backfill": true,
       "art": "art/broken-reality.jpg",
       "releaseDate": "2025-04-11",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 103,
@@ -877,7 +877,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/bigitam-tektro-human-check",
         "spotify": "https://open.spotify.com/album/2XXrUPCwPTnz17l9Z6FQIx"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Human Check",
       "artists": [
         "Bigitam",
@@ -891,7 +891,7 @@
       "backfill": true,
       "art": "art/human-check.jpg",
       "releaseDate": "2025-04-04",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 102,
@@ -902,7 +902,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/mystic-fear-of-the-arp",
         "spotify": "https://open.spotify.com/album/5o1HxrtCIltB8zEZwiHMQA"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Fear of the Arp",
       "artists": [
         "Mystic"
@@ -915,7 +915,7 @@
       "backfill": true,
       "art": "art/fear-of-the-arp.jpg",
       "releaseDate": "2025-03-28",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 99,
@@ -925,7 +925,7 @@
         "apple": "https://music.apple.com/us/album/trip-the-light-fantastic-single/1800825634",
         "spotify": "https://open.spotify.com/album/7Kzs5969wNmDXWwE8y6XAU"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Trip the Light Fantastic",
       "artists": [
         "Jahrin",
@@ -939,7 +939,7 @@
       "backfill": true,
       "art": "art/trip-the-light-fantastic.jpg",
       "releaseDate": "2025-03-21",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 101,
@@ -950,7 +950,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/dot-flow",
         "spotify": "https://open.spotify.com/album/0UuvZjypJIJMajvSALeZNt"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Dot & Flow",
       "artists": [
         "OneShot"
@@ -963,7 +963,7 @@
       "backfill": true,
       "art": "art/dot-flow.jpg",
       "releaseDate": "2025-03-14",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 98,
@@ -974,7 +974,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/grounded",
         "spotify": "https://open.spotify.com/album/2GbFcHeiLSGbQg0FErdDzp"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Grounded",
       "artists": [
         "Mementomor",
@@ -988,7 +988,7 @@
       "backfill": true,
       "art": "art/grounded.jpg",
       "releaseDate": "2025-02-28",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 97,
@@ -999,7 +999,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/tektro-marshes",
         "spotify": "https://open.spotify.com/album/5rjsw0tiXz7xkYip02vCrW"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Marshes",
       "artists": [
         "Tektro"
@@ -1012,7 +1012,7 @@
       "backfill": true,
       "art": "art/marshes.jpg",
       "releaseDate": "2025-02-21",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 96,
@@ -1023,7 +1023,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/the-walsh",
         "spotify": "https://open.spotify.com/album/2B0hTqxYzh3oRhQEAYoYI8"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "The Walsh",
       "artists": [
         "Cosmic Flow",
@@ -1037,7 +1037,7 @@
       "backfill": true,
       "art": "art/the-walsh.jpg",
       "releaseDate": "2025-02-14",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 95,
@@ -1048,7 +1048,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/jahrin-reidak-mamasota",
         "spotify": "https://open.spotify.com/album/50k0bJORUA56Sjr1Y8FM6I"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Mamasota",
       "artists": [
         "Jahrin",
@@ -1062,7 +1062,7 @@
       "backfill": true,
       "art": "art/mamasota.jpg",
       "releaseDate": "2025-02-07",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 93,
@@ -1073,7 +1073,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/hazui-momentum",
         "spotify": "https://open.spotify.com/album/5VaVdEhHmx1NDKRN09Edvr"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Momentum",
       "artists": [
         "Hazui"
@@ -1086,7 +1086,7 @@
       "backfill": true,
       "art": "art/momentum.jpg",
       "releaseDate": "2024-12-27",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 92,
@@ -1094,7 +1094,7 @@
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=92",
         "spotify": "https://open.spotify.com/album/3VgQuiKLCG3TGrUnpyRsXm"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Mosquitoes Attack",
       "artists": [
         "Reidak"
@@ -1107,7 +1107,7 @@
       "backfill": true,
       "art": "art/mosquitoes-attack.jpg",
       "releaseDate": "2024-12-20",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 91,
@@ -1118,7 +1118,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/artyshock-midnight-sprout",
         "spotify": "https://open.spotify.com/album/55ZIPyQloCwxv4VM5ntL1J"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Midnight Sprout",
       "artists": [
         "ARTYSHOCK"
@@ -1131,7 +1131,7 @@
       "backfill": true,
       "art": "art/midnight-sprout.jpg",
       "releaseDate": "2024-12-13",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 90,
@@ -1142,7 +1142,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/jahrin-scala",
         "spotify": "https://open.spotify.com/album/796nRQjmqvo3QNKKYc3stq"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "Scala",
       "artists": [
         "Jahrin"
@@ -1155,7 +1155,7 @@
       "backfill": true,
       "art": "art/scala.jpg",
       "releaseDate": "2024-12-06",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 89,
@@ -1166,7 +1166,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/north",
         "spotify": "https://open.spotify.com/album/5lbZkueqZD7sxP8d8N2qZz"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "North",
       "artists": [
         "Elastic"
@@ -1179,7 +1179,7 @@
       "backfill": true,
       "art": "art/north.jpg",
       "releaseDate": "2024-11-01",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 87,
@@ -2952,8 +2952,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_460162764_10854.jpg",
       "addedAt": "2026-10-25",
       "art": "art/circus-circus.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 163,
@@ -3051,8 +3051,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_783844787_10361.jpg",
       "addedAt": "2026-10-25",
       "art": "art/bootstrap-paradox.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 159,
@@ -3128,8 +3128,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_601207985_9477.jpg",
       "addedAt": "2026-10-25",
       "art": "art/spectrum-of-existence.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 156,
@@ -3151,8 +3151,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_388568954_9461.jpg",
       "addedAt": "2026-10-25",
       "art": "art/flick.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 155,
@@ -3175,8 +3175,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_177359958_9633.jpg",
       "addedAt": "2026-10-25",
       "art": "art/ground-advantage.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 154,
@@ -3197,8 +3197,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_815517044_9476.jpg",
       "addedAt": "2026-10-25",
       "art": "art/ccc-vol-2-compiled-by-jahrin.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 153,
@@ -3220,8 +3220,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_271816976_9475.jpg",
       "addedAt": "2026-10-25",
       "art": "art/align.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 152,
@@ -3243,8 +3243,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_687464736_9474.jpg",
       "addedAt": "2026-10-25",
       "art": "art/do-not-disturb.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 151,
@@ -3264,8 +3264,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_386229037_9473.jpg",
       "addedAt": "2026-10-25",
       "art": "art/psyclone.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 150,
@@ -3286,8 +3286,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_133899835_9472.jpg",
       "addedAt": "2026-10-25",
       "art": "art/isabella.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 149,
@@ -3309,8 +3309,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_579714635_9471.jpg",
       "addedAt": "2026-10-25",
       "art": "art/trick.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 148,
@@ -3404,8 +3404,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_796781889_9467.jpg",
       "addedAt": "2026-10-25",
       "art": "art/the-future.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 144,
@@ -3427,8 +3427,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_85803436_9466.jpg",
       "addedAt": "2026-10-25",
       "art": "art/discovery-channel.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 143,
@@ -3474,8 +3474,8 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_866008444_9402.jpg",
       "addedAt": "2026-10-25",
       "art": "art/bushido.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 121,
@@ -3496,15 +3496,15 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_228297311_7773.jpg",
       "addedAt": "2026-10-25",
       "art": "art/its-not-tomorrow-yet.jpg",
-      "checks": 2,
-      "lastChecked": "2026-10-30"
+      "checks": 3,
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 94,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=94"
       },
-      "checks": 1,
+      "checks": 2,
       "title": "C.C.C",
       "artists": [
         "Various Artists"
@@ -3517,7 +3517,7 @@
       "addedAt": "2026-10-25",
       "backfill": true,
       "art": "art/ccc.jpg",
-      "lastChecked": "2026-10-30"
+      "lastChecked": "2026-10-31"
     },
     {
       "id": 88,
@@ -3543,5 +3543,5 @@
       "lastChecked": "2026-10-30"
     }
   ],
-  "updated": "2026-10-30T19:15:02.751Z"
+  "updated": "2026-10-31T06:50:18.774Z"
 }
