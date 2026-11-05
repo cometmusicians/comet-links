@@ -186,6 +186,20 @@ async function soundcloudDirect(cfg, r) {
   }
 }
 
+// New albums on Spotify from the label (released in the last two weeks), so a release
+// shows up at midnight even before the store page lists it.
+async function spotifyNewReleases(cfg) {
+  if (!env.SPOTIFY_CLIENT_ID || !env.SPOTIFY_CLIENT_SECRET) return [];
+  const headers = await spotifyAuth();
+  const out = [];
+  for (const label of cfg.spotifyLabels || []) {
+    const q = encodeURIComponent(`label:"${label}" tag:new`);
+    const d = await json(`https://api.spotify.com/v1/search?q=${q}&type=album&limit=10`, { headers });
+    for (const a of d.albums?.items || []) if (!out.some(o => o.id === a.id)) out.push(a);
+  }
+  return out;
+}
+
 let lastApple = 0;
 async function itunes(cfg, term, entity) {
   const wait = 3200 - (Date.now() - lastApple); if (wait > 0) await sleep(wait); // iTunes allows ~20 calls/min
@@ -207,8 +221,7 @@ async function apple(cfg, r) {
 }
 
 let spotifyToken;
-async function spotify(r) {
-  if (!env.SPOTIFY_CLIENT_ID || !env.SPOTIFY_CLIENT_SECRET) return;
+async function spotifyAuth() {
   if (!spotifyToken) {
     const res = await http("https://accounts.spotify.com/api/token", {
       method: "POST",
@@ -218,8 +231,14 @@ async function spotify(r) {
     if (!res.ok) throw new Error("Spotify login failed, HTTP " + res.status + ". Check the Spotify keys in GitHub secrets.");
     spotifyToken = (await res.json()).access_token;
   }
+  return { authorization: "Bearer " + spotifyToken };
+}
+
+async function spotify(r) {
+  if (!env.SPOTIFY_CLIENT_ID || !env.SPOTIFY_CLIENT_SECRET) return;
+  const headers = await spotifyAuth();
   const q = encodeURIComponent(`album:${r.title} artist:${r.artists[0] || ""}`);
-  const data = await json(`https://api.spotify.com/v1/search?q=${q}&type=album&limit=10`, { headers: { authorization: "Bearer " + spotifyToken } });
+  const data = await json(`https://api.spotify.com/v1/search?q=${q}&type=album&limit=10`, { headers });
   const hit = (data.albums?.items || []).find(x => matches(r, x.name, x.artists.map(a => a.name).join(" ")));
   if (hit?.release_date && !r.releaseDate) r.releaseDate = hit.release_date;
   return hit?.external_urls?.spotify;
@@ -252,7 +271,10 @@ async function main() {
     if (existing && existing.title && existing.artSource && !existing.blurbCut) continue;
     try {
       const info = await storeRelease(id);
-      const r = existing || { id, links: {}, checks: 0 };
+      // A release first picked up from Spotify becomes this store release
+      const early = !existing && db.releases.find(o => o.fromSpotify && matches(o, info.title, info.artists.join(" ")));
+      if (early) { byId.delete(early.id); early.id = id; delete early.fromSpotify; byId.set(id, early); say(`  = Store now lists ${early.title}`); }
+      const r = existing || early || { id, links: {}, checks: 0 };
       for (const [k, v] of Object.entries(info)) if (v && (!Array.isArray(v) || v.length)) r[k] = v;
       delete r.blurbCut;
       if (!r.slug) {
@@ -263,9 +285,28 @@ async function main() {
       r.addedAt ||= today;
       if (firstRun && !existing?.addedAt) r.backfill = true;
       r.links.store = `${STORE}/view_release?release=${id}`;
-      if (!existing) { db.releases.push(r); byId.set(id, r); added.push(r); say(`  + New: ${r.title} by ${r.artists.join(", ")}`); }
+      if (!existing && !early) { db.releases.push(r); byId.set(id, r); added.push(r); say(`  + New: ${r.title} by ${r.artists.join(", ")}`); }
     } catch (e) { say(`  ! Could not read store release ${id}: ${e.message}`); }
   }
+  // 1b. New releases on Spotify that the store doesn't list yet
+  try {
+    const fresh = await spotifyNewReleases(cfg);
+    say(`Spotify: ${fresh.length} recent albums from the label`);
+    fresh.forEach((a, i) => {
+      const artists = a.artists.map(x => x.name);
+      if (db.releases.some(o => matches(o, a.name, artists.join(" ")))) return;
+      let slug = slugify(a.name) || "release-" + a.id;
+      if (db.releases.some(o => o.slug === slug)) slug += "-" + slugify(artists[0] || "new");
+      const r = {
+        id: -(Math.floor(Date.now() / 1000) + i), slug, title: a.name, artists, genre: "",
+        artSource: a.images?.[0]?.url || "", releaseDate: a.release_date, addedAt: today, fromSpotify: true, checks: 0,
+        links: { store: STORE, spotify: a.external_urls?.spotify },
+      };
+      db.releases.push(r); byId.set(r.id, r); added.push(r);
+      say(`  + New on Spotify: ${r.title} by ${artists.join(", ")}`);
+    });
+  } catch (e) { say(`  ! Spotify new releases: ${e.message}`); }
+
   for (const r of db.releases) {
     try { await downloadArt(r); } catch (e) { say(`  ! Artwork for ${r.title}: ${e.message}`); }
   }
