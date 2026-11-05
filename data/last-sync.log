@@ -1,13 +1,15 @@
-Sync 2026-11-05T22:49:36.511Z
+Sync 2026-11-05T23:18:46.571Z
 Checking the Comet store…
   150 releases in the store
-Spotify: 2 recent albums from the label
-Looking up platform links for 64 releases…
+Spotify: 3 recent albums from the label
+  + New on Spotify: Sweet Spot by Essence Project
+Looking up platform links for 65 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
   ! YouTube https://www.youtube.com/@cometcollective HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC9MxzIbAiKrUioJT2LP_gBw
   youtube catalog: 0 items
+  Sweet Spot: nothing new · still missing beatport, bandcamp, apple, soundcloud, youtube
   The Illusion of Time: nothing new · still missing beatport, bandcamp, apple
   Technical Mood: nothing new · still missing beatport, youtube
   Hyperion: nothing new · still missing beatport, youtube
