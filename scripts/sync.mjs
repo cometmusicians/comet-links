@@ -197,6 +197,13 @@ async function spotifyNewReleases(cfg) {
     const d = await json(`https://api.spotify.com/v1/search?q=${q}&type=album&limit=10`, { headers });
     for (const a of d.albums?.items || []) if (!out.some(o => o.id === a.id)) out.push(a);
   }
+  // Albums added by hand in data/config.json ("spotifyAlbums"), for releases Spotify search hasn't indexed yet
+  for (const url of cfg.spotifyAlbums || []) {
+    const id = (String(url).match(/album\/([A-Za-z0-9]+)/) || [])[1];
+    if (!id || out.some(o => o.id === id)) continue;
+    const res = await http(`https://api.spotify.com/v1/albums/${id}`, { headers });
+    if (res.ok) out.push(await res.json()); else say(`  ! Spotify album ${id}: HTTP ${res.status}`);
+  }
   return out;
 }
 
