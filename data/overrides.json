@@ -2,6 +2,8 @@
   "_how_to": "Add a release slug with the links you want to force, e.g. \"huka\": {\"spotify\": \"https://open.spotify.com/album/...\"}. Use \"\" to hide a button, or \"hidden\": true to hide a whole release.",
   "sweet-spot": {
     "soundcloud": "https://soundcloud.com/comet-collective/sets/sweet-spot-ep",
-    "apple": "https://music.apple.com/us/album/sweet-spot-single/6830664745"
+    "apple": "https://music.apple.com/us/album/sweet-spot-single/6830664745",
+    "bandcamp": "https://comet-collective.bandcamp.com/album/sweet-spot",
+    "youtube": "https://www.youtube.com/watch?v=RoSKaa9BXKU"
   }
 }
