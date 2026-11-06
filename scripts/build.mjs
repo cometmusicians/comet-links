@@ -121,6 +121,8 @@ async function main() {
   const overrides = await readJSON("data/overrides.json", {});
   const cfg = await readJSON("data/config.json", {});
   const releases = db.releases.filter(r => r.title && !(overrides[r.slug] && overrides[r.slug].hidden)).sort(newest);
+  // A description written in data/overrides.json replaces the one from the store
+  for (const r of releases) if (typeof overrides[r.slug]?.blurb === "string") r.blurb = overrides[r.slug].blurb;
   if (!releases.length) throw new Error("No releases in data/releases.json");
 
   // Inline artwork for the single-file preview
@@ -196,7 +198,7 @@ ${artSrc[r.slug] ? `<div class="glow" style="background-image:url('${artSrc[r.sl
       </div>
       ${group("buy", "Buy & download")}
       ${group("stream", "Stream")}
-      ${r.blurb ? `<p class="blurb">${esc(short(r.blurb, 420))}</p>` : ""}
+      ${r.blurb ? `<p class="blurb">${esc(short(r.blurb, 600))}</p>` : ""}
       <button class="share" type="button" data-url="${esc(isHome ? SITE_URL + "/" + r.slug + "/" : pageUrl)}" data-text="${esc(`${r.title} by ${artistLine(r.artists)}, out on Comet Collective`)}">Copy link</button>
     </div>
   </article>
