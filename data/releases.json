@@ -11,19 +11,24 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_370284485_11184.jpg",
       "releaseDate": "2026-11-06",
       "addedAt": "2026-11-05",
-      "checks": 2,
+      "checks": 3,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=164",
         "spotify": "https://open.spotify.com/album/7zS84S1AclLMN0LxuwQb0A",
         "bandcamp": "https://comet-collective.bandcamp.com/album/sweet-spot",
         "soundcloud": "https://soundcloud.com/comet-collective/sets/sweet-spot-ep",
-        "apple": "https://music.apple.com/us/album/sweet-spot-single/6830664745"
+        "apple": "https://music.apple.com/us/album/sweet-spot-single/6830664745",
+        "youtube": "https://www.youtube.com/watch?v=pyTG0EFVpQ4"
       },
       "art": "art/sweet-spot.jpg",
       "lastChecked": "2026-11-06",
       "label": "Comet Collective",
       "blurb": "Sweet Spot is exactly what the name suggests - that place where everything just feels right. Where sound, rhythm, and emotion meet in perfect balance.  Three tracks come together as one soft, melodic, immersive journey, created to take you into a space that simply feels good to be in. No rush, no need to prove anything - just letting the music lead the way.  Press play, enter the Sweet Spot, and stay there for a while.",
-      "upc": "5063857857536"
+      "upc": "5063857857536",
+      "tracks": [
+        "Fluiting Energy",
+        "Sparkgling Positive"
+      ]
     },
     {
       "id": 166,
@@ -34,7 +39,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/the-illusion-of-time",
         "apple": "https://music.apple.com/us/album/the-illusion-of-time-single/6826610556"
       },
-      "checks": 27,
+      "checks": 28,
       "title": "The Illusion of Time",
       "artists": [
         "Unima"
@@ -97,9 +102,15 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_279309062_9314.jpg",
       "addedAt": "2026-10-25",
       "art": "art/technical-mood.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2026-04-10",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Apply",
+        "Technical Mood",
+        "Spaghetti Mind"
+      ],
+      "upc": "5063857718998"
     },
     {
       "id": 138,
@@ -121,9 +132,15 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_986890713_9272.jpg",
       "addedAt": "2026-10-25",
       "art": "art/hyperion.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2026-04-03",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Hyperion",
+        "Light",
+        "Storm"
+      ],
+      "upc": "5063857614887"
     },
     {
       "id": 139,
@@ -145,9 +162,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_664240030_9223.jpg",
       "addedAt": "2026-10-25",
       "art": "art/imperfections.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2026-03-27",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Imperfections"
+      ],
+      "upc": "5063857614559"
     },
     {
       "id": 137,
@@ -167,10 +188,15 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_866877601_9180.jpg",
       "addedAt": "2026-10-25",
       "art": "art/aor.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2026-03-20",
       "lastChecked": "2026-11-06",
-      "upc": "5063857613675"
+      "upc": "5063857613675",
+      "tracks": [
+        "Portal",
+        "Lumen",
+        "Kav"
+      ]
     },
     {
       "id": 136,
@@ -191,9 +217,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_442536001_9090.jpg",
       "addedAt": "2026-10-25",
       "art": "art/rocky-tears-robots-detune-remix.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2026-03-13",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Rocky Tears - Robots - Detune Remix"
+      ],
+      "upc": "5063857612852"
     },
     {
       "id": 134,
@@ -215,9 +245,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_106436223_8998.jpg",
       "addedAt": "2026-10-25",
       "art": "art/one.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2026-03-06",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "One"
+      ],
+      "upc": "5063857611121"
     },
     {
       "id": 135,
@@ -238,9 +272,15 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_343954080_8999.jpg",
       "addedAt": "2026-10-25",
       "art": "art/life-is-only-a-dream.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2026-02-27",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Welcome to India",
+        "Life Is Only a Dream",
+        "Universe"
+      ],
+      "upc": "5063857610155"
     },
     {
       "id": 133,
@@ -262,9 +302,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_920844613_8957.jpg",
       "addedAt": "2026-10-25",
       "art": "art/everything-will-bloom.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2026-02-13",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Everything Will Bloom"
+      ],
+      "upc": "5063857608503"
     },
     {
       "id": 132,
@@ -286,9 +330,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_529688452_8759.jpg",
       "addedAt": "2026-10-25",
       "art": "art/knocking-on-the-door.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2026-01-30",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Knocking on the Door"
+      ],
+      "upc": "5063857367189"
     },
     {
       "id": 131,
@@ -309,9 +357,14 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_179200467_8740.jpg",
       "addedAt": "2026-10-25",
       "art": "art/searching-for-galaxies.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2026-01-23",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Abamim - Tektro Remix",
+        "Alien John"
+      ],
+      "upc": "5063857362818"
     },
     {
       "id": 129,
@@ -333,9 +386,24 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_203407222_8742.jpg",
       "addedAt": "2026-10-25",
       "art": "art/rain-of-comets.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2026-01-09",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Blue",
+        "Higher Mind",
+        "Overloop",
+        "Happy Happy",
+        "Lost in the Rhythm",
+        "Free Minds",
+        "The Walsh",
+        "Mamasota",
+        "Octo Monkey",
+        "Solace",
+        "Beyond the Edge",
+        "Scala"
+      ],
+      "upc": "5063857351041"
     },
     {
       "id": 130,
@@ -357,9 +425,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_213852788_8694.jpeg",
       "addedAt": "2026-10-25",
       "art": "art/the-falling-tree.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2025-12-26",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "The Falling Tree"
+      ],
+      "upc": "5063857205948"
     },
     {
       "id": 128,
@@ -380,9 +452,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_333232377_8584.jpg",
       "addedAt": "2026-10-25",
       "art": "art/lucid-trip.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2025-12-19",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Lucid Trip"
+      ],
+      "upc": "5063857201827"
     },
     {
       "id": 127,
@@ -404,9 +480,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_597591085_8547.jpeg",
       "addedAt": "2026-10-25",
       "art": "art/biryani.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2025-12-12",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Biryani"
+      ],
+      "upc": "5063857187404"
     },
     {
       "id": 126,
@@ -428,9 +508,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_476331446_8219.jpg",
       "addedAt": "2026-10-25",
       "art": "art/mysterious-illusions.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2025-11-28",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Mysterious Illusions"
+      ],
+      "upc": "5063857141338"
     },
     {
       "id": 125,
@@ -452,9 +536,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_597514269_7940.jpg",
       "addedAt": "2026-10-25",
       "art": "art/cyber-attack.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2025-11-14",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Cyber ​​Attack"
+      ],
+      "upc": "5063857141093"
     },
     {
       "id": 124,
@@ -475,9 +563,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_964959954_7866.jpg",
       "addedAt": "2026-10-25",
       "art": "art/feedback.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2025-11-07",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Feedback"
+      ],
+      "upc": "5063857121255"
     },
     {
       "id": 123,
@@ -500,9 +592,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_464259167_7846.jpg",
       "addedAt": "2026-10-25",
       "art": "art/night-growl.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2025-10-24",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Night Growl"
+      ],
+      "upc": "5063857007771"
     },
     {
       "id": 122,
@@ -525,9 +621,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_405923258_7808.jpg",
       "addedAt": "2026-10-25",
       "art": "art/twilighting.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2025-10-17",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Twilighting - Widox Remix"
+      ],
+      "upc": "5063857007634"
     },
     {
       "id": 120,
@@ -549,9 +649,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_174112803_7651.jpg",
       "addedAt": "2026-10-25",
       "art": "art/disorder.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2025-09-19",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Disorder"
+      ],
+      "upc": "5063544953114"
     },
     {
       "id": 119,
@@ -573,9 +677,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_202785798_7548.jpg",
       "addedAt": "2026-10-25",
       "art": "art/beyond-the-edge.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2025-08-01",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Beyond the Edge"
+      ],
+      "upc": "5063544868159"
     },
     {
       "id": 118,
@@ -598,9 +706,16 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_499322170_7551.jpg",
       "addedAt": "2026-10-25",
       "art": "art/embodied.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2025-07-25",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Brain",
+        "Blue",
+        "Virus",
+        "Human Check"
+      ],
+      "upc": "5063544868142"
     },
     {
       "id": 115,
@@ -621,9 +736,13 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_183787460_7454.jpg",
       "addedAt": "2026-10-25",
       "art": "art/physical-structure.jpg",
-      "checks": 27,
+      "checks": 28,
       "releaseDate": "2025-07-04",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Physical Structure"
+      ],
+      "upc": "5063544842395"
     },
     {
       "id": 114,
@@ -1219,7 +1338,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/bigitam-detune-mystic-voices",
         "spotify": "https://open.spotify.com/album/5VvFzV8M5p1DPvrxysOzlA"
       },
-      "checks": 11,
+      "checks": 12,
       "title": "Voices",
       "artists": [
         "Bigitam",
@@ -1235,7 +1354,11 @@
       "backfill": true,
       "art": "art/voices.jpg",
       "releaseDate": "2024-10-18",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Voices"
+      ],
+      "upc": "5063544166224"
     },
     {
       "id": 86,
@@ -1246,7 +1369,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/elastic-some1-somnium",
         "spotify": "https://open.spotify.com/album/6b8SSt22HC6lZMtyqUeW4J"
       },
-      "checks": 11,
+      "checks": 12,
       "title": "Somnium",
       "artists": [
         "Elastic",
@@ -1260,7 +1383,11 @@
       "backfill": true,
       "art": "art/somnium.jpg",
       "releaseDate": "2024-10-04",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Somnium"
+      ],
+      "upc": "5063544136821"
     },
     {
       "id": 85,
@@ -1271,7 +1398,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/groovity-heaven-on-earth",
         "spotify": "https://open.spotify.com/album/1Vq2c05GJsg9O8Jb1Az5Df"
       },
-      "checks": 8,
+      "checks": 9,
       "title": "Heaven on Earth",
       "artists": [
         "Groovity"
@@ -1285,7 +1412,11 @@
       "backfill": true,
       "art": "art/heaven-on-earth.jpg",
       "releaseDate": "2024-09-27",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Heaven on Earth"
+      ],
+      "upc": "5063544136661"
     },
     {
       "id": 84,
@@ -1296,7 +1427,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/reidak-frozen-ends",
         "spotify": "https://open.spotify.com/album/2GV61yMgUVHnJbwIecY6CN"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Frozen Ends",
       "artists": [
         "Reidak"
@@ -1309,7 +1440,11 @@
       "backfill": true,
       "art": "art/frozen-ends.jpg",
       "releaseDate": "2024-09-20",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Frozen Ends"
+      ],
+      "upc": "5063544104196"
     },
     {
       "id": 83,
@@ -1320,7 +1455,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/bigitam-technieli",
         "spotify": "https://open.spotify.com/album/59o6xSVVlfIpzbaq92t8Jv"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Technieli",
       "artists": [
         "Bigitam"
@@ -1333,7 +1468,11 @@
       "backfill": true,
       "art": "art/technieli.jpg",
       "releaseDate": "2024-09-06",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Technieli"
+      ],
+      "upc": "5063544076431"
     },
     {
       "id": 82,
@@ -1344,7 +1483,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/twilight-whispering",
         "spotify": "https://open.spotify.com/album/0XmcyM6R2PcggRJWQ5V4Nz"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Twilight Whispering",
       "artists": [
         "Jahrin",
@@ -1359,7 +1498,12 @@
       "backfill": true,
       "art": "art/twilight-whispering.jpg",
       "releaseDate": "2024-07-05",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Whispers",
+        "Twilighting"
+      ],
+      "upc": "5063544022056"
     },
     {
       "id": 81,
@@ -1369,7 +1513,7 @@
         "apple": "https://music.apple.com/us/album/apolline-single/1752204095",
         "spotify": "https://open.spotify.com/album/7k1Qs3RDq3XOatawe5Nz7p"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Apolline",
       "artists": [
         "Mementomor"
@@ -1383,7 +1527,11 @@
       "backfill": true,
       "art": "art/apolline.jpg",
       "releaseDate": "2024-06-28",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Apolline"
+      ],
+      "upc": "5063544006278"
     },
     {
       "id": 79,
@@ -1394,7 +1542,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/reidak-purple-passion",
         "spotify": "https://open.spotify.com/album/2GbWGsvChT9ZDWWXIvarbH"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Purple Passion",
       "artists": [
         "Reidak"
@@ -1408,7 +1556,11 @@
       "backfill": true,
       "art": "art/purple-passion.jpg",
       "releaseDate": "2024-06-14",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Purple Passion"
+      ],
+      "upc": "5063181986032"
     },
     {
       "id": 78,
@@ -1418,7 +1570,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/bigitam-wired",
         "spotify": "https://open.spotify.com/album/6qkRbraMkqs7miO1iRmxoH"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Wired",
       "artists": [
         "Bigitam"
@@ -1432,7 +1584,11 @@
       "backfill": true,
       "art": "art/wired.jpg",
       "releaseDate": "2024-06-07",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Wired"
+      ],
+      "upc": "5063181963804"
     },
     {
       "id": 77,
@@ -1443,7 +1599,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/against-all-orbs",
         "spotify": "https://open.spotify.com/album/2V6CuDM57RBYuce3rOFGIU"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Against All Orbs",
       "artists": [
         "LostByte"
@@ -1457,7 +1613,13 @@
       "backfill": true,
       "art": "art/against-all-orbs.jpg",
       "releaseDate": "2024-05-31",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "The Battle of Selek",
+        "Neon Delight",
+        "Exogorth"
+      ],
+      "upc": "5063181963538"
     },
     {
       "id": 74,
@@ -1468,7 +1630,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/conflict",
         "spotify": "https://open.spotify.com/album/5LrduPkY3dtVWcV2NoQN5Y"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Conflict",
       "artists": [
         "Azul"
@@ -1482,7 +1644,12 @@
       "backfill": true,
       "art": "art/conflict.jpg",
       "releaseDate": "2024-04-19",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Problem",
+        "Solution"
+      ],
+      "upc": "5063181896072"
     },
     {
       "id": 75,
@@ -1493,7 +1660,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/a-little-bit-tricky",
         "spotify": "https://open.spotify.com/album/27m8EoSQBJnAjmBRpJ6erc"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "A Little Bit Tricky",
       "artists": [
         "Reidak"
@@ -1506,7 +1673,12 @@
       "backfill": true,
       "art": "art/a-little-bit-tricky.jpg",
       "releaseDate": "2024-04-05",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "A Little Bit Tricky",
+        "Modular Rhythm"
+      ],
+      "upc": "5063181859886"
     },
     {
       "id": 73,
@@ -1517,7 +1689,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/echoes-of-eternity",
         "spotify": "https://open.spotify.com/album/3lN3lSw7FtGGycJQXLJfHw"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Echoes of Eternity",
       "artists": [
         "Widox"
@@ -1531,7 +1703,13 @@
       "backfill": true,
       "art": "art/echoes-of-eternity.jpg",
       "releaseDate": "2024-03-29",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Aspects of Reality",
+        "Radix",
+        "The Paradoxical State"
+      ],
+      "upc": "5063181859626"
     },
     {
       "id": 72,
@@ -1542,7 +1720,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/nevo-dont-stop-the-rave",
         "spotify": "https://open.spotify.com/album/3fENIDecfmXA8Fpr0hnFmq"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Don't Stop the Rave",
       "artists": [
         "Nevo"
@@ -1556,7 +1734,11 @@
       "backfill": true,
       "art": "art/dont-stop-the-rave.jpg",
       "releaseDate": "2024-03-22",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Don't Stop the Rave"
+      ],
+      "upc": "5063181843090"
     },
     {
       "id": 71,
@@ -1567,7 +1749,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/elastic-downtown-mushrooms",
         "spotify": "https://open.spotify.com/album/42jdyP7kIuAFZ1DgNplwx4"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Downtown Mushrooms",
       "artists": [
         "Elastic"
@@ -1580,7 +1762,11 @@
       "backfill": true,
       "art": "art/downtown-mushrooms.jpg",
       "releaseDate": "2024-03-01",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Downtown Mushrooms"
+      ],
+      "upc": "5063181782078"
     },
     {
       "id": 70,
@@ -1591,7 +1777,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/oneshot-here-and-there",
         "spotify": "https://open.spotify.com/album/0Kv69LdHTXlwiXD1nAcIXS"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Here and There",
       "artists": [
         "OneShot"
@@ -1604,7 +1790,11 @@
       "backfill": true,
       "art": "art/here-and-there.jpg",
       "releaseDate": "2024-02-23",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Here and There"
+      ],
+      "upc": "5063181782061"
     },
     {
       "id": 69,
@@ -1615,7 +1805,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/groovity-chanting-universe",
         "spotify": "https://open.spotify.com/album/3gVeg9YGx5i94CX9NkZckb"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Chanting Universe",
       "artists": [
         "Groovity"
@@ -1629,7 +1819,11 @@
       "backfill": true,
       "art": "art/chanting-universe.jpg",
       "releaseDate": "2024-02-16",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Chanting Universe"
+      ],
+      "upc": "5063181771188"
     },
     {
       "id": 68,
@@ -1640,7 +1834,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/bigitam-mementomor-lying-sun",
         "spotify": "https://open.spotify.com/album/064KzQDoQBq0an78kH1uNX"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Lying Sun",
       "artists": [
         "Bigitam",
@@ -1655,7 +1849,11 @@
       "backfill": true,
       "art": "art/lying-sun.jpg",
       "releaseDate": "2024-02-02",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Lying Sun"
+      ],
+      "upc": "5063181744205"
     },
     {
       "id": 67,
@@ -1666,7 +1864,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/reidak-unknown-voices",
         "spotify": "https://open.spotify.com/album/447QC1uHNo8zWa1idLgpkw"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Unknown Voices",
       "artists": [
         "Reidak"
@@ -1679,7 +1877,11 @@
       "backfill": true,
       "art": "art/unknown-voices.jpg",
       "releaseDate": "2024-01-19",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Unknown Voices"
+      ],
+      "upc": "5063181709907"
     },
     {
       "id": 60,
@@ -1690,7 +1892,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/jackalon-pigments",
         "spotify": "https://open.spotify.com/album/7gCdvTxT8WjhKsBrdJiSaQ"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Pigments",
       "artists": [
         "Jackalon"
@@ -1703,7 +1905,11 @@
       "backfill": true,
       "art": "art/pigments.jpg",
       "releaseDate": "2023-10-13",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Pigments"
+      ],
+      "upc": "5063181563929"
     },
     {
       "id": 64,
@@ -1714,7 +1920,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/artyshock-1000-lifetimes",
         "spotify": "https://open.spotify.com/album/1pMv5MwMd8wRkZlMwZYedn"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "1000 Lifetimes",
       "artists": [
         "ARTYSHOCK"
@@ -1728,7 +1934,11 @@
       "backfill": true,
       "art": "art/1000-lifetimes.jpg",
       "releaseDate": "2023-10-06",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "1000 Lifetimes"
+      ],
+      "upc": "5063181546564"
     },
     {
       "id": 63,
@@ -1739,7 +1949,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/elastic-xstava-nights",
         "spotify": "https://open.spotify.com/album/6RDVqXG4Bwpp1dZkwHNO68"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Nights",
       "artists": [
         "Elastic",
@@ -1754,7 +1964,11 @@
       "backfill": true,
       "art": "art/nights.jpg",
       "releaseDate": "2023-09-29",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Nights"
+      ],
+      "upc": "5063181546243"
     },
     {
       "id": 62,
@@ -1765,7 +1979,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/reidak-nightlight",
         "spotify": "https://open.spotify.com/album/5l5DGETlnBsWmuAuCagXp7"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Nightlight",
       "artists": [
         "Reidak"
@@ -1778,7 +1992,11 @@
       "backfill": true,
       "art": "art/nightlight.jpg",
       "releaseDate": "2023-09-22",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Nightlight"
+      ],
+      "upc": "5063181527860"
     },
     {
       "id": 61,
@@ -1789,7 +2007,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/mementomor-migdalor-flow",
         "spotify": "https://open.spotify.com/album/6JijO1iBJwNRBRFjxqgV1F"
       },
-      "checks": 7,
+      "checks": 8,
       "title": "Flow",
       "artists": [
         "Mementomor",
@@ -1803,7 +2021,11 @@
       "backfill": true,
       "art": "art/flow.jpg",
       "releaseDate": "2023-09-15",
-      "lastChecked": "2026-11-06"
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Flow"
+      ],
+      "upc": "5063181513153"
     },
     {
       "id": 56,
@@ -2974,15 +3196,21 @@
         "beatport": "https://www.beatport.com/release/circus-circus/7608092",
         "apple": "https://music.apple.com/us/album/circus-circus-single/6822867741",
         "soundcloud": "https://soundcloud.com/comet-collective/sets/circus-circus",
-        "spotify": "https://open.spotify.com/album/7hHHKb2qn2HPTpUfDpgx1G"
+        "spotify": "https://open.spotify.com/album/7hHHKb2qn2HPTpUfDpgx1G",
+        "youtube": "https://www.youtube.com/watch?v=Ftxj4zMr0jA"
       },
       "label": "Comet Collective",
       "blurb": "OneShot drops Circus Circus EP - two dynamic 140 BPM cuts combining playful circus vibes with serious dancefloor weight. Leading with the bouncy, oddball bounce of",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_460162764_10854.jpg",
       "addedAt": "2026-10-25",
       "art": "art/circus-circus.jpg",
-      "checks": 27,
-      "lastChecked": "2026-11-06"
+      "checks": 28,
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Not a Funny Clown",
+        "Fire Breathing"
+      ],
+      "upc": "5063857789790"
     },
     {
       "id": 163,
@@ -3080,8 +3308,14 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_783844787_10361.jpg",
       "addedAt": "2026-10-25",
       "art": "art/bootstrap-paradox.jpg",
-      "checks": 27,
-      "lastChecked": "2026-11-06"
+      "checks": 28,
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "The Contact",
+        "Hyper Distortion",
+        "Prometheus"
+      ],
+      "upc": "5063857086332"
     },
     {
       "id": 159,
@@ -3199,15 +3433,21 @@
         "bandcamp": "https://comet-collective.bandcamp.com/album/ground-advantage",
         "apple": "https://music.apple.com/us/album/ground-advantage-single/6767344911",
         "soundcloud": "https://soundcloud.com/comet-collective/sets/ground-advantage",
-        "spotify": "https://open.spotify.com/album/0Z0f9Q5NVBGD8skz5APq0r"
+        "spotify": "https://open.spotify.com/album/0Z0f9Q5NVBGD8skz5APq0r",
+        "youtube": "https://www.youtube.com/watch?v=gayFDzVGnFk"
       },
       "label": "Comet Collective",
       "blurb": "Leex's new EP, Ground Advantage, delivers a wave of precise psychedelic energy, balancing depth with raw dancefloor power, emotion, and intensity. Each track was born from the dancefloor and crafted for it, shaped by real moments of connection, movement, and late-night journeys.\r\nThis EP captures the essence of being fully present, where sound, body, and mind align. It's a reflection of shared energy, of crowds moving as one, and of those unforgettable moments when the music takes over.",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_177359958_9633.jpg",
       "addedAt": "2026-10-25",
       "art": "art/ground-advantage.jpg",
-      "checks": 27,
-      "lastChecked": "2026-11-06"
+      "checks": 28,
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Whole Village",
+        "Forte"
+      ],
+      "upc": "5063857730174"
     },
     {
       "id": 154,
@@ -3221,15 +3461,30 @@
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=154",
         "beatport": "https://www.beatport.com/release/ccc-vol-2-compiled-by-jahrin/6971636",
         "apple": "https://music.apple.com/us/album/c-c-c-vol-2-compiled-by-jahrin/6772139817",
-        "spotify": "https://open.spotify.com/album/6tyTiNaUPVQo43XrkpSI2k"
+        "spotify": "https://open.spotify.com/album/6tyTiNaUPVQo43XrkpSI2k",
+        "youtube": "https://www.youtube.com/watch?v=f4XYFxGBmHk"
       },
       "label": "Comet Collective",
       "blurb": "Comet Collective Compilation returns with a second chapter shaped by individual voices and a shared sense of direction. Each track stands on its own, yet together they form a subtle dialogue, a space where emerging energy and familiar presence meet naturally, without hierarchy.\r\n\r\nDrawn from both within and around the collective, the selection reflects a wider circle of connection, carefully brought together by Jahrin through a perspective rooted in the foundation of the collective itself. A collection built on intuition, trust, and the idea of giving sound the room to evolve on its own terms.",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_815517044_9476.jpg",
       "addedAt": "2026-10-25",
       "art": "art/ccc-vol-2-compiled-by-jahrin.jpg",
-      "checks": 27,
-      "lastChecked": "2026-11-06"
+      "checks": 28,
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Noize",
+        "Discovery Channel",
+        "The Future",
+        "Helix",
+        "Control the Machine",
+        "The Middle Way",
+        "Trick",
+        "Isabella",
+        "Psyclone",
+        "Do Not Disturb",
+        "Align"
+      ],
+      "upc": "5063857805728"
     },
     {
       "id": 153,
@@ -3297,7 +3552,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_386229037_9473.jpg",
       "addedAt": "2026-10-25",
       "art": "art/psyclone.jpg",
-      "checks": 27,
+      "checks": 28,
       "lastChecked": "2026-11-06"
     },
     {
@@ -3314,15 +3569,19 @@
         "bandcamp": "https://comet-collective.bandcamp.com/album/isabella",
         "soundcloud": "https://soundcloud.com/comet-collective/isabella",
         "spotify": "https://open.spotify.com/album/0a6RayjOh4P9F6yz8JzpMQ",
-        "apple": "https://music.apple.com/us/album/isabella-single/6768796362"
+        "apple": "https://music.apple.com/us/album/isabella-single/6768796362",
+        "youtube": "https://www.youtube.com/watch?v=f4XYFxGBmHk"
       },
       "label": "Comet Collective",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_133899835_9472.jpg",
       "addedAt": "2026-10-25",
       "art": "art/isabella.jpg",
-      "checks": 27,
+      "checks": 28,
       "lastChecked": "2026-11-06",
-      "upc": "5063857735438"
+      "upc": "5063857735438",
+      "tracks": [
+        "Isabella"
+      ]
     },
     {
       "id": 149,
@@ -3338,14 +3597,19 @@
         "bandcamp": "https://comet-collective.bandcamp.com/album/trick",
         "apple": "https://music.apple.com/us/album/trick-single/6768794510",
         "soundcloud": "https://soundcloud.com/comet-collective/trick",
-        "spotify": "https://open.spotify.com/album/1Sq9rHjxExG9uEir0Ttgme"
+        "spotify": "https://open.spotify.com/album/1Sq9rHjxExG9uEir0Ttgme",
+        "youtube": "https://www.youtube.com/watch?v=5CRoc5MOBFU"
       },
       "label": "Comet Collective",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_579714635_9471.jpg",
       "addedAt": "2026-10-25",
       "art": "art/trick.jpg",
-      "checks": 27,
-      "lastChecked": "2026-11-06"
+      "checks": 28,
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Trick"
+      ],
+      "upc": "5063857735421"
     },
     {
       "id": 148,
@@ -3504,15 +3768,21 @@
         "bandcamp": "https://comet-collective.bandcamp.com/album/bushido",
         "apple": "https://music.apple.com/us/album/bushido-single/1894157503",
         "soundcloud": "https://soundcloud.com/comet-collective/sets/bushido",
-        "spotify": "https://open.spotify.com/album/4ge7JZQgB8v3BOJLrQ8k1B"
+        "spotify": "https://open.spotify.com/album/4ge7JZQgB8v3BOJLrQ8k1B",
+        "youtube": "https://www.youtube.com/watch?v=lpfmZs7CfqI"
       },
       "label": "Comet Collective",
       "blurb": "Bushidō is a conceptual EP inspired by the spiritual journey of the samurai and the Japanese culture. The project explores themes of discipline, duality, and self-alignment, translating them into a modern, personal narrative.\r\n\r\nThe EP is built around two opposing forces: Eliane, representing guidance, clarity, and higher direction, and Majo, symbolizing temptation, illusion, and deviation from one",
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_866008444_9402.jpg",
       "addedAt": "2026-10-25",
       "art": "art/bushido.jpg",
-      "checks": 27,
-      "lastChecked": "2026-11-06"
+      "checks": 28,
+      "lastChecked": "2026-11-06",
+      "tracks": [
+        "Eliane",
+        "Majo"
+      ],
+      "upc": "5063857721363"
     },
     {
       "id": 121,
@@ -3533,7 +3803,7 @@
       "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_228297311_7773.jpg",
       "addedAt": "2026-10-25",
       "art": "art/its-not-tomorrow-yet.jpg",
-      "checks": 27,
+      "checks": 28,
       "lastChecked": "2026-11-06"
     },
     {
@@ -3564,7 +3834,7 @@
         "apple": "https://music.apple.com/us/album/jimmys-dream-single/1772224443",
         "soundcloud": "https://soundcloud.com/comet-collective/zapta-jimmys-dream"
       },
-      "checks": 11,
+      "checks": 12,
       "title": "Jimmy's Dream",
       "artists": [
         "Zapta"
@@ -3580,5 +3850,5 @@
       "lastChecked": "2026-11-06"
     }
   ],
-  "updated": "2026-11-06T06:24:33.275Z"
+  "updated": "2026-11-06T06:35:33.877Z"
 }
