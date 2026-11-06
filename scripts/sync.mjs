@@ -3,7 +3,7 @@
 // Runs on GitHub Actions (see .github/workflows/sync.yml). No dependencies, Node 20+.
 
 import { readFile, writeFile, mkdir, access } from "node:fs/promises";
-import { STORE, slugify, norm, matches, videoMatches, decodeEntities, newest } from "./lib.mjs";
+import { STORE, slugify, norm, matches, videoMatches, videoMatchesFuzzy, decodeEntities, newest } from "./lib.mjs";
 
 const ROOT = new URL("..", import.meta.url);
 const DATA = new URL("data/releases.json", ROOT);
@@ -215,7 +215,12 @@ async function spotifyNewReleases(cfg) {
     const id = (String(url).match(/album\/([A-Za-z0-9]+)/) || [])[1];
     if (!id || out.some(o => o.id === id)) continue;
     const res = await http(`https://api.spotify.com/v1/albums/${id}`, { headers });
-    if (res.ok) out.push(await res.json()); else say(`  ! Spotify album ${id}: HTTP ${res.status}`);
+    if (!res.ok) { say(`  ! Spotify album ${id}: HTTP ${res.status}`); continue; }
+    const album = await res.json();
+    // A link added ahead of time waits until its release day (Israel time)
+    const todayIL = new Date(Date.now() + 2 * 3600e3).toISOString().slice(0, 10);
+    if (album.release_date > todayIL) { say(`  Spotify album ${album.name} is out on ${album.release_date}, waiting`); continue; }
+    out.push(album);
   }
   return out;
 }
@@ -232,7 +237,9 @@ async function appleByUpc(cfg, r) {
   if (!id || !env.SPOTIFY_CLIENT_ID) return;
   const res = await http(`https://api.spotify.com/v1/albums/${id}`, { headers: await spotifyAuth() });
   if (!res.ok) return;
-  const upc = (await res.json()).external_ids?.upc;
+  const album = await res.json();
+  if (album.tracks?.items?.length) r.tracks = album.tracks.items.map(t => t.name);
+  const upc = album.external_ids?.upc;
   if (!upc) return;
   r.upc = upc;
   for (const country of [cfg.appleCountry || "US", "IL", "GB", "DE"]) {
@@ -380,7 +387,8 @@ async function main() {
     await tryIt("beatport", async () => fromCatalog(cats.beatport, r));
     await tryIt("bandcamp", async () => fromCatalog(cats.bandcamp, r) || bandcampDirect(cfg, r));
     await tryIt("soundcloud", async () => fromCatalog(cats.soundcloud, r) || soundcloudDirect(cfg, r));
-    await tryIt("youtube", async () => cats.youtube.find(v => videoMatches(r, v.title))?.url);
+    if (!r.tracks && r.links.spotify && need.includes("youtube")) { try { await appleByUpc(cfg, r); } catch {} }
+    await tryIt("youtube", async () => cats.youtube.find(v => videoMatchesFuzzy(r, v.title))?.url);
     await tryIt("spotify", () => spotify(r));
     await tryIt("apple", async () => (await appleByUpc(cfg, r)) || apple(cfg, r));
     if (missing(r).length && (r.links.apple || r.links.spotify)) {

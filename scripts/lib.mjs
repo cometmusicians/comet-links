@@ -68,6 +68,31 @@ export function videoMatches(release, videoTitle) {
   return release.artists.some(a => v.includes(" " + norm(a) + " "));
 }
 
+// How alike two strings are, 0..1 (tolerates small typos like "Elatic" for "Elastic")
+export function similar(a, b) {
+  a = norm(a); b = norm(b);
+  if (!a || !b) return 0;
+  if (a === b) return 1;
+  const m = a.length, n = b.length, d = Array.from({ length: n + 1 }, (_, j) => j);
+  for (let i = 1; i <= m; i++) {
+    let prev = d[0]; d[0] = i;
+    for (let j = 1; j <= n; j++) { const t = d[j]; d[j] = Math.min(d[j] + 1, d[j - 1] + 1, prev + (a[i - 1] === b[j - 1] ? 0 : 1)); prev = t; }
+  }
+  return 1 - d[n] / Math.max(m, n);
+}
+
+// YouTube uploads are "Artist - Track"; match against the release title or any of its track names
+export function videoMatchesFuzzy(release, videoTitle) {
+  if (videoMatches(release, videoTitle)) return true;
+  const parts = String(videoTitle).split(/\s+[-–—|]\s+/);
+  if (parts.length < 2) return false;
+  const [who, what] = [parts[0], parts.slice(1).join(" ").replace(/\((official|full|.*?video|.*?mix)\)|\[.*?\]/gi, "")];
+  const names = [release.title, ...(release.tracks || [])];
+  const titleOk = names.some(n => similar(n, what) >= 0.8);
+  const artistOk = release.artists.some(a => /various/i.test(a)) || release.artists.some(a => who.split(/\s*(?:&|,| x | feat\.? )\s*/i).some(w => similar(a, w) >= 0.75));
+  return titleOk && artistOk;
+}
+
 // Newest first: the day a release first appeared in the store, then its release date, then store ID
 export const newest = (a, b) => (b.addedAt || "").localeCompare(a.addedAt || "") || (b.releaseDate || "").localeCompare(a.releaseDate || "") || b.id - a.id;
 
