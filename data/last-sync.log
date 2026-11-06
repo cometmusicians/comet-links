@@ -1,4 +1,4 @@
-Sync 2026-11-06T07:21:03.292Z
+Sync 2026-11-06T08:44:15.295Z
 Checking the Comet store…
   151 releases in the store
 Spotify: 3 recent albums from the label
@@ -6,10 +6,9 @@ Looking up platform links for 55 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
-  ! YouTube feed https://www.youtube.com/@cometcollective HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC9MxzIbAiKrUioJT2LP_gBw · reading the channel page instead
-  youtube catalog: 30 items
-    · Essence Project - Fluiting Energy
+  youtube catalog: 15 items
     · Essence Project - Sparkgling Positive
+    · Essence Project - Fluiting Energy
     · Unima - The illusion Of Time
     · Unima - Lucent
     · Bigitam & Elatic - Huka
