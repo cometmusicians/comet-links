@@ -1,0 +1,51 @@
+name: Add a link
+
+# A form in GitHub (Actions → Add a link → Run workflow) to paste a link by hand.
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Paste the link (Beatport, Spotify, Apple Music, Bandcamp, SoundCloud or YouTube)"
+        required: true
+        type: string
+      release:
+        description: "Release name (leave empty for the newest release)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Save the link
+        run: node scripts/add-link.mjs
+        env:
+          LINK_URL: ${{ inputs.url }}
+          LINK_RELEASE: ${{ inputs.release }}
+      - name: Commit
+        run: |
+          git config user.name "comet-links-bot"
+          git config user.email "comet-links-bot@users.noreply.github.com"
+          git add data
+          git commit -m "Add link by hand" || exit 0
+          git pull --rebase --quiet && git push
+      - run: node scripts/build.mjs
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
