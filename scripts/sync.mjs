@@ -150,7 +150,8 @@ async function youtubeCatalog(cfg) {
 // ---------- Per-release lookups ----------
 const slugCandidates = r => {
   const t = slugify(r.title), a = slugify(r.artists.join(" "));
-  return [t, `${a}-${t}`, `${slugify(r.artists.join(" & "))}-${t}`];
+  // SoundCloud and Bandcamp often add "-ep" / "-single" to the URL
+  return [t, `${t}-ep`, `${t}-single`, `${a}-${t}`, `${slugify(r.artists.join(" & "))}-${t}`];
 };
 
 function fromCatalog(cat, r) {
