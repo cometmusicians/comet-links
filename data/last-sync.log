@@ -1,8 +1,8 @@
-Sync 2026-11-06T06:35:33.879Z
+Sync 2026-11-06T07:21:03.292Z
 Checking the Comet store…
   151 releases in the store
 Spotify: 3 recent albums from the label
-Looking up platform links for 59 releases…
+Looking up platform links for 55 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
@@ -14,7 +14,7 @@ Looking up platform links for 59 releases…
     · Unima - Lucent
     · Bigitam & Elatic - Huka
     · OneShot - Not a Funny Clown
-  Sweet Spot: found youtube · still missing beatport
+  Sweet Spot: nothing new · still missing beatport
   The Illusion of Time: nothing new · still missing beatport, bandcamp
   Technical Mood: nothing new · still missing beatport, youtube
   Hyperion: nothing new · still missing beatport, youtube
@@ -39,14 +39,10 @@ Looking up platform links for 59 releases…
   Beyond the Edge: nothing new · still missing beatport, youtube
   Embodied: nothing new · still missing beatport, youtube
   Physical Structure: nothing new · still missing beatport, youtube
-  Circus Circus: found youtube
   Bootstrap Paradox: nothing new · still missing youtube
-  Ground Advantage: found youtube
-  C.c.c, Vol. 2 Compiled by Jahrin: found youtube · still missing bandcamp, soundcloud
+  C.c.c, Vol. 2 Compiled by Jahrin: nothing new · still missing bandcamp, soundcloud
   Psyclone: nothing new · still missing spotify, apple, youtube
-  Isabella: found youtube
-  Trick: found youtube
-  Bushido: found youtube · still missing beatport
+  Bushido: nothing new · still missing beatport
   It's Not Tomorrow Yet: nothing new · still missing beatport, spotify, youtube
   Jimmy's Dream: nothing new · still missing beatport, spotify, youtube
   Voices: nothing new · still missing beatport, youtube
