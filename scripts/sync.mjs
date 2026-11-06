@@ -227,6 +227,21 @@ async function itunes(cfg, term, entity) {
   const d = await json(`https://itunes.apple.com/search?term=${encodeURIComponent(term)}&entity=${entity}&limit=50&country=${cfg.appleCountry || "US"}`);
   return d.results || [];
 }
+async function appleByUpc(cfg, r) {
+  const id = (String(r.links.spotify || "").match(/album\/([A-Za-z0-9]+)/) || [])[1];
+  if (!id || !env.SPOTIFY_CLIENT_ID) return;
+  const res = await http(`https://api.spotify.com/v1/albums/${id}`, { headers: await spotifyAuth() });
+  if (!res.ok) return;
+  const upc = (await res.json()).external_ids?.upc;
+  if (!upc) return;
+  r.upc = upc;
+  for (const country of [cfg.appleCountry || "US", "IL", "GB", "DE"]) {
+    const d = await json(`https://itunes.apple.com/lookup?upc=${upc}&entity=album&country=${country}`);
+    const hit = (d.results || []).find(x => x.collectionViewUrl);
+    if (hit) return hit.collectionViewUrl.replace(/\?.*$/, "").replace(/music\.apple\.com\/[a-z]{2}\//, "music.apple.com/us/");
+  }
+}
+
 async function apple(cfg, r) {
   // Try each artist with the title, as an album first and then as a song
   for (const artist of r.artists.length ? r.artists : [""]) {
@@ -354,7 +369,7 @@ async function main() {
 
   const cats = {};
   for (const [k, fn] of [["beatport", beatportCatalog], ["bandcamp", bandcampCatalog], ["soundcloud", soundcloudCatalog], ["youtube", youtubeCatalog]]) {
-    try { cats[k] = queue.length ? await fn(cfg) : []; say(`  ${k} catalog: ${cats[k].length} items`); }
+    try { cats[k] = queue.length ? await fn(cfg) : []; say(`  ${k} catalog: ${cats[k].length} items`); if (k === "youtube") cats[k].slice(0, 6).forEach(v => say(`    · ${v.title}`)); }
     catch (e) { cats[k] = []; say(`  ! ${k} catalog unavailable: ${e.message}`); }
   }
 
@@ -366,8 +381,8 @@ async function main() {
     await tryIt("bandcamp", async () => fromCatalog(cats.bandcamp, r) || bandcampDirect(cfg, r));
     await tryIt("soundcloud", async () => fromCatalog(cats.soundcloud, r) || soundcloudDirect(cfg, r));
     await tryIt("youtube", async () => cats.youtube.find(v => videoMatches(r, v.title))?.url);
-    await tryIt("apple", () => apple(cfg, r));
     await tryIt("spotify", () => spotify(r));
+    await tryIt("apple", async () => (await appleByUpc(cfg, r)) || apple(cfg, r));
     if (missing(r).length && (r.links.apple || r.links.spotify)) {
       try {
         const o = await odesli(r.links.spotify || r.links.apple);
