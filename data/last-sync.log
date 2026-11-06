@@ -1,4 +1,4 @@
-Sync 2026-11-06T06:04:44.378Z
+Sync 2026-11-06T06:07:01.477Z
 Checking the Comet store…
   151 releases in the store
 Spotify: 3 recent albums from the label
@@ -6,7 +6,7 @@ Looking up platform links for 65 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
-  ! YouTube https://www.youtube.com/@cometcollective HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC9MxzIbAiKrUioJT2LP_gBw
+  ! YouTube feed https://www.youtube.com/@cometcollective HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC9MxzIbAiKrUioJT2LP_gBw · reading the channel page instead
   youtube catalog: 0 items
   Sweet Spot: nothing new · still missing beatport
   The Illusion of Time: nothing new · still missing beatport, bandcamp, apple
