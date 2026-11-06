@@ -129,20 +129,28 @@ async function soundcloudCatalog(cfg) {
 async function youtubeCatalog(cfg) {
   const out = [];
   for (const ch of cfg.youtubeChannels || []) {
+    const base = ch.replace(/\/$/, "");
+    let page = "";
     try {
-      let id = (ch.match(/UC[\w-]{22}/) || [])[0];
-      if (!id) {
-        const page = await text(ch.replace(/\/$/, "") + "/videos");
-        id = (page.match(/"(?:channelId|externalId)":"(UC[\w-]{22})"/) || page.match(/channel\/(UC[\w-]{22})/) || [])[1];
-        if (!id) throw new Error("could not find the channel ID on " + ch);
-      }
+      page = await text(base + "/videos");
+      let id = (ch.match(/UC[\w-]{22}/) || [])[0] || (page.match(/"(?:channelId|externalId)":"(UC[\w-]{22})"/) || page.match(/channel\/(UC[\w-]{22})/) || [])[1];
+      if (!id) throw new Error("could not find the channel ID on " + ch);
       const xml = await text(`https://www.youtube.com/feeds/videos.xml?channel_id=${id}`);
       for (const e of xml.split("<entry>").slice(1)) {
         const title = decodeEntities((e.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || "");
         const url = (e.match(/<link rel="alternate" href="([^"]+)"/) || [])[1];
         if (url) out.push({ title, url });
       }
-    } catch (e) { say("  ! YouTube", ch, e.message); }
+    } catch (e) {
+      // The RSS feed sometimes answers 404; fall back to the videos listed on the channel page
+      say("  ! YouTube feed", ch, e.message, page ? "· reading the channel page instead" : "");
+      const json = page.replace(/\\u0026/g, "&");
+      const re = /"videoRenderer":\{"videoId":"([\w-]{11})"[\s\S]{0,1500}?"title":\{"runs":\[\{"text":"((?:[^"\\]|\\.)*)"|"contentId":"([\w-]{11})"[\s\S]{0,3000}?"title":\{"content":"((?:[^"\\]|\\.)*)"/g;
+      for (const m of json.matchAll(re)) {
+        const vid = m[1] || m[3], title = JSON.parse(`"${m[2] || m[4]}"`);
+        if (!out.some(o => o.url.endsWith(vid))) out.push({ title, url: `https://www.youtube.com/watch?v=${vid}` });
+      }
+    }
   }
   return out;
 }
