@@ -146,6 +146,10 @@ async function youtubeCatalog(cfg) {
       say("  ! YouTube feed", ch, e.message, page ? "· reading the channel page instead" : "");
       const json = page.replace(/\\u0026/g, "&");
       const re = /"videoRenderer":\{"videoId":"([\w-]{11})"[\s\S]{0,1500}?"title":\{"runs":\[\{"text":"((?:[^"\\]|\\.)*)"|"contentId":"([\w-]{11})"[\s\S]{0,3000}?"title":\{"content":"((?:[^"\\]|\\.)*)"/g;
+      const count = k => (json.match(new RegExp(k, "g")) || []).length;
+      say(`  YouTube page: ${json.length} bytes, videoId×${count('"videoId"')}, contentId×${count('"contentId"')}, videoRenderer×${count('"videoRenderer"')}, lockupViewModel×${count('"lockupViewModel"')}, richItemRenderer×${count('"richItemRenderer"')}`);
+      const i = json.indexOf('"videoId"'); if (i > 0) say("  sample: " + json.slice(i - 200, i + 600).replace(/\s+/g, " "));
+      const j = json.indexOf('"contentId"'); if (j > 0) say("  sample2: " + json.slice(j - 100, j + 900).replace(/\s+/g, " "));
       for (const m of json.matchAll(re)) {
         const vid = m[1] || m[3], title = JSON.parse(`"${m[2] || m[4]}"`);
         if (!out.some(o => o.url.endsWith(vid))) out.push({ title, url: `https://www.youtube.com/watch?v=${vid}` });
