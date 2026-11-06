@@ -1,4 +1,4 @@
-Sync 2026-11-06T06:07:01.477Z
+Sync 2026-11-06T06:08:49.284Z
 Checking the Comet store…
   151 releases in the store
 Spotify: 3 recent albums from the label
@@ -7,6 +7,9 @@ Looking up platform links for 65 releases…
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
   ! YouTube feed https://www.youtube.com/@cometcollective HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC9MxzIbAiKrUioJT2LP_gBw · reading the channel page instead
+  YouTube page: 1271364 bytes, videoId×210, contentId×30, videoRenderer×0, lockupViewModel×31, richItemRenderer×31
+  sample: {"sendPost":true}},"signalServiceEndpoint":{"signal":"CLIENT_SIGNAL","actions":[{"clickTrackingParams":"CPECEPBbIhMIyovC_tbylwMVrsc_BB0lSQaCygEESYhjrA==","addToPlaylistCommand":{"openMiniplayer":true,"videoId":"pyTG0EFVpQ4","listType":"PLAYLIST_EDIT_LIST_TYPE_QUEUE","onCreateListCommand":{"clickTrackingParams":"CPECEPBbIhMIyovC_tbylwMVrsc_BB0lSQaCygEESYhjrA==","commandMetadata":{"webCommandMetadata":{"sendPost":true,"apiUrl":"/youtubei/v1/playlist/create"}},"createPlaylistServiceEndpoint":{"videoIds":["pyTG0EFVpQ4"],"params":"CAQ%3D"}},"videoIds":["pyTG0EFVpQ4"],"videoCommand":{"clickTrackingParams":"CPECEPBbIhMIyovC_tbylwMVrsc_BB0lSQaCygEESYhjrA==","commandMetadata":{"webCommandMetadata":{"url":"/watch?v=pyTG0EFVpQ4","webPageType":"WEB_PAGE_TYPE_WATCH","rootVe":3832}},"watchEndpoint":{"vi
+  sample2: PE_TEXT","buttonSize":"BUTTON_VIEW_MODEL_SIZE_DEFAULT","state":"BUTTON_VIEW_MODEL_STATE_ACTIVE"}}}},"contentId":"pyTG0EFVpQ4","contentType":"LOCKUP_CONTENT_TYPE_VIDEO","themedPalette":{"lightThemePalette":{"baseBackground":4294966512,"raisedBackground":4294966512,"additiveBackground":566864709,"textPrimary":4281740298,"textSecondary":4285424442,"outline":860569366,"keyLight":4292727468,"collectionStack":4290819211,"invertedBackground":4287000344,"textPrimaryInverse":4294966512,"textDisabled":2135637782,"dropShadow":432646981,"cardOutline":180988741,"overlayBackground":3426102282,"overlayTextPrimary":4294966512,"solidWash":4283121430,"solidRim":4281740298,"overlaySolidWash":4294636768,"overlaySolidRim":4294966512,"tonalWash":2583690480,"tonalRim":202312704,"overlayTonalWash":436206832,"overlayTonalRim":436206832,"outlineRim":1279999766,"overlayOutlineRim":871557578,"solidWashInverse":4294109642,"solidRimInverse":2147153120,"tonalWashInverse":654310640,"tonalRimInverse":653980896,"outlin
   youtube catalog: 0 items
   Sweet Spot: nothing new · still missing beatport
   The Illusion of Time: nothing new · still missing beatport, bandcamp, apple
@@ -48,7 +51,6 @@ Looking up platform links for 65 releases…
   Discovery Channel: nothing new · still missing youtube
   Bushido: nothing new · still missing beatport, youtube
   It's Not Tomorrow Yet: nothing new · still missing beatport, spotify, youtube
-  Lost in the Rhythm: nothing new · still missing beatport, youtube
   On It: nothing new · still missing beatport, youtube
   Higher Mind: nothing new · still missing beatport, youtube
   Memories of Earth: nothing new · still missing beatport, youtube
@@ -73,4 +75,5 @@ Looking up platform links for 65 releases…
   Jimmy's Dream: nothing new · still missing beatport, spotify, youtube
   Voices: nothing new · still missing beatport, youtube
   Somnium: nothing new · still missing beatport, youtube
+  Heaven on Earth: nothing new · still missing beatport, youtube
 Saved changes.
