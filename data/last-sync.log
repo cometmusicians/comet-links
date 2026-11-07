@@ -1,14 +1,15 @@
-Sync 2026-11-06T11:12:59.728Z
+Sync 2026-11-07T06:54:43.429Z
 Checking the Comet store…
   151 releases in the store
-Spotify: 3 recent albums from the label
+Spotify: 2 recent albums from the label
 Looking up platform links for 54 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
-  youtube catalog: 15 items
-    · Essence Project - Sparkgling Positive
+  ! YouTube feed https://www.youtube.com/@cometcollective HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC9MxzIbAiKrUioJT2LP_gBw · reading the channel page instead
+  youtube catalog: 30 items
     · Essence Project - Fluiting Energy
+    · Essence Project - Sparkgling Positive
     · Unima - The illusion Of Time
     · Unima - Lucent
     · Bigitam & Elatic - Huka
@@ -42,7 +43,6 @@ Looking up platform links for 54 releases…
   Psyclone: nothing new · still missing spotify, apple, youtube
   Bushido: nothing new · still missing beatport
   It's Not Tomorrow Yet: nothing new · still missing beatport, spotify, youtube
-  Heaven on Earth: nothing new · still missing beatport, youtube
   Frozen Ends: nothing new · still missing beatport, youtube
   Technieli: nothing new · still missing beatport, youtube
   Twilight Whispering: nothing new · still missing beatport, youtube
@@ -67,4 +67,5 @@ Looking up platform links for 54 releases…
   Ocean Strangers: nothing new · still missing beatport, youtube
   V.C.S.S: nothing new · still missing beatport, bandcamp, youtube
   Alien Rights: nothing new · still missing beatport, youtube
+  Extraterrestrial: nothing new · still missing beatport, youtube
 Saved changes.
