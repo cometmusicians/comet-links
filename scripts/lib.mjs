@@ -48,6 +48,9 @@ export function decodeEntities(s) {
     .replace(/&amp;/g, "&");
 }
 
+// Artist names without country tags: "ORNAMENT (IL)" -> "ornament"
+export const artistKey = a => norm(String(a).replace(/\s*\([^)]*\)\s*/g, " "));
+
 // Does a platform's title/artist pair describe this release?
 export function matches(release, title, artistText) {
   const t = norm(title), want = norm(release.title);
@@ -56,7 +59,7 @@ export function matches(release, title, artistText) {
   if (!titleOk) return false;
   if (release.artists.some(a => /various/i.test(a))) return true;
   const at = " " + norm(artistText || "") + " ";
-  return release.artists.some(a => at.includes(" " + norm(a) + " "));
+  return release.artists.some(a => at.includes(" " + norm(a) + " ") || at.includes(" " + artistKey(a) + " "));
 }
 
 // YouTube video titles are usually "Artist & Artist - Title" or "Title | Artist"
@@ -65,7 +68,7 @@ export function videoMatches(release, videoTitle) {
   const t = norm(release.title);
   if (!v.includes(" " + t + " ")) return false;
   if (release.artists.some(a => /various/i.test(a))) return true;
-  return release.artists.some(a => v.includes(" " + norm(a) + " "));
+  return release.artists.some(a => v.includes(" " + norm(a) + " ") || v.includes(" " + artistKey(a) + " "));
 }
 
 // How alike two strings are, 0..1 (tolerates small typos like "Elatic" for "Elastic")
@@ -89,7 +92,7 @@ export function videoMatchesFuzzy(release, videoTitle) {
   const [who, what] = [parts[0], parts.slice(1).join(" ").replace(/\((official|full|.*?video|.*?mix)\)|\[.*?\]/gi, "")];
   const names = [release.title, ...(release.tracks || [])];
   const titleOk = names.some(n => similar(n, what) >= 0.8);
-  const artistOk = release.artists.some(a => /various/i.test(a)) || release.artists.some(a => who.split(/\s*(?:&|,| x | feat\.? )\s*/i).some(w => similar(a, w) >= 0.75));
+  const artistOk = release.artists.some(a => /various/i.test(a)) || release.artists.some(a => who.split(/\s*(?:&|,| x | feat\.? )\s*/i).some(w => similar(artistKey(a), artistKey(w)) >= 0.75));
   return titleOk && artistOk;
 }
 

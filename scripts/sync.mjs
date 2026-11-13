@@ -175,8 +175,8 @@ function fromCatalog(cat, r) {
 async function bandcampDirect(cfg, r) {
   if (!cfg.bandcamp) return;
   const base = cfg.bandcamp.replace(/\/$/, "");
-  for (const kind of ["album", "track"]) {
-    const url = `${base}/${kind}/${slugify(r.title)}`;
+  for (const slug of [...new Set(slugCandidates(r))]) for (const kind of ["album", "track"]) {
+    const url = `${base}/${kind}/${slug}`;
     try { const res = await http(url, { redirect: "manual" }, 1); if (res.status === 200) return url; } catch {}
   }
 }
@@ -279,7 +279,7 @@ async function spotifyAuth() {
 async function spotify(r) {
   if (!env.SPOTIFY_CLIENT_ID || !env.SPOTIFY_CLIENT_SECRET) return;
   const headers = await spotifyAuth();
-  const q = encodeURIComponent(`album:${r.title} artist:${r.artists[0] || ""}`);
+  const q = encodeURIComponent(`album:${r.title} artist:${String(r.artists[0] || "").replace(/\s*\([^)]*\)/g, "")}`);
   const data = await json(`https://api.spotify.com/v1/search?q=${q}&type=album&limit=10`, { headers });
   const hit = (data.albums?.items || []).find(x => matches(r, x.name, x.artists.map(a => a.name).join(" ")));
   if (hit?.release_date && !r.releaseDate) r.releaseDate = hit.release_date;
@@ -388,7 +388,7 @@ async function main() {
     await tryIt("bandcamp", async () => fromCatalog(cats.bandcamp, r) || bandcampDirect(cfg, r));
     await tryIt("soundcloud", async () => fromCatalog(cats.soundcloud, r) || soundcloudDirect(cfg, r));
     if (!r.tracks && r.links.spotify && need.includes("youtube")) { try { await appleByUpc(cfg, r); } catch {} }
-    await tryIt("youtube", async () => cats.youtube.find(v => videoMatchesFuzzy(r, v.title))?.url);
+    await tryIt("youtube", async () => (cats.youtube.find(v => videoMatchesFuzzy({ ...r, tracks: [] }, v.title)) || cats.youtube.find(v => videoMatchesFuzzy(r, v.title)))?.url);
     await tryIt("spotify", () => spotify(r));
     await tryIt("apple", async () => (await appleByUpc(cfg, r)) || apple(cfg, r));
     if (missing(r).length && (r.links.apple || r.links.spotify)) {
