@@ -1,7 +1,7 @@
-Sync 2026-11-13T03:59:01.463Z
+Sync 2026-11-13T05:05:00.391Z
 Checking the Comet store…
   152 releases in the store
-Spotify: 2 recent albums from the label
+Spotify: 3 recent albums from the label
 Looking up platform links for 55 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
@@ -14,7 +14,7 @@ Looking up platform links for 55 releases…
     · Essence Project - Fluiting Energy
     · Essence Project - Sparkgling Positive
     · Unima - The illusion Of Time
-  Beautiful Error: nothing new · still missing beatport, bandcamp, spotify, apple, soundcloud, youtube
+  Beautiful Error: found spotify, apple · still missing beatport, bandcamp, soundcloud, youtube
   The Illusion of Time: nothing new · still missing beatport
   Technical Mood: nothing new · still missing beatport, youtube
   Hyperion: nothing new · still missing beatport, youtube
