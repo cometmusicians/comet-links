@@ -1,18 +1,21 @@
-Sync 2026-11-12T23:44:33.486Z
+Sync 2026-11-13T01:15:52.086Z
 Checking the Comet store…
-  151 releases in the store
+  152 releases in the store
+  + New: Beautiful Error by ORNAMENT (IL)
 Spotify: 2 recent albums from the label
-Looking up platform links for 54 releases…
+Looking up platform links for 55 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
-  youtube catalog: 15 items
+  ! YouTube feed https://www.youtube.com/@cometcollective HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC9MxzIbAiKrUioJT2LP_gBw · reading the channel page instead
+  youtube catalog: 30 items
     · Ornament - The Return
     · Ornament - Mind Manifest
     · Ornament - Beatiful Error
-    · Essence Project - Sparkgling Positive
     · Essence Project - Fluiting Energy
+    · Essence Project - Sparkgling Positive
     · Unima - The illusion Of Time
+  Beautiful Error: nothing new · still missing beatport, bandcamp, spotify, apple, soundcloud, youtube
   The Illusion of Time: nothing new · still missing beatport
   Technical Mood: nothing new · still missing beatport, youtube
   Hyperion: nothing new · still missing beatport, youtube
