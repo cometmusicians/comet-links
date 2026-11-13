@@ -1,8 +1,8 @@
-Sync 2026-11-13T09:04:35.014Z
+Sync 2026-11-13T09:14:00.443Z
 Checking the Comet store…
   152 releases in the store
 Spotify: 3 recent albums from the label
-Looking up platform links for 52 releases…
+Looking up platform links for 49 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
@@ -13,7 +13,7 @@ Looking up platform links for 52 releases…
     · Essence Project - Sparkgling Positive
     · Essence Project - Fluiting Energy
     · Unima - The illusion Of Time
-  Beautiful Error: nothing new · still missing beatport, bandcamp, youtube
+  Beautiful Error: found youtube · still missing beatport, bandcamp
   The Illusion of Time: nothing new · still missing beatport
   Technical Mood: nothing new · still missing beatport, youtube
   Hyperion: nothing new · still missing beatport, youtube
@@ -40,12 +40,9 @@ Looking up platform links for 52 releases…
   Physical Structure: nothing new · still missing beatport, youtube
   Bootstrap Paradox: nothing new · still missing youtube
   C.c.c, Vol. 2 Compiled by Jahrin: nothing new · still missing bandcamp, soundcloud
-  Psyclone: nothing new · still missing spotify, apple, youtube
+  Psyclone: found spotify, apple · still missing youtube
   Bushido: nothing new · still missing beatport
   It's Not Tomorrow Yet: nothing new · still missing beatport, spotify, youtube
-  Future of Mankind: nothing new · still missing beatport, soundcloud, youtube
-  Mercury: nothing new · still missing beatport, youtube
-  Yaffo Tel Aviv: nothing new · still missing beatport, youtube
   Vat of Acid: nothing new · still missing beatport, youtube
   She and the Moon: nothing new · still missing beatport, youtube
   Clear Vision: nothing new · still missing beatport, youtube
