@@ -1,18 +1,17 @@
-Sync 2026-11-13T07:25:30.924Z
+Sync 2026-11-13T09:04:35.014Z
 Checking the Comet store…
   152 releases in the store
 Spotify: 3 recent albums from the label
-Looking up platform links for 55 releases…
+Looking up platform links for 52 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
-  ! YouTube feed https://www.youtube.com/@cometcollective HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC9MxzIbAiKrUioJT2LP_gBw · reading the channel page instead
-  youtube catalog: 30 items
+  youtube catalog: 15 items
     · Ornament - The Return
     · Ornament - Mind Manifest
     · Ornament - Beatiful Error
-    · Essence Project - Fluiting Energy
     · Essence Project - Sparkgling Positive
+    · Essence Project - Fluiting Energy
     · Unima - The illusion Of Time
   Beautiful Error: nothing new · still missing beatport, bandcamp, youtube
   The Illusion of Time: nothing new · still missing beatport
@@ -44,22 +43,6 @@ Looking up platform links for 55 releases…
   Psyclone: nothing new · still missing spotify, apple, youtube
   Bushido: nothing new · still missing beatport
   It's Not Tomorrow Yet: nothing new · still missing beatport, spotify, youtube
-  Organised Chaos: nothing new · still missing beatport, youtube
-  Octopus: nothing new · still missing beatport, soundcloud, youtube
-  D-Style: nothing new · still missing beatport, soundcloud, youtube
-  Mountains: nothing new · still missing beatport, youtube
-  Sutlach: nothing new · still missing beatport, youtube
-  Valhalla: nothing new · still missing beatport, youtube
-  Connected: nothing new · still missing beatport, youtube
-  Frequencies: nothing new · still missing beatport, soundcloud, youtube
-  Message From: nothing new · still missing beatport, youtube
-  Falling Stars: nothing new · still missing beatport, youtube
-  East Myst: nothing new · still missing beatport, youtube
-  City: nothing new · still missing beatport, youtube
-  Agdibate: nothing new · still missing beatport, soundcloud, youtube
-  More Than a Free Man: nothing new · still missing beatport, soundcloud, youtube
-  Spirals: nothing new · still missing beatport, youtube
-  Phone Home: nothing new · still missing beatport, youtube
   Future of Mankind: nothing new · still missing beatport, soundcloud, youtube
   Mercury: nothing new · still missing beatport, youtube
   Yaffo Tel Aviv: nothing new · still missing beatport, youtube
@@ -69,4 +52,17 @@ Looking up platform links for 55 releases…
   Noisy Silence: nothing new · still missing beatport, youtube
   Balada: nothing new · still missing beatport, youtube
   Psy-Fi: nothing new · still missing beatport, youtube
+  Patterns: nothing new · still missing beatport, youtube
+  Euphoria: nothing new · still missing beatport, youtube
+  Endless: nothing new · still missing beatport, youtube
+  Eternal Present: nothing new · still missing beatport, soundcloud, youtube
+  Talk with Me: nothing new · still missing beatport, youtube
+  Moon: nothing new · still missing beatport, youtube
+  Shoby Groovy: nothing new · still missing beatport, youtube
+  Kambo Spirit: nothing new · still missing beatport, youtube
+  Swamp Thoughts: nothing new · still missing beatport, youtube
+  Book of Jonah: nothing new · still missing beatport, youtube
+  Salam: nothing new · still missing beatport, soundcloud, youtube
+  Aurora: nothing new · still missing beatport, youtube
+  Believe in the Planet: nothing new · still missing beatport, youtube
 Saved changes.
