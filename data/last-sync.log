@@ -1,21 +1,22 @@
-Sync 2026-11-13T11:06:29.710Z
+Sync 2026-11-14T06:57:23.812Z
 Checking the Comet store…
   152 releases in the store
-Spotify: 3 recent albums from the label
-Looking up platform links for 49 releases…
+Spotify: 2 recent albums from the label
+Looking up platform links for 45 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
-  youtube catalog: 15 items
+  ! YouTube feed https://www.youtube.com/@cometcollective HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC9MxzIbAiKrUioJT2LP_gBw · reading the channel page instead
+  youtube catalog: 30 items
     · Ornament - The Return
-    · Ornament - Mind Manifest
     · Ornament - Beatiful Error
-    · Essence Project - Sparkgling Positive
+    · Ornament - Mind Manifest
     · Essence Project - Fluiting Energy
+    · Essence Project - Sparkgling Positive
     · Unima - The illusion Of Time
   Beautiful Error: nothing new · still missing bandcamp
   The Illusion of Time: nothing new · still missing beatport
-  Psyclone: nothing new · still missing youtube
+  Psyclone: found youtube
   Technical Mood: nothing new · still missing beatport, youtube
   Hyperion: nothing new · still missing beatport, youtube
   Imperfections: nothing new · still missing beatport, youtube
@@ -43,10 +44,6 @@ Looking up platform links for 49 releases…
   C.c.c, Vol. 2 Compiled by Jahrin: nothing new · still missing bandcamp, soundcloud
   Bushido: nothing new · still missing beatport
   It's Not Tomorrow Yet: nothing new · still missing beatport, spotify, youtube
-  Vat of Acid: nothing new · still missing beatport, youtube
-  She and the Moon: nothing new · still missing beatport, youtube
-  Clear Vision: nothing new · still missing beatport, youtube
-  Noisy Silence: nothing new · still missing beatport, youtube
   Balada: nothing new · still missing beatport, youtube
   Psy-Fi: nothing new · still missing beatport, youtube
   Patterns: nothing new · still missing beatport, youtube
