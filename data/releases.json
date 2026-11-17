@@ -9,7 +9,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/beautiful-error-ep",
         "youtube": "https://www.youtube.com/watch?v=qlqmlFEL57k"
       },
-      "checks": 13,
+      "checks": 14,
       "title": "Beautiful Error",
       "artists": [
         "ORNAMENT (IL)"
@@ -21,7 +21,7 @@
       "slug": "beautiful-error",
       "addedAt": "2026-11-13",
       "art": "art/beautiful-error.jpg",
-      "lastChecked": "2026-11-16",
+      "lastChecked": "2026-11-17",
       "releaseDate": "2026-11-13",
       "tracks": [
         "The Return",
@@ -70,7 +70,7 @@
         "apple": "https://music.apple.com/us/album/the-illusion-of-time-single/6826610556",
         "bandcamp": "https://comet-collective.bandcamp.com/album/the-illusion-of-time"
       },
-      "checks": 55,
+      "checks": 56,
       "title": "The Illusion of Time",
       "artists": [
         "Unima"
@@ -82,7 +82,7 @@
       "slug": "the-illusion-of-time",
       "addedAt": "2026-10-30",
       "art": "art/the-illusion-of-time.jpg",
-      "lastChecked": "2026-11-16",
+      "lastChecked": "2026-11-17",
       "releaseDate": "2026-10-30",
       "upc": "5063857799188"
     },
@@ -4108,5 +4108,5 @@
       "lastChecked": "2026-11-06"
     }
   ],
-  "updated": "2026-11-16T08:41:57.147Z"
+  "updated": "2026-11-17T07:16:00.607Z"
 }
