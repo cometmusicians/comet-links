@@ -1,8 +1,9 @@
-Sync 2026-11-19T23:45:22.024Z
+Sync 2026-11-20T01:13:44.427Z
 Checking the Comet store…
-  152 releases in the store
+  153 releases in the store
+  + New: Tabla Hafla by Bigitam, Widox, Leex
 Spotify: 2 recent albums from the label
-Looking up platform links for 2 releases…
+Looking up platform links for 3 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
   soundcloud catalog: 12 items
@@ -13,6 +14,7 @@ Looking up platform links for 2 releases…
     · Ornament - Beatiful Error
     · Essence Project - Sparkgling Positive
     · Essence Project - Fluiting Energy
+  Tabla Hafla: found youtube · still missing beatport, bandcamp, spotify, apple, soundcloud
   Beautiful Error: nothing new · still missing bandcamp
   The Illusion of Time: nothing new · still missing beatport
 Saved changes.

@@ -1,6 +1,28 @@
 {
   "releases": [
     {
+      "id": 169,
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=169",
+        "youtube": "https://www.youtube.com/watch?v=B8Lt9mct5pw"
+      },
+      "checks": 1,
+      "title": "Tabla Hafla",
+      "artists": [
+        "Bigitam",
+        "Widox",
+        "Leex"
+      ],
+      "label": "Comet Collective",
+      "genre": "Psy Trance",
+      "blurb": "Some tracks have a way of finding their own path.\r\n\r\nWhat started as an idea that almost never saw the light of day took an unexpected turn when Bigitam crossed creative paths with Leex & Widox. With their natural chemistry, fresh perspectives, and a few spontaneous studio sessions, the pieces slowly fell into place.\r\n\r\nWhat once seemed like the end of a journey became the beginning of something entirely new.\r\n\r\nSometimes, all it takes is the right people, the right energy, and a little unexpected magic.",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_531113732_11495.jpg",
+      "slug": "tabla-hafla",
+      "addedAt": "2026-11-20",
+      "art": "art/tabla-hafla.jpg",
+      "lastChecked": "2026-11-20"
+    },
+    {
       "id": 168,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=168",
@@ -9,7 +31,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/beautiful-error-ep",
         "youtube": "https://www.youtube.com/watch?v=qlqmlFEL57k"
       },
-      "checks": 19,
+      "checks": 20,
       "title": "Beautiful Error",
       "artists": [
         "ORNAMENT (IL)"
@@ -21,7 +43,7 @@
       "slug": "beautiful-error",
       "addedAt": "2026-11-13",
       "art": "art/beautiful-error.jpg",
-      "lastChecked": "2026-11-19",
+      "lastChecked": "2026-11-20",
       "releaseDate": "2026-11-13",
       "tracks": [
         "The Return",
@@ -70,7 +92,7 @@
         "apple": "https://music.apple.com/us/album/the-illusion-of-time-single/6826610556",
         "bandcamp": "https://comet-collective.bandcamp.com/album/the-illusion-of-time"
       },
-      "checks": 61,
+      "checks": 62,
       "title": "The Illusion of Time",
       "artists": [
         "Unima"
@@ -82,7 +104,7 @@
       "slug": "the-illusion-of-time",
       "addedAt": "2026-10-30",
       "art": "art/the-illusion-of-time.jpg",
-      "lastChecked": "2026-11-19",
+      "lastChecked": "2026-11-20",
       "releaseDate": "2026-10-30",
       "upc": "5063857799188"
     },
@@ -4108,5 +4130,5 @@
       "lastChecked": "2026-11-06"
     }
   ],
-  "updated": "2026-11-19T23:45:22.021Z"
+  "updated": "2026-11-20T01:13:44.426Z"
 }
