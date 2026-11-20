@@ -163,7 +163,7 @@ async function youtubeCatalog(cfg) {
 const slugCandidates = r => {
   const t = slugify(r.title), a = slugify(r.artists.join(" "));
   // SoundCloud and Bandcamp often add "-ep" / "-single" to the URL
-  return [t, `${t}-ep`, `${t}-single`, `${a}-${t}`, `${slugify(r.artists.join(" & "))}-${t}`];
+  return [t, `${t}-ep`, `${t}-single`, t.replace(/-/g, ""), `${a}-${t}`, `${slugify(r.artists.join(" & "))}-${t}`];
 };
 
 function fromCatalog(cat, r) {
