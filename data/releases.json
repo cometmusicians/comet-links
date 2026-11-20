@@ -9,7 +9,7 @@
         "apple": "https://music.apple.com/us/album/tabla-hafla-single/6835619085",
         "bandcamp": "https://comet-collective.bandcamp.com/album/tabla-hafla"
       },
-      "checks": 8,
+      "checks": 9,
       "title": "Tabla Hafla",
       "artists": [
         "Bigitam",
@@ -101,7 +101,7 @@
         "apple": "https://music.apple.com/us/album/the-illusion-of-time-single/6826610556",
         "bandcamp": "https://comet-collective.bandcamp.com/album/the-illusion-of-time"
       },
-      "checks": 69,
+      "checks": 70,
       "title": "The Illusion of Time",
       "artists": [
         "Unima"
@@ -4139,5 +4139,5 @@
       "lastChecked": "2026-11-06"
     }
   ],
-  "updated": "2026-11-20T20:30:02.997Z"
+  "updated": "2026-11-20T20:31:12.301Z"
 }
