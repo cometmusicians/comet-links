@@ -1,7 +1,7 @@
-Sync 2026-11-20T03:59:55.110Z
+Sync 2026-11-20T05:07:51.703Z
 Checking the Comet store…
   153 releases in the store
-Spotify: 2 recent albums from the label
+Spotify: 3 recent albums from the label
 Looking up platform links for 3 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
@@ -13,7 +13,7 @@ Looking up platform links for 3 releases…
     · Ornament - Beatiful Error
     · Essence Project - Sparkgling Positive
     · Essence Project - Fluiting Energy
-  Tabla Hafla: nothing new · still missing beatport, bandcamp, spotify, apple, soundcloud
+  Tabla Hafla: found spotify, apple · still missing beatport, bandcamp, soundcloud
   Beautiful Error: nothing new · still missing bandcamp
   The Illusion of Time: nothing new · still missing beatport
 Saved changes.

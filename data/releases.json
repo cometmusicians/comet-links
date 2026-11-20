@@ -4,9 +4,11 @@
       "id": 169,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=169",
-        "youtube": "https://www.youtube.com/watch?v=B8Lt9mct5pw"
+        "youtube": "https://www.youtube.com/watch?v=B8Lt9mct5pw",
+        "spotify": "https://open.spotify.com/album/2ImngR4wuKz0gHfYhT9CAP",
+        "apple": "https://music.apple.com/us/album/tabla-hafla-single/6835619085"
       },
-      "checks": 3,
+      "checks": 4,
       "title": "Tabla Hafla",
       "artists": [
         "Bigitam",
@@ -20,7 +22,12 @@
       "slug": "tabla-hafla",
       "addedAt": "2026-11-20",
       "art": "art/tabla-hafla.jpg",
-      "lastChecked": "2026-11-20"
+      "lastChecked": "2026-11-20",
+      "releaseDate": "2026-11-20",
+      "tracks": [
+        "Tabla Hafla"
+      ],
+      "upc": "5063857871976"
     },
     {
       "id": 168,
@@ -31,7 +38,7 @@
         "soundcloud": "https://soundcloud.com/comet-collective/sets/beautiful-error-ep",
         "youtube": "https://www.youtube.com/watch?v=qlqmlFEL57k"
       },
-      "checks": 22,
+      "checks": 23,
       "title": "Beautiful Error",
       "artists": [
         "ORNAMENT (IL)"
@@ -92,7 +99,7 @@
         "apple": "https://music.apple.com/us/album/the-illusion-of-time-single/6826610556",
         "bandcamp": "https://comet-collective.bandcamp.com/album/the-illusion-of-time"
       },
-      "checks": 64,
+      "checks": 65,
       "title": "The Illusion of Time",
       "artists": [
         "Unima"
@@ -4130,5 +4137,5 @@
       "lastChecked": "2026-11-06"
     }
   ],
-  "updated": "2026-11-20T03:59:55.108Z"
+  "updated": "2026-11-20T05:07:51.701Z"
 }
