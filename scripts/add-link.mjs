@@ -2,7 +2,12 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { norm, newest } from "./lib.mjs";
 
-const url = (process.env.LINK_URL || "").trim().replace(/[?&](si|utm_[a-z]+|l)=[^&]*/g, "").replace(/\?$/, "");
+let url = (process.env.LINK_URL || "").trim();
+// Short share links (on.soundcloud.com, spotify.link…) are turned into the full address
+if (/on\.soundcloud\.com|spotify\.link|bit\.ly/.test(url)) {
+  try { const res = await fetch(url, { redirect: "follow", headers: { "user-agent": "Mozilla/5.0" } }); if (res.ok && res.url) url = res.url; } catch {}
+}
+url = url.replace(/[?&](si|utm_[a-z]+|l|ref|p|c)=[^&]*/g, "").replace(/\?&?$/, "").replace(/\?&/, "?");
 const name = (process.env.LINK_RELEASE || "").trim();
 const platform =
   /beatport\.com/.test(url) ? "beatport" : /spotify\.com/.test(url) ? "spotify" : /music\.apple\.com/.test(url) ? "apple" :
