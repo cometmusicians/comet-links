@@ -6,9 +6,11 @@
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=170",
         "soundcloud": "https://soundcloud.com/comet-collective/sets/the-art-of-transformation",
         "spotify": "https://open.spotify.com/album/6yY9JtveH10by4hfkR10EW",
-        "apple": "https://music.apple.com/us/album/the-art-of-transformation-single/6836306037"
+        "apple": "https://music.apple.com/us/album/the-art-of-transformation-single/6836306037",
+        "bandcamp": "https://comet-collective.bandcamp.com/album/the-art-of-transformation",
+        "youtube": "https://www.youtube.com/watch?v=hVI9ZOl2SwI"
       },
-      "checks": 3,
+      "checks": 4,
       "title": "The Art of Transformation",
       "artists": [
         "Groovity"
@@ -4167,5 +4169,5 @@
       "lastChecked": "2026-11-06"
     }
   ],
-  "updated": "2026-11-27T09:06:45.541Z"
+  "updated": "2026-11-27T10:48:52.105Z"
 }
