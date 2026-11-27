@@ -1,7 +1,7 @@
-Sync 2026-11-27T03:36:36.735Z
+Sync 2026-11-27T09:06:45.542Z
 Checking the Comet store…
   154 releases in the store
-Spotify: 3 recent albums from the label
+Spotify: 4 recent albums from the label
 Looking up platform links for 1 releases…
   ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
   bandcamp catalog: 16 items
@@ -13,5 +13,5 @@ Looking up platform links for 1 releases…
     · Ornament - The Return
     · Ornament - Mind Manifest
     · Ornament - Beatiful Error
-  The Art of Transformation: nothing new · still missing beatport, bandcamp, spotify, apple, soundcloud, youtube
+  The Art of Transformation: found soundcloud, spotify, apple · still missing beatport, bandcamp, youtube
 Saved changes.
