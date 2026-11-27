@@ -1,6 +1,25 @@
 {
   "releases": [
     {
+      "id": 170,
+      "links": {
+        "store": "https://cometcollective.ampsuite.com/store/view_release?release=170"
+      },
+      "checks": 1,
+      "title": "The Art of Transformation",
+      "artists": [
+        "Groovity"
+      ],
+      "label": "Comet Collective",
+      "genre": "Psy Trance",
+      "blurb": "Transformation is woven into the very nature of existence.\r\nThrough every experience, every emotion, and every moment of awareness, we are constantly changing, discovering new perspectives and reshaping the reality within us.\r\nIn Transforming, Groovity explores the extraordinary nature of the human experience and our ability to turn darkness into light.\r\nIn Meaning of Music, together with Reidak, the journey unfolds through sound itself, exploring music's profound ability to reach beyond words, awaken emotions, and touch the deepest parts of our being.\r\nOne track explores how consciousness transforms reality. The other explores how music transforms consciousness.\r\nTwo deeply atmospheric and emotionally driven psychedelic journeys, connected by hypnotic grooves, intricate textures, and the delicate resonance of bells.\r\nAn exploration of transformation, the beauty of existence, and the invisible power of music to move us.",
+      "artSource": "https://cometcollective.ampsuite.com/uploaded/500x500/img_60304938_11579.jpg",
+      "slug": "the-art-of-transformation",
+      "addedAt": "2026-11-27",
+      "art": "art/the-art-of-transformation.jpg",
+      "lastChecked": "2026-11-27"
+    },
+    {
       "id": 169,
       "links": {
         "store": "https://cometcollective.ampsuite.com/store/view_release?release=169",
@@ -4139,5 +4158,5 @@
       "lastChecked": "2026-11-06"
     }
   ],
-  "updated": "2026-11-20T20:31:12.301Z"
+  "updated": "2026-11-27T01:26:50.174Z"
 }

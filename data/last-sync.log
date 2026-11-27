@@ -1,10 +1,18 @@
-Sync 2026-11-26T20:57:38.437Z
+Sync 2026-11-27T01:26:50.175Z
 Checking the Comet store…
-  153 releases in the store
+  154 releases in the store
+  + New: The Art of Transformation by Groovity
 Spotify: 3 recent albums from the label
-Looking up platform links for 0 releases…
-  beatport catalog: 0 items
-  bandcamp catalog: 0 items
-  soundcloud catalog: 0 items
-  youtube catalog: 0 items
-No changes.
+Looking up platform links for 1 releases…
+  ! beatport catalog unavailable: HTTP 403 for https://www.beatport.com/label/comet-musicians/101053/releases?page=1&per_page=50
+  bandcamp catalog: 16 items
+  soundcloud catalog: 12 items
+  youtube catalog: 15 items
+    · Groovity & Reidak - Meaning Of Music
+    · Groovity - Transforming
+    · Bigitam X Leex X Widox - Tabla Hafla
+    · Ornament - The Return
+    · Ornament - Mind Manifest
+    · Ornament - Beatiful Error
+  The Art of Transformation: nothing new · still missing beatport, bandcamp, spotify, apple, soundcloud, youtube
+Saved changes.
