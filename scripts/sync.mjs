@@ -105,9 +105,13 @@ async function beatportCatalog(cfg) {
 
 async function bandcampCatalog(cfg) {
   if (!cfg.bandcamp) return [];
-  const html = await text(`${cfg.bandcamp.replace(/\/$/, "")}/music`);
-  return [...new Set([...html.matchAll(/href=["'](?:https?:\/\/[^"']+)?(\/(?:album|track)\/[a-z0-9-]+)["']/g)].map(m => m[1]))]
-    .map(path => ({ slug: path.split("/").pop(), url: cfg.bandcamp.replace(/\/$/, "") + path }));
+  const base = cfg.bandcamp.replace(/\/$/, "");
+  const html = await text(`${base}/music`);
+  // The first releases are links in the page; the rest are listed in its data-client-items attribute
+  const paths = [...html.matchAll(/href=["'](?:https?:\/\/[^"']+)?(\/(?:album|track)\/[a-z0-9-]+)["']/g)].map(m => m[1]);
+  const more = html.match(/data-client-items=(["'])([\s\S]*?)\1/);
+  if (more) { try { for (const it of JSON.parse(decodeEntities(more[2]))) if (it.page_url) paths.push(it.page_url.replace(/^https?:\/\/[^/]+/, "")); } catch {} }
+  return [...new Set(paths)].map(path => ({ slug: path.split("/").pop(), url: base + path }));
 }
 
 async function soundcloudCatalog(cfg) {
@@ -378,6 +382,14 @@ async function main() {
   for (const [k, fn] of [["beatport", beatportCatalog], ["bandcamp", bandcampCatalog], ["soundcloud", soundcloudCatalog], ["youtube", youtubeCatalog]]) {
     try { cats[k] = queue.length ? await fn(cfg) : []; say(`  ${k} catalog: ${cats[k].length} items`); if (k === "youtube") cats[k].slice(0, 6).forEach(v => say(`    · ${v.title}`)); }
     catch (e) { cats[k] = []; say(`  ! ${k} catalog unavailable: ${e.message}`); }
+  }
+
+  // Page order follows the label's Bandcamp page
+  if (cats.bandcamp.length < 30) { try { cats.bandcamp = await bandcampCatalog(cfg); } catch {} }
+  if (cats.bandcamp.length) {
+    const pos = new Map(cats.bandcamp.map((b, i) => [b.url.replace(/\/$/, ""), i]));
+    for (const r of db.releases) { const i = pos.get(String(r.links.bandcamp || "").replace(/\/$/, "")); if (i !== undefined) r.bcOrder = i; else delete r.bcOrder; }
+    say(`Bandcamp order: ${db.releases.filter(r => r.bcOrder !== undefined).length} releases placed`);
   }
 
   for (const r of queue) {

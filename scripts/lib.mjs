@@ -96,7 +96,14 @@ export function videoMatchesFuzzy(release, videoTitle) {
   return titleOk && artistOk;
 }
 
-// Newest first: the day a release first appeared in the store, then its release date, then store ID
-export const newest = (a, b) => (b.addedAt || "").localeCompare(a.addedAt || "") || (b.releaseDate || "").localeCompare(a.releaseDate || "") || b.id - a.id;
+// Newest first. Order follows the label's Bandcamp page (bcOrder 0 = newest there).
+// A release that isn't on Bandcamp yet but appeared in the last 3 weeks goes on top;
+// older releases missing from Bandcamp go after the rest.
+const fresh = r => r.bcOrder === undefined && !r.backfill && (r.addedAt || "") >= new Date(Date.now() - 21 * 864e5).toISOString().slice(0, 10);
+const rank = r => fresh(r) ? 0 : r.bcOrder !== undefined ? 1 : 2;
+export const newest = (a, b) =>
+  rank(a) - rank(b) ||
+  (rank(a) === 1 ? a.bcOrder - b.bcOrder : 0) ||
+  (b.addedAt || "").localeCompare(a.addedAt || "") || (b.releaseDate || "").localeCompare(a.releaseDate || "") || b.id - a.id;
 
 export const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
